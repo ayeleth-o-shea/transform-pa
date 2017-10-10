@@ -1,0 +1,95 @@
+@font-face {
+	font-family:'ProximaNova';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/proximanova-reg-webfont.eot');
+	src: url('../fonts/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/proximanova-reg-webfont.woff2') format('woff2'),
+			 url('../fonts/proximanova-reg-webfont.woff') format('woff'),
+			 url('../fonts/proximanova-reg-webfont.ttf') format('truetype'),
+			 url('../fonts/proximanova-reg-webfont.svg#proxima_nova_rgregular') format('svg');
+}
+
+@font-face {
+	font-family:'ProximaNova';
+	font-weight: 700;
+	font-style: normal;
+	src: url('../fonts/proximanova-bold-webfont.eot');
+	src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/proximanova-bold-webfont.woff2') format('woff2'),
+			 url('../fonts/proximanova-bold-webfont.woff') format('woff'),
+			 url('../fonts/proximanova-bold-webfont.ttf') format('truetype'),
+			 url('../fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+}
+
+@font-face {
+	font-family:'ProximaNova';
+	font-weight: 800;
+	font-style: normal;
+	src: url('../fonts/proximanova-xbold-webfont.eot');
+	src: url('../fonts/proximanova-xbold-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/proximanova-xbold-webfont.woff2') format('woff2'),
+			 url('../fonts/proximanova-xbold-webfont.woff') format('woff'),
+			 url('../fonts/proximanova-xbold-webfont.ttf') format('truetype'),
+			 url('../fonts/proximanova-xbold-webfont.svg#proxima_nova_thextrabold') format('svg');
+}
+
+@font-face {
+	font-family:'ProximaNovaCond';
+	font-weight: 900;
+	font-style: normal;
+	src: url('../fonts/ProximaNovaExCn-Black.eot');
+	src: url('../fonts/ProximaNovaExCn-Black.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/ProximaNovaExCn-Black.woff2') format('woff2'),
+			 url('../fonts/ProximaNovaExCn-Black.woff') format('woff'),
+			 url('../fonts/ProximaNovaExCn-Black.ttf') format('truetype'),
+			 url('../fonts/ProximaNovaExCn-Black.svg#proxima_nova_thextrabold') format('svg');
+}
+
+@font-face {
+	font-family: 'AkzidenzGroteskPro';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/AkzidenzGroteskPro-Regular.eot');
+	src: url('../fonts/AkzidenzGroteskPro-Regular.woff2') format('woff2'),
+	url('../fonts/AkzidenzGroteskPro-Regular.woff') format('woff'),
+	url('../fonts/AkzidenzGroteskPro-Regular.ttf') format('truetype'),
+	url('../fonts/AkzidenzGroteskPro-Regular.svg#AkzidenzGroteskPro') format('svg'),
+	url('../fonts/AkzidenzGroteskPro-Regular.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+	font-family: 'AkzidenzGroteskPro';
+	font-weight: 500;
+	font-style: normal;
+	src: url('../fonts/AkzidenzGroteskPro-Md.eot');
+	src: url('../fonts/AkzidenzGroteskPro-Md.woff2') format('woff2'),
+	url('../fonts/AkzidenzGroteskPro-Md.woff') format('woff'),
+	url('../fonts/AkzidenzGroteskPro-Md.ttf') format('truetype'),
+	url('../fonts/AkzidenzGroteskPro-Md.svg#AkzidenzGroteskPro') format('svg'),
+	url('../fonts/AkzidenzGroteskPro-Md.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+	font-family: 'AkzidenzGroteskProCond';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/AkzidenzGroteskPro-Cn.eot');
+	src: url('../fonts/AkzidenzGroteskPro-Cn.woff2') format('woff2'),
+	url('../fonts/AkzidenzGroteskPro-Cn.woff') format('woff'),
+	url('../fonts/AkzidenzGroteskPro-Cn.ttf') format('truetype'),
+	url('../fonts/AkzidenzGroteskPro-Cn.svg#AkzidenzGroteskProCond') format('svg'),
+	url('../fonts/AkzidenzGroteskPro-Cn.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+	font-family: 'AkzidenzGroteskProCond';
+	font-weight: 500;
+	font-style: normal;
+	src: url('../fonts/AkzidenzGroteskPro-MdCn.eot');
+	src: url('../fonts/AkzidenzGroteskPro-MdCn.woff2') format('woff2'),
+	url('../fonts/AkzidenzGroteskPro-MdCn.woff') format('woff'),
+	url('../fonts/AkzidenzGroteskPro-MdCn.ttf') format('truetype'),
+	url('../fonts/AkzidenzGroteskPro-MdCn.svg#AkzidenzGroteskProCond') format('svg'),
+	url('../fonts/AkzidenzGroteskPro-MdCn.eot?#iefix') format('embedded-opentype');
+}
