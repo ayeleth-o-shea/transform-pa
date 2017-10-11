@@ -198,12 +198,12 @@
             </div>
             <div class="theme__center">
               <img src="img/control.png" alt="">
-              <h2>Стратегия и финансы</h2>
+              <h2>Управление организацией</h2>
             </div>
             <div class="theme__bottom">
               <a href="#" class="theme__button">
                 <div><img src="img/theme-lock.png" alt="" class="img-fluid"></div>
-                <p>Модуль пока закрыта</p>
+                <p>Тема пока закрыта</p>
               </a>
             </div>
           </div>

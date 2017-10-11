@@ -41,7 +41,11 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC86W4J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-
+  <div class="container">
+    <a href="index.php" style="color: #000; margin: 30px 20px 30px 0;text-transform: none;">hOME</a>
+    <a href="theme.php" style="color: #000; margin: 30px 20px 30px 0;text-transform: none;">tHEME</a>
+    <a href="modul.php" style="color: #000; margin: 30px 20px 30px 0;text-transform: none;">mODUL</a>
+  </div>
   <header>
     <div class="container">
       <div class="row header">
@@ -194,12 +198,12 @@
             </div>
             <div class="theme__center">
               <img src="img/control.png" alt="">
-              <h2>Управление организацией</h2>
+              <h2>Стратегия и финансы</h2>
             </div>
             <div class="theme__bottom">
               <a href="#" class="theme__button">
                 <div><img src="img/theme-lock.png" alt="" class="img-fluid"></div>
-                <p>Тема пока закрыта</p>
+                <p>Модуль пока закрыта</p>
               </a>
             </div>
           </div>
