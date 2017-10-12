@@ -60,7 +60,7 @@
     <a href="index.php" style="color: #000; margin: 30px 20px 30px 0;text-transform: none;">hOME</a>
     <a href="theme.php" style="color: #000; margin: 30px 20px 30px 0;text-transform: none;">tHEME</a>
     <a href="modul.php" style="color: #000; margin: 30px 20px 30px 0;text-transform: none;">mODUL</a>
-    < style="color: #000; margin: 30px 20px 30px 0;text-transform: none;">< Навигация для теста, на проде убираем.</>
+    <span style="color: #000; margin: 30px 20px 30px 0;text-transform: none;"><< Навигация для теста, на проде убираем.</span>
   </div>
   <header>
     <div class="container">
@@ -89,7 +89,7 @@
         <h1>Дизайн посадочных страниц</h1>
         <div class="title">Андрей Сазонов <br>Креативный директор Synergy</div>
         <div class="theme__bottom">
-          <a href="#" class="active theme__button">
+            <a href="#" class="active theme__button">
             <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
             <p>Назад</p>
           </a>
@@ -107,11 +107,11 @@
           </a>
         </div>
         <div class="video__content">
-          <span>Содержание модуля:</span> <br> Функциональное управление и&nbsp;процессный подход к&nbsp;управлению бизнес-процессами в&nbsp;организации. Особенности процессного подхода и&nbsp;принципы его внедрения в&nbsp;современной практике. Цикл
-    управления бизнес-процессами. Определение зрелости бизнес-процессов внутри компании.
-  </div>
-  </div>
-  </div>
+          <span>Содержание модуля:</span> <br> Функциональное управление и&nbsp;процессный подход к&nbsp;управлению бизнес-процессами в&nbsp;организации. Особенности процессного подхода и&nbsp;принципы его внедрения в&nbsp;современной практике. Цикл управления
+          бизнес-процессами. Определение зрелости бизнес-процессов внутри компании.
+        </div>
+      </div>
+    </div>
   </section>
   <section id="test">
     <div class="container">
@@ -177,16 +177,65 @@
       </div>
       <div class="row">
         <form class="homework-form" enctype="multipart/form-data" method="post">
-          <textarea name="name" rows="8" cols="80"></textarea>
-          <label class="file_upload">
-            <span class="button">Прикрепить файл</span>
-            <mark>
-              Допустимые форматы: doc; pdf; jpg
-            </mark>
-            <input type="file" accept="image/jpeg,application/msword,application/pdf">
-          </label>
-          <button></button>
+          <textarea placeholder="Поле для ответа" rows="6" cols="80"></textarea>
+          <div class="form-end">
+            <label class="file_upload">
+              <span class="button">
+                <img src="img/attach.png" alt="" class="img-fluid">Прикрепить файл
+              </span>
+              <mark>
+                Допустимые форматы:<br /> doc; pdf; jpg
+              </mark>
+              <input type="file" accept="image/jpeg,application/msword,application/pdf">
+            </label>
+            <button type="submit">Отправить ответ</button>
+          </div>
         </form>
+      </div>
+    </div>
+  </section>
+  <section id="modul">
+    <div class="container">
+      <div class="row">
+        <div class="modul active">
+          <div class="modul__number">
+            <p>1</p>
+            <div class="theme__top">
+              <div class="theme__line"></div>
+              <div>Модуль&nbsp;&mdash;&nbsp;1</div>
+              <div class="theme__line"></div>
+            </div>
+          </div>
+          <div class="modul__center">
+            <div class="modul__title">
+              <h2>Дизайн посадочных<br> веб-страниц</h2>
+              <div class="modul__coach">
+                <img src="img/sazonov-small.jpg" alt="" class="img-fluid">
+                <p>Андрей Сазонов<br> креативный директор Synergy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modul">
+          <div class="modul__number">
+            <p>2</p>
+            <div class="theme__top">
+              <div class="theme__line"></div>
+              <div>Модуль&nbsp;&mdash;&nbsp;1</div>
+              <div class="theme__line"></div>
+            </div>
+          </div>
+          <div class="modul__center">
+            <div class="modul__title">
+              <h2>Дизайн посадочных<br> веб-страниц</h2>
+              <div class="modul__coach">
+                <img src="img/sazonov-small.jpg" alt="" class="img-fluid">
+                <p>Андрей Сазонов<br> креативный директор Synergy</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </section>

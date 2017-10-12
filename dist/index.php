@@ -3,36 +3,49 @@
 
 <head>
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TC86W4J');</script>
-    <!-- End Google Tag Manager -->
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TC86W4J');
+  </script>
+  <!-- End Google Tag Manager -->
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Личный кабинет | Бизнес-марафон ТРАНСФОРМАЦИЯ</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Личный кабинет | Бизнес-марафон ТРАНСФОРМАЦИЯ</title>
 
-    <meta property="og:title" content="Бизнес-марафон ТРАНСФОРМАЦИЯ">
-    <meta property="og:description" content="Друзья, иду на бесплатный марафон #трансформациябизнеса, кто со мной?">
-    <meta property="og:url" content="http://xn--80aayoegldhg0a2a2j.xn--p1ai/">
-    <meta property="og:image" content="http://xn--80aayoegldhg0a2a2j.xn--p1ai/img/share.jpg?2017-09-06">
-    <link rel="image_src" href="http://xn--80aayoegldhg0a2a2j.xn--p1ai/img/share.jpg?2017-09-06">
+  <meta property="og:title" content="Бизнес-марафон ТРАНСФОРМАЦИЯ">
+  <meta property="og:description" content="Друзья, иду на бесплатный марафон #трансформациябизнеса, кто со мной?">
+  <meta property="og:url" content="http://xn--80aayoegldhg0a2a2j.xn--p1ai/">
+  <meta property="og:image" content="http://xn--80aayoegldhg0a2a2j.xn--p1ai/img/share.jpg?2017-09-06">
+  <link rel="image_src" href="http://xn--80aayoegldhg0a2a2j.xn--p1ai/img/share.jpg?2017-09-06">
 
-    <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
-    <link href="img/favicon.ico" type="image/x-icon" rel="icon">
+  <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
+  <link href="img/favicon.ico" type="image/x-icon" rel="icon">
 
-    <link rel="stylesheet" href="/css/fonts.css">
-    <link rel="stylesheet" href="/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="/css/main.css">
 
-    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <!--[if lte IE 8]><script src="http://phpbbex.com/oldies/oldies.js" charset="utf-8"></script><![endif]-->
-    <!--[if lt IE 9]><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><![endif]-->
-    <!--[if gte IE 9]><!--><script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script><!--<![endif]-->
+  <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <!--[if lte IE 8]><script src="http://phpbbex.com/oldies/oldies.js" charset="utf-8"></script><![endif]-->
+  <!--[if lt IE 9]><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><![endif]-->
+  <!--[if gte IE 9]><!-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!--<![endif]-->
 
 </head>
 
@@ -45,6 +58,7 @@
     <a href="index.php" style="color: #000; margin: 30px 20px 30px 0;text-transform: none;">hOME</a>
     <a href="theme.php" style="color: #000; margin: 30px 20px 30px 0;text-transform: none;">tHEME</a>
     <a href="modul.php" style="color: #000; margin: 30px 20px 30px 0;text-transform: none;">mODUL</a>
+    <span style="color: #000; margin: 30px 20px 30px 0;text-transform: none;"><< Навигация для теста, на проде убираем.</span>
   </div>
   <header>
     <div class="container">
@@ -80,10 +94,10 @@
         <div class="col-lg-6">
           <div class="status status-big">
             <div class="status__name">Илья<br> Обломов</div>
-              <div class="status__count">
-                <div class="status__value">234586 <span> \ 234586</span></div>
-                <div class="status__about">Место<br> в рейтинге</div>
-              </div>
+            <div class="status__count">
+              <div class="status__value">234586 <span> \ 234586</span></div>
+              <div class="status__about">Место<br> в рейтинге</div>
+            </div>
           </div>
         </div>
         <div class="col-lg-2">
@@ -203,7 +217,7 @@
             <div class="theme__bottom">
               <a href="#" class="theme__button">
                 <div><img src="img/theme-lock.png" alt="" class="img-fluid"></div>
-                <p>Модуль пока закрыта</p>
+                <p>Тема пока закрыта</p>
               </a>
             </div>
           </div>
@@ -289,7 +303,7 @@
           <img src="img/footer-logo.png" alt="" class="img-fluid">
         </div>
         <div class="footer__development">
-        	Разработка и продвижение:
+          Разработка и продвижение:
           <a href="http://sydi.ru/" class="footer__development-link">Synergy Digital</a>
         </div>
         <div class="footer__contacts">

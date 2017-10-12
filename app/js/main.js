@@ -1,8 +1,6 @@
 $(function() {
+
   initPopup();
-
-
-
 
   function initPopup() {
     if (!$('.fancybox').length) return;
@@ -39,6 +37,8 @@ $(function() {
     $('.fancybox').trigger('fancybox.init');
   }
 });
+
+// File Attach
 $(function() {
   var wrapper = $(".file_upload"),
     inp = wrapper.find("input"),
