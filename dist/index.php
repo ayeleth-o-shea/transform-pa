@@ -140,7 +140,9 @@
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
-              <img src="img/packing.png" alt="">
+              <div>
+                <img src="img/packing.png" alt="" class="img-fluid">
+              </div>
               <h2>Упаковка</h2>
             </div>
             <div class="theme__bottom">
@@ -159,7 +161,9 @@
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
-              <img src="img/traffic.png" alt="">
+              <div>
+                <img src="img/traffic.png" alt="" class="img-fluid">
+              </div>
               <h2>Трафик</h2>
             </div>
             <div class="theme__bottom">
@@ -178,7 +182,9 @@
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
-              <img src="img/sale.png" alt="">
+              <div>
+                <img src="img/sale.png" alt="" class="img-fluid">
+              </div>
               <h2>Продажи</h2>
             </div>
             <div class="theme__bottom">
@@ -197,7 +203,9 @@
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
-              <img src="img/automation.png" alt="">
+              <div>
+                <img src="img/automation.png" alt="" class="img-fluid">
+              </div>
               <h2>Автоматизация</h2>
             </div>
             <div class="theme__bottom">
@@ -218,7 +226,9 @@
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
-              <img src="img/control.png" alt="">
+              <div>
+                <img src="img/control.png" alt="" class="img-fluid">
+              </div>
               <h2>Стратегия и финансы</h2>
             </div>
             <div class="theme__bottom">
@@ -237,7 +247,9 @@
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
-              <img src="img/staff.png" alt="">
+              <div>
+                <img src="img/staff.png" alt="" class="img-fluid">
+              </div>
               <h2>Персонал</h2>
             </div>
             <div class="theme__bottom">
@@ -256,7 +268,9 @@
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
-              <img src="img/life-manager.png" alt="">
+              <div>
+                <img src="img/life-manager.png" alt="" class="img-fluid">
+              </div>
               <h2>Лайф-менеджмент</h2>
             </div>
             <div class="theme__bottom">
@@ -275,7 +289,9 @@
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
-              <img src="img/casestudy.png" alt="">
+              <div>
+                <img src="img/casestudy.png" alt="" class="img-fluid">
+              </div>
               <h2>Case Study</h2>
             </div>
             <div class="theme__bottom">

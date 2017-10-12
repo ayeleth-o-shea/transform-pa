@@ -279,9 +279,6 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   border-radius: 2px; }
   .theme-darkblue {
     background-color: #134fbf;
@@ -345,9 +342,11 @@ h2 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    padding: 80px 20px 73px; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 80px 20px 73px;
+    height: 285px; }
   .theme__button {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -355,7 +354,7 @@ h2 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 0 32px;
+    margin: 30px 32px 0;
     padding: 16px 25px;
     border: 1px solid rgba(0, 0, 0, 0.33);
     border-radius: 3px;
