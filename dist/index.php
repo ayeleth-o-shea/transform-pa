@@ -136,7 +136,7 @@
           <div class="theme theme-darkblue">
             <div class="theme__top">
               <div class="theme__line"></div>
-              <div>Тема&nbsp;&mdash;&nbsp;1</div>
+              <div>Тема</div>
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
@@ -155,7 +155,7 @@
           <div class="theme theme-mint">
             <div class="theme__top">
               <div class="theme__line"></div>
-              <div>Тема&nbsp;&mdash;&nbsp;1</div>
+              <div>Тема</div>
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
@@ -174,7 +174,7 @@
           <div class="theme theme-yellow">
             <div class="theme__top">
               <div class="theme__line"></div>
-              <div>Тема&nbsp;&mdash;&nbsp;1</div>
+              <div>Тема</div>
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
@@ -193,7 +193,7 @@
           <div class="theme theme-green">
             <div class="theme__top">
               <div class="theme__line"></div>
-              <div>Тема&nbsp;&mdash;&nbsp;1</div>
+              <div>Тема</div>
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
@@ -214,7 +214,7 @@
           <div class="theme theme-orange">
             <div class="theme__top">
               <div class="theme__line"></div>
-              <div>Тема&nbsp;&mdash;&nbsp;1</div>
+              <div>Тема</div>
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
@@ -233,7 +233,7 @@
           <div class="theme theme-purple">
             <div class="theme__top">
               <div class="theme__line"></div>
-              <div>Тема&nbsp;&mdash;&nbsp;1</div>
+              <div>Тема</div>
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
@@ -252,7 +252,7 @@
           <div class="theme theme-blue">
             <div class="theme__top">
               <div class="theme__line"></div>
-              <div>Тема&nbsp;&mdash;&nbsp;1</div>
+              <div>Тема</div>
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
@@ -271,7 +271,7 @@
           <div class="theme theme-pink">
             <div class="theme__top">
               <div class="theme__line"></div>
-              <div>Тема&nbsp;&mdash;&nbsp;1</div>
+              <div>Тема</div>
               <div class="theme__line"></div>
             </div>
             <div class="theme__center">
