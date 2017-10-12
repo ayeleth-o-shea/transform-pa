@@ -65,17 +65,24 @@
   <header>
     <div class="container">
       <div class="row header">
-        <div class="col-lg-3">
+        <div class="col-lg-2">
           <img src="img/header-logo.png" alt="" class="img-fluid">
         </div>
-        <ul class="col-lg-5 menu">
-          <li><a href="#">Обучение</a></li>
+        <ul class="col-lg-3 menu">
+          <li><a href="#" class="active">Обучение</a></li>
           <li><a href="#">Рейтинг</a></li>
           <li><a href="#">Платежи</a></li>
           <li><a href="#">Правила</a></li>
         </ul>
+        <div class="col-lg-3 support">
+          <p>центр<br>поддержки<br>марафона</p>
+          <div>
+            <a href="tel:88001008926">8 800 100-89-26</a>
+            <a href="mailto:transformation@synergy.ru">transformation@synergy.ru</a>
+          </div>
+        </div>
         <div class="col-lg-3 user">
-          <div class="user__name">Илья Обломов</div>
+          <div class="user__name"><a href="#">Илья Обломов</a></div>
           <div class="user__avatar"><img src="img/avatar.png" alt="" class="img-fluid"></div>
           <div class="user__close"><a href="#">Выйти</a></div>
         </div>
@@ -106,9 +113,28 @@
               <img src="img/play.png" alt="">
           </a>
         </div>
+      </div>
+      <div class="row video-end">
         <div class="video__content">
           <span>Содержание модуля:</span> <br> Функциональное управление и&nbsp;процессный подход к&nbsp;управлению бизнес-процессами в&nbsp;организации. Особенности процессного подхода и&nbsp;принципы его внедрения в&nbsp;современной практике. Цикл управления
           бизнес-процессами. Определение зрелости бизнес-процессов внутри компании.
+        </div>
+        <div class="video-status">
+          <div class="video-status__title">Ваши баллы</div>
+          <ul>
+            <li>
+              <div class="video-status__param">тест</div>
+              <div class="video-status__value"><span>12</span> / 50</div>
+            </li>
+            <li>
+              <div class="video-status__param">письменное задание</div>
+              <div class="video-status__value"><span>20</span> / 50</div>
+            </li>
+            <li>
+              <div class="video-status__param">итого</div>
+              <div class="video-status__value"><span>32</span> / 100</div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -270,7 +296,7 @@
           </div>
           <div class="footer__contact">
             <img src="img/mail.png" alt="" class="img-fluid">
-            <a href="mailto:88001008926">8 800 100-89-26</a>
+            <a href="mailto:transformation@synergy.ru">transformation@synergy.ru</a>
           </div>
         </div>
       </div>

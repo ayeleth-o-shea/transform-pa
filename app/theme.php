@@ -63,17 +63,24 @@
   <header>
     <div class="container">
       <div class="row header">
-        <div class="col-lg-3">
+        <div class="col-lg-2">
           <img src="img/header-logo.png" alt="" class="img-fluid">
         </div>
-        <ul class="col-lg-5 menu">
-          <li><a href="#">Обучение</a></li>
+        <ul class="col-lg-3 menu">
+          <li><a href="#" class="active">Обучение</a></li>
           <li><a href="#">Рейтинг</a></li>
           <li><a href="#">Платежи</a></li>
           <li><a href="#">Правила</a></li>
         </ul>
+        <div class="col-lg-3 support">
+          <p>центр<br>поддержки<br>марафона</p>
+          <div>
+            <a href="tel:88001008926">8 800 100-89-26</a>
+            <a href="mailto:transformation@synergy.ru">transformation@synergy.ru</a>
+          </div>
+        </div>
         <div class="col-lg-3 user">
-          <div class="user__name">Илья Обломов</div>
+          <div class="user__name"><a href="#">Илья Обломов</a></div>
           <div class="user__avatar"><img src="img/avatar.png" alt="" class="img-fluid"></div>
           <div class="user__close"><a href="#">Выйти</a></div>
         </div>
@@ -218,7 +225,7 @@
           </div>
           <div class="footer__contact">
             <img src="img/mail.png" alt="" class="img-fluid">
-            <a href="mailto:88001008926">8 800 100-89-26</a>
+            <a href="mailto:transformation@synergy.ru">transformation@synergy.ru</a>
           </div>
         </div>
       </div>
