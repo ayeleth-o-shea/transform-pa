@@ -58,7 +58,8 @@
     <a href="index.php" style="color: #000; margin-right: 30px;text-transform: none;">hOME</a>
     <a href="theme.php" style="color: #000; margin-right: 30px;text-transform: none;">tHEME</a>
     <a href="modul.php" style="color: #000; margin-right: 30px;text-transform: none;">mODUL</a>
-    <a href="profile.php" style="color: #000; margin-right: 30px;text-transform: none;">pROFILE</a>
+    <a href="profile.php" style="color: #000; margin-right: 30px;text-transform: none;">pROFILE</a>    
+    <a href="payments.php" style="color: #000; margin-right: 30px;text-transform: none;">pAYMENTS</a>
   </div>
   <header>
     <div class="container">

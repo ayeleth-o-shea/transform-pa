@@ -1,6 +1,7 @@
 $(function() {
 
   initPopup();
+  
 
   function initPopup() {
     if (!$('.fancybox').length) return;

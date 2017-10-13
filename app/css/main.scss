@@ -1380,3 +1380,116 @@ h1 {
   }
 }
 /* Profile end */
+/* Payments start */
+#payments {
+  padding: 58px 0 100px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+.rates {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.rate {
+  border-radius: 3px;
+
+  .theme__top {
+    margin-top: 30px;
+    width: 100%;
+
+    .theme__line {
+      flex-basis: 33%;
+    }
+  }
+
+  &__title {
+    @extend .akzidenzCn;
+    font-size: 46px;
+    text-transform: none;
+  }
+
+  &__price {
+    @extend .akzidenzCn;
+    font-size: 30px;
+    display: flex;
+    align-items: baseline;
+    line-height: 23px;
+
+    i {
+      font-size: 15px;
+      align-self: flex-start;
+      font-weight: normal;
+    }
+
+    span {
+      font-size: 12px;
+      @extend .akzidenzReg;
+    }
+  }
+
+  .rate__subtitle {
+    font-size: 15px;
+    margin-bottom: 7px;
+    margin-top: 35px;
+  }
+
+  p {
+    font-size: 20px;
+    text-transform: none;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+  }
+}
+
+.rate-big {
+  flex-basis: 37%;
+
+  .theme__line {
+    &:first-child {
+      max-width: 40px;
+    }
+
+    &:last-child {
+      flex-basis: 70%;
+    }
+  }
+
+  .rate__content,
+  .rate__subtitle,
+  .rate__title {
+    padding: 0 35px;
+  }
+
+  .rate__title {
+    font-size: 66px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+  }
+
+  .rate__price {
+    border-top: 1px solid #8fd7db;
+    border-bottom: 1px solid #8fd7db;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0 35px;
+  }
+}
+
+.rate-small {
+  flex-basis: 58%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .rate {
+    flex-basis: 48%;
+    max-height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* Payments end */

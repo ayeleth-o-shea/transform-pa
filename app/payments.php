@@ -36,6 +36,7 @@
   <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
   <link href="img/favicon.ico" type="image/x-icon" rel="icon">
 
+  <script src="https://use.fontawesome.com/6dd73a0138.js"></script>
   <link rel="stylesheet" href="/css/fonts.css">
   <link rel="stylesheet" href="/css/bootstrap-grid.css">
   <link rel="stylesheet" href="/css/main.css">
@@ -88,218 +89,117 @@
       </div>
     </div>
   </header>
-  <section id="first">
+  <section id="main" class="profile-main">
     <div class="container">
       <div class="row">
-        <img src="img/main-logo.png" alt="">
-        <div class="title">Программа-акселератор для старта и&nbsp;развития своего бизнеса</div>
+        <h1>Ваш профиль</h1>
+        <div class="theme__bottom">
+          <a href="#" class="active theme__button">
+            <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
+            <p>Назад</p>
+          </a>
+        </div>
       </div>
     </div>
   </section>
-  <section id="home">
+  <section id="payments">
     <div class="container">
-      <div class="row home">
-        <div class="col-lg-6">
-          <div class="status status-big">
-            <div class="status__name">Илья<br> Обломов</div>
-            <div class="status__count">
-              <div class="status__value">234586 <span> \ 234586</span></div>
-              <div class="status__about">Место<br> в рейтинге</div>
-            </div>
+      <div class="row rates">
+        <div class="rate rate-big mint">
+          <div class="theme__top">
+            <div class="theme__line"></div>
+            <div>Тариф</div>
+            <div class="theme__line"></div>
           </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="status">
-            <div class="status__value">0 <span> \ 52</span></div>
-            <div class="status__about">Заданий<br> выполнено</div>
+          <div class="rate__title">Базовый</div>
+          <div class="rate__price">
+            1 000&nbsp;
+            <i class="fa fa-rub" aria-hidden="true"></i>
+            <span>/ месяц</span>
           </div>
+          <div class="rate__subtitle">О тарифе:</div>
+          <p class="rate__content">52&nbsp;учебных модуля по&nbsp;всем направлениям развития бизнеса с&nbsp;обязательными домашними заданиями</p>
+          <p class="rate__content">Проверка выполненных заданий тьюторами программы</p>
+          <p class="rate__content">Доступ к&nbsp;базе знаний марафона с&nbsp;вебинарами и&nbsp;мастер-классами экспертов в&nbsp;различных отраслях</p>
+          <p class="rate__content">Участие в&nbsp;рейтинге марафона и&nbsp;возможность выиграть главные или дополнительные призы проекта</p>
         </div>
-        <div class="col-lg-2">
-          <div class="status">
-            <div class="status__value">5200 <span> \ 5200</span></div>
-            <div class="status__about">Баллов<br> набрано</div>
-          </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="status">
-            <div class="status__value">0 <span> \ 52</span></div>
-            <div class="status__about">Модулей<br> изучено</div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <h2>Темы программы</h2>
-        </div>
-      </div>
-      <div class="row themes">
-        <div class="col-lg-3">
-          <div class="theme theme-darkblue">
+        <div class="rate-small">
+          <div class="rate blue">
             <div class="theme__top">
               <div class="theme__line"></div>
-              <div>Тема</div>
+              <div>Тариф</div>
               <div class="theme__line"></div>
             </div>
-            <div class="theme__center">
-              <div>
-                <img src="img/packing.png" alt="" class="img-fluid">
-              </div>
-              <h2>Упаковка</h2>
-            </div>
-            <div class="theme__bottom">
-              <a href="#" class="active theme__button">
-                <p>Перейти к изучению</p>
-                <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
-              </a>
+            <div class="rate__title">Базовый</div>
+            <div class="rate__price">
+              3 000&nbsp;
+              <i class="fa fa-rub" aria-hidden="true"></i>
+              <span>/ месяц</span>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="theme theme-mint">
+          <div class="rate green">
             <div class="theme__top">
               <div class="theme__line"></div>
-              <div>Тема</div>
+              <div>Тариф</div>
               <div class="theme__line"></div>
             </div>
-            <div class="theme__center">
-              <div>
-                <img src="img/traffic.png" alt="" class="img-fluid">
-              </div>
-              <h2>Трафик</h2>
-            </div>
-            <div class="theme__bottom">
-              <a href="#" class="theme__button">
-                <div><img src="img/theme-lock.png" alt="" class="img-fluid"></div>
-                <p>Тема пока закрыта</p>
-              </a>
+            <div class="rate__title">Базовый</div>
+            <div class="rate__price">
+              10 000&nbsp;
+              <i class="fa fa-rub" aria-hidden="true"></i>
+              <span>/ месяц</span>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="theme theme-yellow">
+          <div class="rate yellow" style="margin: 30px 0">
             <div class="theme__top">
               <div class="theme__line"></div>
-              <div>Тема</div>
+              <div>Тариф</div>
               <div class="theme__line"></div>
             </div>
-            <div class="theme__center">
-              <div>
-                <img src="img/sale.png" alt="" class="img-fluid">
-              </div>
-              <h2>Продажи</h2>
-            </div>
-            <div class="theme__bottom">
-              <a href="#" class="theme__button">
-                <div><img src="img/theme-lock.png" alt="" class="img-fluid"></div>
-                <p>Тема пока закрыта</p>
-              </a>
+            <div class="rate__title">Базовый</div>
+            <div class="rate__price">
+              30 000&nbsp;
+              <i class="fa fa-rub" aria-hidden="true"></i>
+              <span>/ месяц</span>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="theme theme-green">
+          <div class="rate orange" style="margin: 30px 0">
             <div class="theme__top">
               <div class="theme__line"></div>
-              <div>Тема</div>
+              <div>Тариф</div>
               <div class="theme__line"></div>
             </div>
-            <div class="theme__center">
-              <div>
-                <img src="img/automation.png" alt="" class="img-fluid">
-              </div>
-              <h2>Автоматизация</h2>
-            </div>
-            <div class="theme__bottom">
-              <a href="#" class="theme__button">
-                <div><img src="img/theme-lock.png" alt="" class="img-fluid"></div>
-                <p>Тема пока закрыта</p>
-              </a>
+            <div class="rate__title">Базовый</div>
+            <div class="rate__price">
+              50 000&nbsp;
+              <i class="fa fa-rub" aria-hidden="true"></i>
+              <span>/ месяц</span>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="theme theme-orange">
+          <div class="rate pink">
             <div class="theme__top">
               <div class="theme__line"></div>
-              <div>Тема</div>
+              <div>Тариф</div>
               <div class="theme__line"></div>
             </div>
-            <div class="theme__center">
-              <div>
-                <img src="img/control.png" alt="" class="img-fluid">
-              </div>
-              <h2>Стратегия и финансы</h2>
-            </div>
-            <div class="theme__bottom">
-              <a href="#" class="theme__button">
-                <div><img src="img/theme-lock.png" alt="" class="img-fluid"></div>
-                <p>Тема пока закрыта</p>
-              </a>
+            <div class="rate__title">Базовый</div>
+            <div class="rate__price">
+              100 000&nbsp;
+              <i class="fa fa-rub" aria-hidden="true"></i>
+              <span>/ месяц</span>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="theme theme-purple">
+          <div class="rate purple">
             <div class="theme__top">
               <div class="theme__line"></div>
-              <div>Тема</div>
+              <div>Тариф</div>
               <div class="theme__line"></div>
             </div>
-            <div class="theme__center">
-              <div>
-                <img src="img/staff.png" alt="" class="img-fluid">
-              </div>
-              <h2>Персонал</h2>
-            </div>
-            <div class="theme__bottom">
-              <a href="#" class="theme__button">
-                <div><img src="img/theme-lock.png" alt="" class="img-fluid"></div>
-                <p>Тема пока закрыта</p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="theme theme-blue">
-            <div class="theme__top">
-              <div class="theme__line"></div>
-              <div>Тема</div>
-              <div class="theme__line"></div>
-            </div>
-            <div class="theme__center">
-              <div>
-                <img src="img/life-manager.png" alt="" class="img-fluid">
-              </div>
-              <h2>Лайф-менеджмент</h2>
-            </div>
-            <div class="theme__bottom">
-              <a href="#" class="theme__button">
-                <div><img src="img/theme-lock.png" alt="" class="img-fluid"></div>
-                <p>Тема пока закрыта</p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="theme theme-pink">
-            <div class="theme__top">
-              <div class="theme__line"></div>
-              <div>Тема</div>
-              <div class="theme__line"></div>
-            </div>
-            <div class="theme__center">
-              <div>
-                <img src="img/casestudy.png" alt="" class="img-fluid">
-              </div>
-              <h2>Case Study</h2>
-            </div>
-            <div class="theme__bottom">
-              <a href="#" class="theme__button">
-                <div><img src="img/theme-lock.png" alt="" class="img-fluid"></div>
-                <p>Тема пока закрыта</p>
-              </a>
+            <div class="rate__title">Базовый</div>
+            <div class="rate__price">
+              200 000&nbsp;
+              <i class="fa fa-rub" aria-hidden="true"></i>
+              <span>/ месяц</span>
             </div>
           </div>
         </div>

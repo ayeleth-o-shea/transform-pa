@@ -100,7 +100,7 @@ input[type=checkbox]:checked:before {
   font-family: 'ProximaNovaCond';
   font-weight: 900; }
 
-.akzidenzCn, .header, h2, .footer__contact a, .footer__logo p {
+.akzidenzCn, .header, h2, .footer__contact a, .footer__logo p, .rate__title, .rate__price {
   font-family: 'AkzidenzGroteskProCond';
   font-weight: normal; }
 
@@ -108,7 +108,7 @@ input[type=checkbox]:checked:before {
   font-family: 'AkzidenzGroteskProCond';
   font-weight: 500; }
 
-.akzidenzReg {
+.akzidenzReg, .rate__price span {
   font-family: 'AkzidenzGroteskPro';
   font-weight: normal; }
 
@@ -1312,3 +1312,109 @@ h1 {
           transition: none; }
 
 /* Profile end */
+/* Payments start */
+#payments {
+  padding: 58px 0 100px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+
+.rates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch; }
+
+.rate {
+  border-radius: 3px; }
+  .rate .theme__top {
+    margin-top: 30px;
+    width: 100%; }
+    .rate .theme__top .theme__line {
+      -ms-flex-preferred-size: 33%;
+          flex-basis: 33%; }
+  .rate__title {
+    font-size: 46px;
+    text-transform: none; }
+  .rate__price {
+    font-size: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    line-height: 23px; }
+    .rate__price i {
+      font-size: 15px;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+      font-weight: normal; }
+    .rate__price span {
+      font-size: 12px; }
+  .rate .rate__subtitle {
+    font-size: 15px;
+    margin-bottom: 7px;
+    margin-top: 35px; }
+  .rate p {
+    font-size: 20px;
+    text-transform: none;
+    line-height: 1.5em;
+    margin-bottom: 50px; }
+
+.rate-big {
+  -ms-flex-preferred-size: 37%;
+      flex-basis: 37%; }
+  .rate-big .theme__line:first-child {
+    max-width: 40px; }
+  .rate-big .theme__line:last-child {
+    -ms-flex-preferred-size: 70%;
+        flex-basis: 70%; }
+  .rate-big .rate__content,
+  .rate-big .rate__subtitle,
+  .rate-big .rate__title {
+    padding: 0 35px; }
+  .rate-big .rate__title {
+    font-size: 66px;
+    margin-top: 45px;
+    margin-bottom: 10px; }
+  .rate-big .rate__price {
+    border-top: 1px solid #8fd7db;
+    border-bottom: 1px solid #8fd7db;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0 35px; }
+
+.rate-small {
+  -ms-flex-preferred-size: 58%;
+      flex-basis: 58%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .rate-small .rate {
+    -ms-flex-preferred-size: 48%;
+        flex-basis: 48%;
+    max-height: 320px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+/* Payments end */
