@@ -130,11 +130,17 @@
               <div>Тариф</div>
               <div class="theme__line"></div>
             </div>
-            <div class="rate__title">Базовый</div>
-            <div class="rate__price">
-              3 000&nbsp;
-              <i class="fa fa-rub" aria-hidden="true"></i>
-              <span>/ месяц</span>
+            <div class="rate__middle">
+              <div class="rate__title">Продвинутый</div>
+              <div class="rate__price">
+                3 000&nbsp;
+                <i class="fa fa-rub" aria-hidden="true"></i>
+                <span>/ месяц</span>
+              </div>
+            </div>
+            <div class="rate__buttons">
+              <a href="#payments-popup" class="fancybox">Подробнее</a>
+              <button type="button" class="blue">Выбрать тариф</button>
             </div>
           </div>
           <div class="rate green">
@@ -143,11 +149,17 @@
               <div>Тариф</div>
               <div class="theme__line"></div>
             </div>
-            <div class="rate__title">Базовый</div>
-            <div class="rate__price">
-              10 000&nbsp;
-              <i class="fa fa-rub" aria-hidden="true"></i>
-              <span>/ месяц</span>
+            <div class="rate__middle">
+              <div class="rate__title">Мастер-группа</div>
+              <div class="rate__price">
+                10 000&nbsp;
+                <i class="fa fa-rub" aria-hidden="true"></i>
+                <span>/ месяц</span>
+              </div>
+            </div>
+            <div class="rate__buttons">
+              <a href="#payments-popup" class="fancybox">Подробнее</a>
+              <button type="button" class="green">Выбрать тариф</button>
             </div>
           </div>
           <div class="rate yellow" style="margin: 30px 0">
@@ -156,11 +168,17 @@
               <div>Тариф</div>
               <div class="theme__line"></div>
             </div>
-            <div class="rate__title">Базовый</div>
-            <div class="rate__price">
-              30 000&nbsp;
-              <i class="fa fa-rub" aria-hidden="true"></i>
-              <span>/ месяц</span>
+            <div class="rate__middle">
+              <div class="rate__title">Персональный тренер</div>
+              <div class="rate__price">
+                30 000&nbsp;
+                <i class="fa fa-rub" aria-hidden="true"></i>
+                <span>/ месяц</span>
+              </div>
+            </div>
+            <div class="rate__buttons">
+              <a href="#payments-popup" class="fancybox">Подробнее</a>
+              <button type="button" class="yellow">Выбрать тариф</button>
             </div>
           </div>
           <div class="rate orange" style="margin: 30px 0">
@@ -169,11 +187,17 @@
               <div>Тариф</div>
               <div class="theme__line"></div>
             </div>
-            <div class="rate__title">Базовый</div>
-            <div class="rate__price">
-              50 000&nbsp;
-              <i class="fa fa-rub" aria-hidden="true"></i>
-              <span>/ месяц</span>
+            <div class="rate__middle">
+              <div class="rate__title">Коучинг</div>
+              <div class="rate__price">
+                50 000&nbsp;
+                <i class="fa fa-rub" aria-hidden="true"></i>
+                <span>/ месяц</span>
+              </div>
+            </div>
+            <div class="rate__buttons">
+              <a href="#payments-popup" class="fancybox">Подробнее</a>
+              <button type="button" class="orange">Выбрать тариф</button>
             </div>
           </div>
           <div class="rate pink">
@@ -182,11 +206,17 @@
               <div>Тариф</div>
               <div class="theme__line"></div>
             </div>
-            <div class="rate__title">Базовый</div>
-            <div class="rate__price">
-              100 000&nbsp;
-              <i class="fa fa-rub" aria-hidden="true"></i>
-              <span>/ месяц</span>
+            <div class="rate__middle">
+              <div class="rate__title">Платинум</div>
+              <div class="rate__price">
+                100 000&nbsp;
+                <i class="fa fa-rub" aria-hidden="true"></i>
+                <span>/ месяц</span>
+              </div>
+            </div>
+            <div class="rate__buttons">
+              <a href="#payments-popup" class="fancybox">Подробнее</a>
+              <button type="button" class="pink">Выбрать тариф</button>
             </div>
           </div>
           <div class="rate purple">
@@ -195,11 +225,17 @@
               <div>Тариф</div>
               <div class="theme__line"></div>
             </div>
-            <div class="rate__title">Базовый</div>
-            <div class="rate__price">
-              200 000&nbsp;
-              <i class="fa fa-rub" aria-hidden="true"></i>
-              <span>/ месяц</span>
+            <div class="rate__middle">
+              <div class="rate__title">Стратегический консалтинг</div>
+              <div class="rate__price">
+                200 000&nbsp;
+                <i class="fa fa-rub" aria-hidden="true"></i>
+                <span>/ месяц</span>
+              </div>
+            </div>
+            <div class="rate__buttons">
+              <a href="#payments-popup" class="fancybox">Подробнее</a>
+              <button type="button" class="purple">Выбрать тариф</button>
             </div>
           </div>
         </div>

@@ -1,4 +1,13 @@
 /* Speca start */
+html {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
 * {
   margin: 0;
   padding: 0;
@@ -1405,7 +1414,6 @@ h1 {
   .rate-small .rate {
     -ms-flex-preferred-size: 48%;
         flex-basis: 48%;
-    max-height: 320px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1415,6 +1423,89 @@ h1 {
             flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 320px;
+    min-height: 320px;
+    padding-bottom: 20px; }
+  .rate-small .rate__middle {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 90%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
             align-items: center; }
+  .rate-small .rate__title {
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 40px; }
+  .rate-small .rate__price {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 25px 0; }
+  .rate-small .rate__buttons {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    padding: 50px 27px 0; }
+    .rate-small .rate__buttons a:hover:hover {
+      text-decoration: underline; }
+    .rate-small .rate__buttons button {
+      font-family: 'ProximaNova';
+      font-weight: normal;
+      text-transform: uppercase;
+      border-radius: 2px;
+      padding: 0 30px;
+      color: white;
+      cursor: pointer;
+      width: 150px;
+      max-width: 150px;
+      height: 50px;
+      border: 1px solid #fff;
+      -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.33);
+              box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.33); }
+      .rate-small .rate__buttons button:hover {
+        background-color: #fff; }
+      .rate-small .rate__buttons button.blue:hover {
+        border-color: #2594da;
+        color: #2594da; }
+      .rate-small .rate__buttons button.green:hover {
+        border-color: #01a068;
+        color: #01a068; }
+      .rate-small .rate__buttons button.yellow:hover {
+        border-color: #ffad01;
+        color: #ffad01; }
+      .rate-small .rate__buttons button.orange:hover {
+        border-color: #f1521b;
+        color: #f1521b; }
+      .rate-small .rate__buttons button.pink:hover {
+        border-color: #b807af;
+        color: #b807af; }
+      .rate-small .rate__buttons button.purple:hover {
+        border-color: #8f41bc;
+        color: #8f41bc; }
 
 /* Payments end */

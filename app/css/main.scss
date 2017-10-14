@@ -1,5 +1,10 @@
-@charset "utf-8";
-/* Speca start */
+@charset "utf-8"; /* Speca start */
+
+html {
+  display: flex;
+  flex-direction: column;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -86,35 +91,42 @@ input[type=checkbox]:checked:before {
 .darkblue {
   background-color: #134fbf;
 }
+$darkblue: #134fbf;
 
 .mint {
   background-color: #1fafb6;
 }
+$mint: #1fafb6;
 
 .yellow {
   background-color: #ffad01;
 }
+$yellow: #ffad01;
 
 .green {
   background-color: #01a068;
 }
+$green: #01a068;
 
 .orange {
   background-color: #f1521b;
 }
+$orange: #f1521b;
 
 .purple {
   background-color: #8f41bc;
 }
+$purple: #8f41bc;
 
 .blue {
   background-color: #2594da;
 }
+$blue: #2594da;
 
 .pink {
   background-color: #b807af;
 }
-/* Colors end */
+$pink: #b807af; /* Colors end */
 /* Fonts start */
 
 .proximaCondBlack {
@@ -1486,10 +1498,98 @@ h1 {
 
   .rate {
     flex-basis: 48%;
-    max-height: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    height: 320px;
+    min-height: 320px;
+    padding-bottom: 20px;
+  }
+
+  .rate__middle {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 90%;
+    align-items: center;
+  }
+
+  .rate__title {
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .rate__price {
+    border-top: 1px solid rgba(255,255,255,.5);
+    padding: 10px 25px 0;
+  }
+
+  .rate__buttons {
+    flex: 1;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px 27px 0;
+
+    a:hover {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    button {
+      font-family: 'ProximaNova';
+      font-weight: normal;
+      text-transform: uppercase;
+      border-radius: 2px;
+      padding: 0 30px;
+      color: white;
+      cursor: pointer;
+      width: 150px;
+      max-width: 150px;
+      height: 50px;
+      border: 1px solid #fff;
+      box-shadow: 0 5px 15px 0 rgba(0,0,0,0.33);
+
+      &:hover {
+        background-color: #fff;
+      }
+
+      &.blue:hover {
+        border-color: #2594da;
+        color: #2594da;
+      }
+
+      &.green:hover {
+        border-color: $green;
+        color: $green;
+      }
+
+      &.yellow:hover {
+        border-color: $yellow;
+        color: $yellow;
+      }
+
+      &.orange:hover {
+        border-color: $orange;
+        color: $orange;
+      }
+
+      &.pink:hover {
+        border-color: $pink;
+        color: $pink;
+      }
+
+      &.purple:hover {
+        border-color: $purple;
+        color: $purple;
+      }
+    }
   }
 }
 /* Payments end */
