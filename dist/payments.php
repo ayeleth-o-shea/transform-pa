@@ -37,6 +37,7 @@
   <link href="img/favicon.ico" type="image/x-icon" rel="icon">
 
   <script src="https://use.fontawesome.com/6dd73a0138.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/fonts.css">
   <link rel="stylesheet" href="/css/bootstrap-grid.css">
   <link rel="stylesheet" href="/css/main.css">
@@ -140,7 +141,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="blue">Выбрать тариф</button>
+              <button type="button" class="blue payments-btn">Выбрать тариф</button>
             </div>
           </div>
           <div class="rate green">
@@ -159,7 +160,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="green">Выбрать тариф</button>
+              <button type="button" class="green payments-btn">Выбрать тариф</button>
             </div>
           </div>
           <div class="rate yellow" style="margin: 30px 0">
@@ -178,7 +179,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="yellow">Выбрать тариф</button>
+              <button type="button" class="yellow payments-btn">Выбрать тариф</button>
             </div>
           </div>
           <div class="rate orange" style="margin: 30px 0">
@@ -197,7 +198,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="orange">Выбрать тариф</button>
+              <button type="button" class="orange payments-btn">Выбрать тариф</button>
             </div>
           </div>
           <div class="rate pink">
@@ -216,7 +217,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="pink">Выбрать тариф</button>
+              <button type="button" class="pink payments-btn">Выбрать тариф</button>
             </div>
           </div>
           <div class="rate purple">
@@ -235,7 +236,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="purple">Выбрать тариф</button>
+              <button type="button" class="purple payments-btn">Выбрать тариф</button>
             </div>
           </div>
         </div>
@@ -280,6 +281,26 @@
     </div>
   </footer>
 
+  <div id="payments-popup" style="display: none;">
+    <div class="popup-start blue">
+      <img src="img/payments-popup.png" alt="">
+      <div class="rate__title">Коучинг</div>
+      <div class="rate__price">
+        50 000&nbsp;
+        <i class="fa fa-rub" aria-hidden="true"></i>
+        <span>/ месяц</span>
+      </div>
+    </div>
+    <div class="popup-end">
+      <li class="rate__content">52&nbsp;учебных модуля по&nbsp;всем направлениям развития бизнеса с&nbsp;обязательными домашними заданиями</li>
+      <li class="rate__content">Проверка выполненных заданий тьюторами программы</li>
+      <li class="rate__content">Доступ к&nbsp;базе знаний марафона с&nbsp;вебинарами и&nbsp;мастер-классами экспертов в&nbsp;различных отраслях</li>
+      <li class="rate__content">Участие в&nbsp;рейтинге марафона и&nbsp;возможность выиграть главные или дополнительные призы проекта</li>
+      <button class="payments-btn blue">Перейти на тариф</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
   <script src="/js/main.js" charset="utf-8"></script>
 
 </body>

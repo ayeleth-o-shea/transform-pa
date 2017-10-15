@@ -77,6 +77,16 @@ input[type=checkbox]:checked:before {
   max-width: 100%;
   height: auto; }
 
+.fancybox-close {
+  background-image: none !important;
+  width: auto;
+  height: auto;
+  top: 0;
+  right: 7px; }
+  .fancybox-close i {
+    color: white;
+    font-size: 33px; }
+
 /* Speca end */
 /* Colors start */
 .darkblue {
@@ -117,7 +127,7 @@ input[type=checkbox]:checked:before {
   font-family: 'AkzidenzGroteskProCond';
   font-weight: 500; }
 
-.akzidenzReg, .rate__price span {
+.akzidenzReg, .rate__price span, #payments-popup li {
   font-family: 'AkzidenzGroteskPro';
   font-weight: normal; }
 
@@ -1473,39 +1483,91 @@ h1 {
     padding: 50px 27px 0; }
     .rate-small .rate__buttons a:hover:hover {
       text-decoration: underline; }
-    .rate-small .rate__buttons button {
-      font-family: 'ProximaNova';
-      font-weight: normal;
-      text-transform: uppercase;
-      border-radius: 2px;
-      padding: 0 30px;
-      color: white;
-      cursor: pointer;
-      width: 150px;
-      max-width: 150px;
-      height: 50px;
-      border: 1px solid #fff;
-      -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.33);
-              box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.33); }
-      .rate-small .rate__buttons button:hover {
-        background-color: #fff; }
-      .rate-small .rate__buttons button.blue:hover {
-        border-color: #2594da;
-        color: #2594da; }
-      .rate-small .rate__buttons button.green:hover {
-        border-color: #01a068;
-        color: #01a068; }
-      .rate-small .rate__buttons button.yellow:hover {
-        border-color: #ffad01;
-        color: #ffad01; }
-      .rate-small .rate__buttons button.orange:hover {
-        border-color: #f1521b;
-        color: #f1521b; }
-      .rate-small .rate__buttons button.pink:hover {
-        border-color: #b807af;
-        color: #b807af; }
-      .rate-small .rate__buttons button.purple:hover {
-        border-color: #8f41bc;
-        color: #8f41bc; }
+
+.payments-btn {
+  font-family: 'ProximaNova';
+  font-weight: normal;
+  text-transform: uppercase;
+  border-radius: 2px;
+  padding: 0 30px;
+  color: white;
+  cursor: pointer;
+  width: 150px;
+  max-width: 150px;
+  height: 50px;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.33);
+          box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.33); }
+  .payments-btn:hover {
+    background-color: #fff; }
+  .payments-btn.blue:hover {
+    border-color: #2594da;
+    color: #2594da; }
+  .payments-btn.green:hover {
+    border-color: #01a068;
+    color: #01a068; }
+  .payments-btn.yellow:hover {
+    border-color: #ffad01;
+    color: #ffad01; }
+  .payments-btn.orange:hover {
+    border-color: #f1521b;
+    color: #f1521b; }
+  .payments-btn.pink:hover {
+    border-color: #b807af;
+    color: #b807af; }
+  .payments-btn.purple:hover {
+    border-color: #8f41bc;
+    color: #8f41bc; }
 
 /* Payments end */
+/* Payments-popup start */
+#payments-popup {
+  border-radius: 5px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  padding-bottom: 30px; }
+  #payments-popup .rate__title {
+    font-size: 66px; }
+  #payments-popup .rate__price {
+    padding: 11px 0 15px; }
+  #payments-popup .popup-start {
+    padding: 0;
+    color: white;
+    position: relative;
+    padding: 54px 0 0 65px; }
+    #payments-popup .popup-start img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: auto;
+      height: 100%;
+      opacity: 0.8;
+      max-width: 450px; }
+  #payments-popup li {
+    list-style: disc;
+    font-size: 20px;
+    text-transform: none;
+    line-height: 1.5em; }
+  #payments-popup .rate__price {
+    border-top: 1px solid rgba(255, 255, 255, 0.5); }
+  #payments-popup .payments-btn {
+    width: 265px;
+    max-width: 265px;
+    height: 65px;
+    margin-top: 20px; }
+  #payments-popup .popup-end {
+    padding-left: 65px;
+    padding-right: 100px;
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    max-height: 400px;
+    height: 400px; }
+
+/* Payments-popup end */
