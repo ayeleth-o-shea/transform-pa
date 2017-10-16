@@ -1,7 +1,8 @@
 $(function() {
 
   initPopup();
-  
+  initRatesPopup();
+  initChartItemActive();
 
   function initPopup() {
     if (!$('.fancybox').length) return;
@@ -36,6 +37,35 @@ $(function() {
     });
 
     $('.fancybox').trigger('fancybox.init');
+  }
+
+  function initRatesPopup() {
+    $('a[href^=#payments-popup]').click(function() {
+      var rateChildren = $(this).closest('.rate'); // берет dom тарифа
+
+      var rateColor = rateChildren.attr('class').split(' ')[1]; // берем класс с цветом
+      var rateTitle = rateChildren.find('.rate__title').text(); // берем заголовок
+      var ratePrice = rateChildren.find('.rate__price').html(); // берем цену
+      var rateUl = rateChildren.find('ul').html(); // берем список
+
+      var popupChildren = $('#payments-popup'); // берем dom попапа
+
+      popupChildren.find('.rate__title').text(rateTitle); //подставляем заголовок
+      popupChildren.find('.rate__price').html(ratePrice); //подставляем цену
+
+      // подставляем цвет
+      popupChildren.find('.popup-start, .payments-btn')
+        .removeClass('blue green yellow orange pink purple')
+        .addClass(rateColor);
+
+      // подставляем список
+      popupChildren.find('ul').html(rateUl);
+    });
+  }
+
+  function initChartItemActive() {
+    var active = $('.offers__right').find('.chart__item.active');
+    active.find('.chart__number').html('<img src="img/chart-active.png" alt="">');
   }
 });
 

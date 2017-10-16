@@ -105,6 +105,13 @@
   </section>
   <section id="payments">
     <div class="container">
+      <div class="row rates-titles">
+        <h2>Ваш текущий тариф</h2>
+        <h2>
+          Upgrade
+          <span>Перейдите на новый уровень и получите дополнительные возможности</span>
+        </h2>
+      </div>
       <div class="row rates">
         <div class="rate rate-big mint">
           <div class="theme__top">
@@ -143,6 +150,12 @@
               <a href="#payments-popup" class="fancybox">Подробнее</a>
               <button type="button" class="blue payments-btn">Выбрать тариф</button>
             </div>
+            <ul style="display: none">
+              <li class="rate__content">Доступ к 52 учебным модулям</li>
+              <li class="rate__content">Домашние задания</li>
+              <li class="rate__content">Персональный куратор</li>
+              <li class="rate__content">Доступ к базе онлайн-практикумов Школы Бизнеса «Синергия» (любые 6 практикумов на выбор из предложенных 10)</li>
+            </ul>
           </div>
           <div class="rate green">
             <div class="theme__top">
@@ -162,6 +175,13 @@
               <a href="#payments-popup" class="fancybox">Подробнее</a>
               <button type="button" class="green payments-btn">Выбрать тариф</button>
             </div>
+            <ul style="display: none">
+              <li class="rate__content">Доступ к 52 учебным модулям</li>
+              <li class="rate__content">Домашние задания</li>
+              <li class="rate__content">Персональный куратор</li>
+              <li class="rate__content">Доступ к базе онлайн-практикумов Школы Бизнеса «Синергия» (любые 6 практикумов на выбор из предложенных 10)</li>
+              <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
+            </ul>
           </div>
           <div class="rate yellow" style="margin: 30px 0">
             <div class="theme__top">
@@ -181,6 +201,14 @@
               <a href="#payments-popup" class="fancybox">Подробнее</a>
               <button type="button" class="yellow payments-btn">Выбрать тариф</button>
             </div>
+            <ul style="display: none">
+              <li class="rate__content">Доступ к 52 учебным модулям</li>
+              <li class="rate__content">Домашние задания</li>
+              <li class="rate__content">Персональный куратор</li>
+              <li class="rate__content">Доступ к базе онлайн-практикумов Школы Бизнеса «Синергия» (любые 6 практикумов на выбор из предложенных 10)</li>
+              <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
+              <li class="rate__content">Персональный консультант по всем вопросам изучения и реализации заданий учебных модулей</li>
+            </ul>
           </div>
           <div class="rate orange" style="margin: 30px 0">
             <div class="theme__top">
@@ -200,6 +228,15 @@
               <a href="#payments-popup" class="fancybox">Подробнее</a>
               <button type="button" class="orange payments-btn">Выбрать тариф</button>
             </div>
+            <ul style="display: none">
+              <li class="rate__content">Доступ к 52 учебным модулям</li>
+              <li class="rate__content">Домашние задания</li>
+              <li class="rate__content">Персональный куратор</li>
+              <li class="rate__content">Доступ к базе онлайн-практикумов Школы Бизнеса «Синергия» (любые 6 практикумов на выбор из предложенных 10)</li>
+              <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
+              <li class="rate__content">Персональный консультант по всем вопросам изучения и реализации заданий учебных модулей</li>
+              <li class="rate__content">Работа участника и его команды с коучем, который интенсивно прокачивает по теме личной эффективности (дополнительные задания, не входящие в программу марафона)</li>
+            </ul>
           </div>
           <div class="rate pink">
             <div class="theme__top">
@@ -219,6 +256,16 @@
               <a href="#payments-popup" class="fancybox">Подробнее</a>
               <button type="button" class="pink payments-btn">Выбрать тариф</button>
             </div>
+            <ul style="display: none">
+              <li class="rate__content">Доступ к 52 учебным модулям</li>
+              <li class="rate__content">Домашние задания</li>
+              <li class="rate__content">Персональный куратор</li>
+              <li class="rate__content">Доступ к базе онлайн-практикумов Школы Бизнеса «Синергия» (любые 6 практикумов на выбор из предложенных 10)</li>
+              <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
+              <li class="rate__content">Персональный консультант по всем вопросам изучения и реализации заданий учебных модулей</li>
+              <li class="rate__content">Работа участника и его команды с коучем, который интенсивно прокачивает по теме личной эффективности (дополнительные задания, не входящие в программу марафона)</li>
+              <li class="rate__content">Бесплатное посещение всех программ «Школы Бизнеса» в течение всего обучения</li>
+            </ul>
           </div>
           <div class="rate purple">
             <div class="theme__top">
@@ -238,6 +285,152 @@
               <a href="#payments-popup" class="fancybox">Подробнее</a>
               <button type="button" class="purple payments-btn">Выбрать тариф</button>
             </div>
+            <ul style="display: none">
+              <li class="rate__content">Доступ к 52 учебным модулям</li>
+              <li class="rate__content">Домашние задания</li>
+              <li class="rate__content">Персональный куратор</li>
+              <li class="rate__content">Доступ к базе онлайн-практикумов Школы Бизнеса «Синергия» (любые 6 практикумов на выбор из предложенных 10)</li>
+              <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
+              <li class="rate__content">Персональный консультант по всем вопросам изучения и реализации заданий учебных модулей
+              </li>
+              <li class="rate__content">Работа участника и его команды с коучем, который интенсивно прокачивает по теме личной эффективности (дополнительные задания, не входящие в программу марафона)
+              </li>
+              <li class="rate__content">Бесплатное посещение всех программ «Школы Бизнеса» в течение всего обучения
+              </li>
+              <li class="rate__content">Комплексная диагностика бизнеса силами ведущего эксперта в области повышения эффективности бизнеса
+              </li>
+              <li class="rate__content">Выявление проблемных зон и рисков
+              </li>
+              <li class="rate__content">Подготовка дорожной карты действий по повышению эффективности и решению выявленных проблем
+              </li>
+              <li class="rate__content">Оперативное подключение к решению задач узкопрофильных специалистов (в случае необходимости)
+              </li>
+              <li class="rate__content">Авторский надзор за исполнением дорожной карты
+              </li>
+              <li class="rate__content">Персональный менеджер по развитию и оперативная обратная связь по всем вопросам
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="chart">
+    <div class="container">
+      <div class="row rates-titles chart-titles">
+        <h2>Карта для совершения платежей</h2>
+        <h2>График платежей</h2>
+      </div>
+
+      <div class="row offers">
+        <div class="offers__left">
+          <div class="offers__card">
+            <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+            <div class="offers__card-number">
+              <p>
+                <i class="fa fa-asterisk" aria-hidden="true"></i>
+                <i class="fa fa-asterisk" aria-hidden="true"></i>
+                <i class="fa fa-asterisk" aria-hidden="true"></i>
+                <i class="fa fa-asterisk" aria-hidden="true"></i>
+              </p>
+              <p>
+                <i class="fa fa-asterisk" aria-hidden="true"></i>
+                <i class="fa fa-asterisk" aria-hidden="true"></i>
+                <i class="fa fa-asterisk" aria-hidden="true"></i>
+                <i class="fa fa-asterisk" aria-hidden="true"></i>
+              </p>
+              <p>
+                <i class="fa fa-asterisk" aria-hidden="true"></i>
+                <i class="fa fa-asterisk" aria-hidden="true"></i>
+                <i class="fa fa-asterisk" aria-hidden="true"></i>
+                <i class="fa fa-asterisk" aria-hidden="true"></i>
+              </p>
+              <p>
+                1234
+              </p>
+            </div>
+          </div>
+          <button type="button" class="offers__card-btn">Привязать другую карту</button>
+          <div class="offers__writeOff">
+            08.11.2017 с вашего счета будет списано 1000 руб. <br>в счет следующего платежа
+          </div>
+          <div class="offers__dates">
+            <div class="offers__date-last">
+              Последнее<br> поступление средств<br> <span>08.10.2017</span>
+            </div>
+            <div class="offers__date-next">
+              Дата следующего<br> платежа<br> <span>08.11.2017</span>
+            </div>
+          </div>
+          <div class="offers__end">
+            Если у&nbsp;вас возникли вопросы по&nbsp;поводу тарифов и&nbsp;оплаты обучения, позвоните нам: <a href="tel:+78001008926">8&nbsp;800&nbsp;100 89&nbsp;26</a>
+          </div>
+        </div>
+        <div class="offers__right">
+          <div class="chart__item">
+            <div class="chart__title">Статус</div>
+            <div class="chart__title">Дата</div>
+            <div class="chart__title">Сумма</div>
+          </div>
+          <div class="chart__item active">
+            <div class="chart__number">1.</div>
+            <div class="chart__date">08.10.2017</div>
+            <div class="chart__value">1000 руб.</div>
+          </div>
+          <div class="chart__item">
+            <div class="chart__number">1.</div>
+            <div class="chart__date">08.10.2017</div>
+            <div class="chart__value">1000 руб.</div>
+          </div>
+          <div class="chart__item">
+            <div class="chart__number">1.</div>
+            <div class="chart__date">08.10.2017</div>
+            <div class="chart__value">1000 руб.</div>
+          </div>
+          <div class="chart__item">
+            <div class="chart__number">1.</div>
+            <div class="chart__date">08.10.2017</div>
+            <div class="chart__value">1000 руб.</div>
+          </div>
+          <div class="chart__item">
+            <div class="chart__number">1.</div>
+            <div class="chart__date">08.10.2017</div>
+            <div class="chart__value">1000 руб.</div>
+          </div>
+          <div class="chart__item">
+            <div class="chart__number">1.</div>
+            <div class="chart__date">08.10.2017</div>
+            <div class="chart__value">1000 руб.</div>
+          </div>
+          <div class="chart__item">
+            <div class="chart__number">1.</div>
+            <div class="chart__date">08.10.2017</div>
+            <div class="chart__value">1000 руб.</div>
+          </div>
+          <div class="chart__item">
+            <div class="chart__number">1.</div>
+            <div class="chart__date">08.10.2017</div>
+            <div class="chart__value">1000 руб.</div>
+          </div>
+          <div class="chart__item">
+            <div class="chart__number">1.</div>
+            <div class="chart__date">08.10.2017</div>
+            <div class="chart__value">1000 руб.</div>
+          </div>
+          <div class="chart__item">
+            <div class="chart__number">1.</div>
+            <div class="chart__date">08.10.2017</div>
+            <div class="chart__value">1000 руб.</div>
+          </div>
+          <div class="chart__item">
+            <div class="chart__number">1.</div>
+            <div class="chart__date">08.10.2017</div>
+            <div class="chart__value">1000 руб.</div>
+          </div>
+          <div class="chart__item">
+            <div class="chart__number">1.</div>
+            <div class="chart__date">08.10.2017</div>
+            <div class="chart__value">1000 руб.</div>
           </div>
         </div>
       </div>
@@ -281,24 +474,19 @@
     </div>
   </footer>
 
+  <!-- Payments popup start -->
   <div id="payments-popup" style="display: none;">
-    <div class="popup-start blue">
+    <div class="popup-start">
       <img src="img/payments-popup.png" alt="">
-      <div class="rate__title">Коучинг</div>
-      <div class="rate__price">
-        50 000&nbsp;
-        <i class="fa fa-rub" aria-hidden="true"></i>
-        <span>/ месяц</span>
-      </div>
+      <div class="rate__title"></div>
+      <div class="rate__price"></div>
     </div>
     <div class="popup-end">
-      <li class="rate__content">52&nbsp;учебных модуля по&nbsp;всем направлениям развития бизнеса с&nbsp;обязательными домашними заданиями</li>
-      <li class="rate__content">Проверка выполненных заданий тьюторами программы</li>
-      <li class="rate__content">Доступ к&nbsp;базе знаний марафона с&nbsp;вебинарами и&nbsp;мастер-классами экспертов в&nbsp;различных отраслях</li>
-      <li class="rate__content">Участие в&nbsp;рейтинге марафона и&nbsp;возможность выиграть главные или дополнительные призы проекта</li>
-      <button class="payments-btn blue">Перейти на тариф</button>
+      <ul></ul>
+      <button class="payments-btn">Перейти на тариф</button>
     </div>
   </div>
+  <!-- Payments popup end -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
   <script src="/js/main.js" charset="utf-8"></script>
