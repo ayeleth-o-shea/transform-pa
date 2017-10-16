@@ -3,6 +3,7 @@ $(function() {
   initPopup();
   initRatesPopup();
   initChartItemActive();
+  initTimeline();
 
   function initPopup() {
     if (!$('.fancybox').length) return;
@@ -67,6 +68,46 @@ $(function() {
     var active = $('.offers__right').find('.chart__item.active');
     active.find('.chart__number').html('<img src="img/chart-active.png" alt="">');
   }
+
+  function initTimeline() {
+
+    var $frame = $('#basic');
+    var $slidee = $frame.children('ul').eq(0);
+    var $wrap = $frame.parent();
+
+    // Call Sly on frame
+    $frame.sly({
+      horizontal: 1,
+      itemNav: 'centered',
+      smart: 1,
+      activateOn: 'click',
+      mouseDragging: 1,
+      touchDragging: 1,
+      releaseSwing: 1,
+      startAt: $wrap.find('.active'),
+      scrollBar: $wrap.find('.scrollbar'),
+      scrollBy: 1,
+      pagesBar: $wrap.find('.pages'),
+      activatePageOn: 'click',
+      speed: 300,
+      elasticBounds: 1,
+      easing: 'easeOutExpo',
+      dragHandle: 1,
+      dynamicHandle: 1,
+      clickBar: 1
+    });
+
+    // Add item
+    $wrap.find('.add').on('click', function() {
+      $frame.sly('add', '<li>' + $slidee.children().length + '</li>');
+    });
+
+    // Remove item
+    $wrap.find('.remove').on('click', function() {
+      $frame.sly('remove', -1);
+    });
+  }
+
 });
 
 // File Attach

@@ -36,8 +36,10 @@
   <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
   <link href="img/favicon.ico" type="image/x-icon" rel="icon">
 
+
   <link rel="stylesheet" href="/css/fonts.css">
   <link rel="stylesheet" href="/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="/css/horizontal.css">
   <link rel="stylesheet" href="/css/main.css">
 
   <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -97,36 +99,155 @@
     </div>
   </section>
   <section id="home">
-    <div class="container">
-      <div class="row home">
-        <div class="col-lg-6">
-          <div class="status status-big">
-            <div class="status__name">Илья<br> Обломов</div>
-            <div class="status__count">
-              <div class="status__value">234586 <span> \ 234586</span></div>
-              <div class="status__about">Место<br> в рейтинге</div>
+    <div class="home-wrapper">
+      <div class="container">
+        <div class="row home">
+          <div class="col-lg-6">
+            <div class="status status-big">
+              <div class="status__name">Илья<br> Обломов</div>
+              <div class="status__count">
+                <div class="status__value">234586 <span>  234586</span></div>
+                <div class="status__about">Место<br> в рейтинге</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="status">
+              <div class="status__value">0 <span>  52</span></div>
+              <div class="status__about">Заданий<br> выполнено</div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="status">
+              <div class="status__value">5200 <span>  5200</span></div>
+              <div class="status__about">Баллов<br> набрано</div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="status">
+              <div class="status__value">0 <span>  52</span></div>
+              <div class="status__about">Модулей<br> изучено</div>
             </div>
           </div>
         </div>
-        <div class="col-lg-2">
-          <div class="status">
-            <div class="status__value">0 <span> \ 52</span></div>
-            <div class="status__about">Заданий<br> выполнено</div>
-          </div>
+      </div>
+    </div>
+    <section id="timeline">
+      <div class="container">
+        <div class="row">
+          <h2>Таймлайн марафона</h2>
+          <p class="about">Мы&nbsp;выстроили учебный план таким образом, чтобы вы&nbsp;развивали все аспекты своего бизнеса в&nbsp;комплексе. После выполнения каждого задания перед вами открываются новые возможности для развития, поэтому мы&nbsp;рекомендуем проходить
+            модули в&nbsp;заданной последовательности, не&nbsp;откладывая их&nbsp;на&nbsp;потом.</p>
         </div>
-        <div class="col-lg-2">
-          <div class="status">
-            <div class="status__value">5200 <span> \ 5200</span></div>
-            <div class="status__about">Баллов<br> набрано</div>
-          </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="status">
-            <div class="status__value">0 <span> \ 52</span></div>
-            <div class="status__about">Модулей<br> изучено</div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="wrap">
+            <div class="frame" id="basic">
+              <ul class="clearfix">
+                <li class="active">
+                  <div class="timeline">
+                    <div class="timeline-top yellow">
+                      <div class="theme__top">
+                        <div class="theme__line"></div>
+                        <div>1 Неделя</div>
+                        <div class="theme__line"></div>
+                      </div>
+                    </div>
+                    <div class="timeline-end yellow">
+                      <div class="timeline-status blocked"></div>
+                      <div class="timeline-title">
+                        <span>модуль</span>
+                        <h2>Построение отдела продаж</h2>
+                        <span>Тема: Продажи</span>
+                      </div>
+                      <div class="timeline-speaker">
+                        Михаил Колмаков<br>8 октября
+                      </div>
+                      <div class="theme__bottom">
+                        <a href="#" class="active theme__button">
+                          <p>Перейти к изучению</p>
+                          <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="blue">2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+                <li>32</li>
+                <li>33</li>
+                <li>34</li>
+                <li>35</li>
+                <li>36</li>
+                <li>37</li>
+                <li>38</li>
+                <li>39</li>
+                <li>40</li>
+                <li>41</li>
+                <li>42</li>
+                <li>43</li>
+                <li>44</li>
+                <li>45</li>
+                <li>46</li>
+                <li>47</li>
+                <li>48</li>
+                <li>49</li>
+                <li>50</li>
+                <li>51</li>
+                <li>52</li>
+                <li>53</li>
+                <li>54</li>
+                <li>55</li>
+                <li>56</li>
+                <li>57</li>
+                <li>58</li>
+                <li>59</li>
+                <li>60</li>
+                <li>61</li>
+              </ul>
+            </div>
+            <div class="scrollbar">
+              <div class="handle">
+                <img src="img/arrow.png" alt="" style=" transform: scale(-1,1);">
+                  <img src="img/arrow.png" alt="">
+                <div class="mousearea"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+    </section>
+    <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <h2>Темы программы</h2>
@@ -344,6 +465,8 @@
     </div>
   </footer>
 
+  <script src="/js/plugins.js" charset="utf-8"></script>
+  <script src="/js/sly.min.js" charset="utf-8"></script>
   <script src="/js/main.js" charset="utf-8"></script>
 
 </body>
