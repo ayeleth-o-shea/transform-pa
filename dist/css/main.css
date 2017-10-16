@@ -1564,20 +1564,24 @@ h1 {
 
 /* Payments end */
 /* changeMail-popup start */
-#changeMail-popup {
+#changeMail-popup,
+#changeMail-success-popup {
   border-radius: 5px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
-  #changeMail-popup h2 {
+  #changeMail-popup h2,
+  #changeMail-success-popup h2 {
     text-align: center;
     position: relative;
     z-index: 10;
     color: #fff;
     text-transform: uppercase; }
-  #changeMail-popup .popup-start {
+  #changeMail-popup .popup-start,
+  #changeMail-success-popup .popup-start {
     position: relative;
     background-color: #e92323;
     padding: 70px 174px; }
-    #changeMail-popup .popup-start img {
+    #changeMail-popup .popup-start img,
+    #changeMail-success-popup .popup-start img {
       position: absolute;
       top: 0;
       right: 0;
@@ -1586,16 +1590,40 @@ h1 {
       opacity: 0.8;
       max-width: 450px;
       z-index: 1; }
-  #changeMail-popup .popup-end {
+  #changeMail-popup .popup-end,
+  #changeMail-success-popup .popup-end {
     background-color: #fff;
     padding: 55px 190px 215px; }
-    #changeMail-popup .popup-end__title {
+    #changeMail-popup .popup-end__title,
+    #changeMail-success-popup .popup-end__title {
       margin-bottom: 30px;
       color: #000;
       font-size: 20px;
       font-weight: bold;
       text-transform: none; }
-    #changeMail-popup .popup-end p {
+    #changeMail-popup .popup-end input,
+    #changeMail-success-popup .popup-end input {
+      width: 100%;
+      height: 64px;
+      border: 1px solid #c8cbd8;
+      margin: 7px 0;
+      padding-left: 15px;
+      font-size: 20px;
+      color: #000;
+      text-shadow: 0 1px 1px rgba(150, 150, 150, 0.3); }
+    #changeMail-popup .popup-end a,
+    #changeMail-success-popup .popup-end a {
+      margin-top: 10px;
+      width: 50%;
+      height: 75px;
+      display: block;
+      text-align: center;
+      background-color: #01a068;
+      border-radius: 3px;
+      line-height: 75px;
+      border: none; }
+    #changeMail-popup .popup-end p,
+    #changeMail-success-popup .popup-end p {
       font-size: 20px;
       color: #000;
       text-transform: none; }

@@ -268,7 +268,7 @@
             </div>
             <div class="profile-form__group">
               <label for="email">E-mail</label>
-              <input type="text" name="email" value="IOblomov@mail.ru">
+              <input type="text" name="email" value="IOblomov@mail.ru" disabled>
             </div>
             <div class="profile-form__group">
               <label for=""></label>
@@ -350,8 +350,19 @@
     </div>
   </footer>
 
-  <!-- Payments popup start -->
+  <!-- Profile popup start -->
   <div id="changeMail-popup" style="display: none;">
+    <div class="popup-start">
+      <img src="img/payments-popup.png" alt="">
+      <h2>Привязать к аккаунту<br> другой адрес электронной почты</h2>
+    </div>
+    <div class="popup-end">
+      <input type="text" placeholder="Старый адрес">
+      <input type="text" placeholder="Новый адрес">
+      <a href="#changeMail-success-popup" class="fancybox">Отправить заявку</a>
+    </div>
+  </div>
+  <div id="changeMail-success-popup" style="display: none;">
     <div class="popup-start">
       <img src="img/payments-popup.png" alt="">
       <h2>Привязать к аккаунту<br> другой адрес электронной почты</h2>
@@ -363,7 +374,7 @@
       <p>Пожалуйста, подтвердите смену адреса в&nbsp;письме, которое мы&nbsp;отправили на&nbsp;текущий адрес электронной почты.</p>
     </div>
   </div>
-  <!-- Payments popup end -->
+  <!-- Profile popup end -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
   <script src="/js/main.js" charset="utf-8"></script>
