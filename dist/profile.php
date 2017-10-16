@@ -36,6 +36,8 @@
   <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
   <link href="img/favicon.ico" type="image/x-icon" rel="icon">
 
+  <script src="https://use.fontawesome.com/6dd73a0138.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/fonts.css">
   <link rel="stylesheet" href="/css/bootstrap-grid.css">
   <link rel="stylesheet" href="/css/main.css">
@@ -58,7 +60,7 @@
     <a href="index.php" style="color: #000; margin-right: 30px;text-transform: none;">hOME</a>
     <a href="theme.php" style="color: #000; margin-right: 30px;text-transform: none;">tHEME</a>
     <a href="modul.php" style="color: #000; margin-right: 30px;text-transform: none;">mODUL</a>
-    <a href="profile.php" style="color: #000; margin-right: 30px;text-transform: none;">pROFILE</a>    
+    <a href="profile.php" style="color: #000; margin-right: 30px;text-transform: none;">pROFILE</a>
     <a href="payments.php" style="color: #000; margin-right: 30px;text-transform: none;">pAYMENTS</a>
   </div>
   <header>
@@ -270,7 +272,7 @@
             </div>
             <div class="profile-form__group">
               <label for=""></label>
-              <a href="#">Привязать другой адрес электронной почты</a>
+              <a href="#changeMail-popup" class="fancybox">Привязать другой адрес электронной почты</a>
             </div>
             <div class="profile-form__group">
               <label for=""></label>
@@ -348,6 +350,22 @@
     </div>
   </footer>
 
+  <!-- Payments popup start -->
+  <div id="changeMail-popup" style="display: none;">
+    <div class="popup-start">
+      <img src="img/payments-popup.png" alt="">
+      <h2>Привязать к аккаунту<br> другой адрес электронной почты</h2>
+    </div>
+    <div class="popup-end">
+      <div class="popup-end__title">
+        Ваша заявка отправлена
+      </div>
+      <p>Пожалуйста, подтвердите смену адреса в&nbsp;письме, которое мы&nbsp;отправили на&nbsp;текущий адрес электронной почты.</p>
+    </div>
+  </div>
+  <!-- Payments popup end -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
   <script src="/js/main.js" charset="utf-8"></script>
 
 </body>

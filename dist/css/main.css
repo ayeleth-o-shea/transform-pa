@@ -1563,6 +1563,44 @@ h1 {
     color: #8f41bc; }
 
 /* Payments end */
+/* changeMail-popup start */
+#changeMail-popup {
+  border-radius: 5px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+  #changeMail-popup h2 {
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    color: #fff;
+    text-transform: uppercase; }
+  #changeMail-popup .popup-start {
+    position: relative;
+    background-color: #e92323;
+    padding: 70px 174px; }
+    #changeMail-popup .popup-start img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: auto;
+      height: 100%;
+      opacity: 0.8;
+      max-width: 450px;
+      z-index: 1; }
+  #changeMail-popup .popup-end {
+    background-color: #fff;
+    padding: 55px 190px 215px; }
+    #changeMail-popup .popup-end__title {
+      margin-bottom: 30px;
+      color: #000;
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: none; }
+    #changeMail-popup .popup-end p {
+      font-size: 20px;
+      color: #000;
+      text-transform: none; }
+
+/* changeMail-popup end */
 /* Payments-popup start */
 #payments-popup {
   border-radius: 5px;
