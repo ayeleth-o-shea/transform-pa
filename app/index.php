@@ -107,26 +107,26 @@
             <div class="status status-big">
               <div class="status__name">Илья<br> Обломов</div>
               <div class="status__count">
-                <div class="status__value">234586 <span>  234586</span></div>
+                <div class="status__value">234586 <span>&nbsp;/&nbsp;234586</span></div>
                 <div class="status__about">Место<br> в рейтинге</div>
               </div>
             </div>
           </div>
           <div class="col-lg-2">
             <div class="status">
-              <div class="status__value">0 <span>  52</span></div>
+              <div class="status__value">0 <span>&nbsp;/&nbsp;52</span></div>
               <div class="status__about">Заданий<br> выполнено</div>
             </div>
           </div>
           <div class="col-lg-2">
             <div class="status">
-              <div class="status__value">5200 <span>  5200</span></div>
+              <div class="status__value">5200 <span>&nbsp;/&nbsp;5200</span></div>
               <div class="status__about">Баллов<br> набрано</div>
             </div>
           </div>
           <div class="col-lg-2">
             <div class="status">
-              <div class="status__value">0 <span>  52</span></div>
+              <div class="status__value">0 <span>&nbsp;/&nbsp;52</span></div>
               <div class="status__about">Модулей<br> изучено</div>
             </div>
           </div>

@@ -143,7 +143,7 @@ input[type=checkbox]:checked:before {
   font-family: 'AkzidenzGroteskProCond';
   font-weight: 500; }
 
-.akzidenzReg, .rate__price span, #payments-popup li {
+.akzidenzReg, .homework-form.verified .answer__value, .rate__price span, #payments-popup li {
   font-family: 'AkzidenzGroteskPro';
   font-weight: normal; }
 
@@ -1287,7 +1287,11 @@ h1 {
     font-family: 'ProximaNova';
     font-size: 20px;
     width: 100%;
-    border-radius: 3px; }
+    border-radius: 3px;
+    height: 250px;
+    min-height: 250px;
+    max-height: 500px;
+    resize: vertical; }
   .homework-form .button,
   .homework-form button {
     width: 252px;
@@ -1309,6 +1313,102 @@ h1 {
       background: transparent;
       color: #14ad6b;
       border: 1px solid #14ad6b; }
+  .homework-form.sent textarea:disabled {
+    background-color: transparent;
+    line-height: 1.5em; }
+  .homework-form.sent label {
+    cursor: auto; }
+    .homework-form.sent label mark {
+      cursor: auto; }
+  .homework-form.sent .file_upload img {
+    max-height: 38px;
+    margin-right: 14px;
+    -webkit-filter: grayscale(300%);
+            filter: grayscale(300%); }
+  .homework-form.verified .form-end {
+    margin-bottom: 30px; }
+  .homework-form.verified .answer {
+    background-color: white;
+    color: black;
+    -webkit-box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.33);
+            box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.33);
+    padding-top: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'ProximaNova';
+    font-size: 20px;
+    width: 100%;
+    border-radius: 3px;
+    height: 250px;
+    max-height: 250px;
+    position: relative;
+    overflow: hidden; }
+    .homework-form.verified .answer.expand {
+      height: auto;
+      max-height: 9999px;
+      overflow: visible; }
+    .homework-form.verified .answer__value {
+      font-size: 16px;
+      color: #9b9eae; }
+      .homework-form.verified .answer__value span {
+        font-size: 42px;
+        color: #14ad6b; }
+    .homework-form.verified .answer__text {
+      line-height: 1.5em;
+      text-transform: none;
+      padding-bottom: 30px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      max-height: 90px; }
+      .homework-form.verified .answer__text.expand {
+        overflow: visible;
+        max-height: 9999px; }
+    .homework-form.verified .answer__top {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: baseline;
+          -ms-flex-align: baseline;
+              align-items: baseline;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      width: 100%;
+      padding: 50px 30px 0; }
+      .homework-form.verified .answer__top h2 {
+        margin: 0 !important; }
+  .homework-form .sent__answer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    color: #9b9eae; }
+    .homework-form .sent__answer p {
+      text-align: right;
+      -ms-flex-item-align: center;
+          align-self: center;
+      margin-right: 10px;
+      font-size: 14px; }
+    .homework-form .sent__answer-date {
+      -ms-flex-item-align: center;
+          align-self: center;
+      font-size: 49px; }
+  .homework-form .expand-answer {
+    background: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-align: left;
+    color: #14ad6b;
+    font-size: 14px; }
+    .homework-form .expand-answer:hover {
+      border: none;
+      opacity: 0.8;
+      text-decoration: underline; }
 
 .form-end {
   display: -webkit-box;

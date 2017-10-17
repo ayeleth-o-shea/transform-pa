@@ -37,7 +37,7 @@
   <link href="img/favicon.ico" type="image/x-icon" rel="icon">
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="/css/animate.css">
   <link rel="stylesheet" href="/css/fonts.css">
   <link rel="stylesheet" href="/css/bootstrap-grid.css">
   <link rel="stylesheet" href="/css/main.css">
@@ -220,9 +220,53 @@
           </div>
         </form>
       </div>
+      <div class="row">
+        <form class="homework-form sent" enctype="multipart/form-data" method="post">
+          <textarea placeholder="Поле для ответа" rows="6" cols="80" disabled>Лидерство в продажах амбивалентно. Тем не менее, размещение поддерживает выставочный стенд. Отсюда естественно следует, что селекция бренда конструктивно. Процесс стратегического планирования, как принято считать, нетривиален. Внутрифирменная реклама, не меняя концепции, изложенной выше.
+          </textarea>
+          <div class="form-end">
+            <label class="file_upload">
+              <img src="img/attach.png" alt="" class="img-fluid">
+              <mark>
+                Допустимые форматы:<br /> doc; pdf; jpg
+              </mark>
+            </label>
+            <div class="sent__answer">
+              <p>Ответ от<br>преподавателя</p>
+              <div class="sent__answer-date">10.10.2017</div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="row">
+        <form class="homework-form sent verified" enctype="multipart/form-data" method="post">
+          <textarea placeholder="" rows="6" cols="80" disabled>Лидерство в продажах амбивалентно. Тем не менее, размещение поддерживает выставочный стенд. Отсюда естественно следует, что селекция бренда конструктивно. Процесс стратегического планирования, как принято считать, нетривиален. Внутрифирменная реклама, не меняя концепции, изложенной выше.</textarea>
+          <div class="form-end">
+            <label class="file_upload">
+              <img src="img/attach.png" alt="" class="img-fluid">
+              <mark>
+                Допустимые форматы:<br /> doc; pdf; jpg
+              </mark>
+            </label>
+            <div class="sent__answer">
+              <div class="sent__answer-date">Проверено</div>
+            </div>
+          </div>
+          <div class="answer">
+            <div class="answer__top">
+              <h2>Ответ преподавателя</h2>
+              <div class="answer__value"><span>12</span> / 50 баллов</div>
+            </div>
+            <div class="answer__text">
+              Лидерство в продажах амбивалентно. Тем не менее, размещение поддерживает выставочный стенд. Отсюда естественно следует, что селекция бренда конструктивно. Процесс стратегического планирования, как принято считать, нетривиален. Внутрифирменная реклама, не меняя концепции, изложенной выше. Лидерство в продажах амбивалентно. Тем не менее, размещение поддерживает выставочный стенд. Отсюда естественно следует, что селекция бренда конструктивно. Процесс стратегического планирования, как принято считать, нетривиален. Внутрифирменная реклама, не меняя концепции, изложенной выше.
+            </div>
+          </div>
+          <button type="button" class="expand-answer">развернуть</button>
+        </form>
+      </div>
     </div>
   </section>
-  <section id="modul">
+  <!-- <section id="modul">
     <div class="container">
       <div class="row">
         <div class="modul active">
@@ -266,7 +310,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <section id="sgf">
     <div class="container">
       <div class="row">

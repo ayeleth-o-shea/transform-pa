@@ -1,8 +1,47 @@
+// File Attach
+$(function() {
+  var wrapper = $(".file_upload"),
+    inp = wrapper.find("input"),
+    btn = wrapper.find(".button"),
+    lbl = wrapper.find("mark");
+
+  // Crutches for the :focus style:
+  inp.focus(function() {
+    wrapper.addClass("focus");
+  }).blur(function() {
+    wrapper.removeClass("focus");
+  });
+
+  var file_api = (window.File && window.FileReader && window.FileList && window.Blob) ? true : false;
+
+  inp.change(function() {
+    var file_name;
+    if (file_api && inp[0].files[0])
+      file_name = inp[0].files[0].name;
+    else
+      file_name = inp.val().replace("C:\\fakepath\\", '');
+
+    if (!file_name.length)
+      return;
+
+    if (lbl.is(":visible")) {
+      lbl.text(file_name);
+      btn.text("Выбрать");
+    } else
+      btn.text(file_name);
+  }).change();
+
+});
+$(window).resize(function() {
+  $(".file_upload input").triggerHandler("change");
+});
+
 $(function() {
 
   initPopup();
   initRatesPopup();
   initChartItemActive();
+  initExpandAnswer();
   initTimeline();
 
   function initPopup() {
@@ -69,6 +108,19 @@ $(function() {
     active.find('.chart__number').html('<img src="img/chart-active.png" alt="">');
   }
 
+  function initExpandAnswer() {
+    $("button.expand-answer").on("click", function() {
+      $(".verified .answer, .verified .answer__text").toggleClass("expand");
+      if ($(".verified .answer").hasClass('expand')) {
+        $("button.expand-answer").text('Свернуть');
+      } else {
+        $("button.expand-answer").text('Развернуть');
+      }
+    });
+  }
+
+
+
   function initTimeline() {
 
     var $frame = $('#basic');
@@ -108,42 +160,4 @@ $(function() {
     });
   }
 
-});
-
-// File Attach
-$(function() {
-  var wrapper = $(".file_upload"),
-    inp = wrapper.find("input"),
-    btn = wrapper.find(".button"),
-    lbl = wrapper.find("mark");
-
-  // Crutches for the :focus style:
-  inp.focus(function() {
-    wrapper.addClass("focus");
-  }).blur(function() {
-    wrapper.removeClass("focus");
-  });
-
-  var file_api = (window.File && window.FileReader && window.FileList && window.Blob) ? true : false;
-
-  inp.change(function() {
-    var file_name;
-    if (file_api && inp[0].files[0])
-      file_name = inp[0].files[0].name;
-    else
-      file_name = inp.val().replace("C:\\fakepath\\", '');
-
-    if (!file_name.length)
-      return;
-
-    if (lbl.is(":visible")) {
-      lbl.text(file_name);
-      btn.text("Выбрать");
-    } else
-      btn.text(file_name);
-  }).change();
-
-});
-$(window).resize(function() {
-  $(".file_upload input").triggerHandler("change");
 });
