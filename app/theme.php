@@ -55,6 +55,7 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC86W4J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <div class="container" style="margin: 50px auto">
+    <a href="login.php" style="color: #000; margin-right: 30px;text-transform: none;">lOGIN</a>
     <a href="index.php" style="color: #000; margin-right: 30px;text-transform: none;">hOME</a>
     <a href="theme.php" style="color: #000; margin-right: 30px;text-transform: none;">tHEME</a>
     <a href="modul.php" style="color: #000; margin-right: 30px;text-transform: none;">mODUL</a>
@@ -160,7 +161,7 @@
     <div class="theme__bottom modul__end">
       <a href="#" class="theme__button">
         <div><img src="img/theme-lock.png" alt="" class="img-fluid"></div>
-        <p>Модуль пока закрыта</p>
+        <p>Модуль пока закрыт</p>
       </a>
     </div>
   </div>
@@ -188,7 +189,7 @@
     <div class="theme__bottom modul__end">
       <a href="#" class="theme__button">
         <div><img src="img/theme-lock.png" alt="" class="img-fluid"></div>
-        <p>Модуль пока закрыта</p>
+        <p>Модуль пока закрыт</p>
       </a>
     </div>
   </div>

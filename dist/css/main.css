@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Speca start */
 html {
   display: -webkit-box;
@@ -26,6 +27,18 @@ body {
   background-color: #fff;
   position: relative;
   overflow-x: hidden; }
+  body.login {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
 
 a {
   color: #fff; }
@@ -112,6 +125,9 @@ input[type=checkbox]:checked:before {
 
 .pink {
   background-color: #b807af; }
+
+.grey {
+  background-color: #e0dfe5; }
 
 /* Colors end */
 /* Fonts start */
@@ -215,6 +231,104 @@ input[type=checkbox]:checked:before {
     max-width: 35px; }
 
 /* Header end */
+/* Login start */
+#login {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  background-color: #e92323;
+  background-image: url("../img/login.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center; }
+  #login img {
+    margin-top: 126px;
+    max-width: 565px;
+    display: block;
+    margin: 0 auto; }
+  #login .row.login {
+    margin: 125px 0 100px; }
+
+form.login-form {
+  text-shadow: 0 1px 1px #969696;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+  height: 325px;
+  margin: 0 auto;
+  text-align: left; }
+  form.login-form input[type="password"],
+  form.login-form input[type="text"] {
+    width: 100%;
+    border: 1px solid #c8cbd8;
+    height: 66px;
+    padding-left: 15px;
+    font-size: 20px;
+    color: #000;
+    text-shadow: 0 1px 1px rgba(150, 150, 150, 0.3);
+    background-color: #eceff7; }
+  form.login-form .input:first-child {
+    padding-bottom: 15px; }
+  form.login-form .input p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-transform: none; }
+  form.login-form .input a {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-bottom: 25px; }
+    form.login-form .input a:hover {
+      text-decoration: underline; }
+  form.login-form .tuc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    form.login-form .tuc label {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      font-size: 20px;
+      text-transform: none; }
+    form.login-form .tuc label {
+      -ms-flex-preferred-size: 40%;
+          flex-basis: 40%;
+      white-space: nowrap; }
+    form.login-form .tuc button {
+      -ms-flex-preferred-size: 43% !important;
+          flex-basis: 43% !important;
+      max-width: 43% !important;
+      width: 43% !important;
+      height: 70px !important;
+      line-height: 70px !important;
+      border: none !important; }
+
+.login {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+/* Login end */
 /* First start */
 #first {
   background: url("../img/main-bg.jpg") no-repeat center center/cover; }
@@ -463,7 +577,7 @@ h2 {
   background: none;
   color: #fff;
   height: 100%;
-  width: 270px; }
+  width: 280px; }
 
 .timeline {
   height: 100%; }
@@ -477,18 +591,49 @@ h2 {
     -ms-flex-preferred-size: 14%;
         flex-basis: 14%; }
   .timeline-end {
-    height: 450px;
+    height: 470px;
     border-radius: 1px;
     padding: 18px 25px; }
-    .timeline-end .theme__botton p {
-      margin: 0; }
+    .timeline-end .theme__botton {
+      margin-bottom: 15px; }
+      .timeline-end .theme__botton p {
+        margin: 0; }
     .timeline-end .theme__button {
       width: 100%;
       margin: 0; }
+      .timeline-end .theme__button.blocked {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: none;
+                box-shadow: none; }
+        .timeline-end .theme__button.blocked p {
+          color: rgba(0, 0, 0, 0.3); }
+          .timeline-end .theme__button.blocked p:after {
+            content: 'Модуль заблокирован'; }
+        .timeline-end .theme__button.blocked img {
+          opacity: 0; }
+      .timeline-end .theme__button.done p:after {
+        content: 'Посмотреть еще раз'; }
+      .timeline-end .theme__button.open p:after {
+        content: 'Перейти к изучению'; }
+      .timeline-end .theme__button.close p:after {
+        content: 'Модуль будет доступен 05.11.2017'; }
+      .timeline-end .theme__button.close img {
+        display: none; }
   .timeline-status {
-    height: 65px; }
+    height: 65px;
+    margin-bottom: 15px;
+    text-align: center; }
+    .timeline-status img {
+      max-height: 64px;
+      opacity: 0.25; }
+    .timeline-status.blocked img {
+      content: url("../img/theme-lock.png"); }
+    .timeline-status.done img {
+      content: url("../img/done.png"); }
+    .timeline-status.close img {
+      content: url("../img/theme-lock.png"); }
   .timeline-title {
-    margin-bottom: 60px; }
+    height: 165px; }
     .timeline-title h2 {
       margin: 0 0 5px !important;
       font-size: 36px;
@@ -503,6 +648,27 @@ h2 {
   .timeline-end.yellow {
     -webkit-box-shadow: 0 -52px 0 -4px rgba(255, 173, 1, 0.3);
             box-shadow: 0 -52px 0 -4px rgba(255, 173, 1, 0.3); }
+  .timeline-end.green {
+    -webkit-box-shadow: 0 -52px 0 -4px rgba(1, 160, 104, 0.3);
+            box-shadow: 0 -52px 0 -4px rgba(1, 160, 104, 0.3); }
+  .timeline-end.darkblue {
+    -webkit-box-shadow: 0 -52px 0 -4px rgba(19, 79, 191, 0.3);
+            box-shadow: 0 -52px 0 -4px rgba(19, 79, 191, 0.3); }
+  .timeline-end.orange {
+    -webkit-box-shadow: 0 -52px 0 -4px rgba(241, 82, 27, 0.3);
+            box-shadow: 0 -52px 0 -4px rgba(241, 82, 27, 0.3); }
+  .timeline-end.mint {
+    -webkit-box-shadow: 0 -52px 0 -4px rgba(31, 175, 182, 0.3);
+            box-shadow: 0 -52px 0 -4px rgba(31, 175, 182, 0.3); }
+  .timeline-end.purple {
+    -webkit-box-shadow: 0 -52px 0 -4px rgba(143, 65, 188, 0.3);
+            box-shadow: 0 -52px 0 -4px rgba(143, 65, 188, 0.3); }
+  .timeline-end.blue {
+    -webkit-box-shadow: 0 -52px 0 -4px rgba(37, 148, 218, 0.3);
+            box-shadow: 0 -52px 0 -4px rgba(37, 148, 218, 0.3); }
+  .timeline-pink {
+    -webkit-box-shadow: 0 -52px 0 -4px rgba(184, 7, 175, 0.3);
+            box-shadow: 0 -52px 0 -4px rgba(184, 7, 175, 0.3); }
 
 .frame ul li.active {
   outline: 2px solid #f1521b; }
@@ -1639,7 +1805,7 @@ h1 {
     .rate-small .rate__buttons a:hover:hover {
       text-decoration: underline; }
 
-.payments-btn, .offers__card-btn {
+.payments-btn, form.login-form .tuc button, .offers__card-btn {
   font-family: 'ProximaNova';
   font-weight: normal;
   text-transform: uppercase;
@@ -1653,24 +1819,24 @@ h1 {
   border: 1px solid #fff;
   -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.33);
           box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.33); }
-  .payments-btn:hover, .offers__card-btn:hover {
+  .payments-btn:hover, form.login-form .tuc button:hover, .offers__card-btn:hover {
     background-color: #fff; }
-  .payments-btn.blue:hover, .blue.offers__card-btn:hover {
+  .payments-btn.blue:hover, form.login-form .tuc button.blue:hover, .blue.offers__card-btn:hover {
     border-color: #2594da;
     color: #2594da; }
-  .payments-btn.green:hover, .green.offers__card-btn:hover {
+  .payments-btn.green:hover, form.login-form .tuc button.green:hover, .green.offers__card-btn:hover {
     border-color: #01a068;
     color: #01a068; }
-  .payments-btn.yellow:hover, .yellow.offers__card-btn:hover {
+  .payments-btn.yellow:hover, form.login-form .tuc button.yellow:hover, .yellow.offers__card-btn:hover {
     border-color: #ffad01;
     color: #ffad01; }
-  .payments-btn.orange:hover, .orange.offers__card-btn:hover {
+  .payments-btn.orange:hover, form.login-form .tuc button.orange:hover, .orange.offers__card-btn:hover {
     border-color: #f1521b;
     color: #f1521b; }
-  .payments-btn.pink:hover, .pink.offers__card-btn:hover {
+  .payments-btn.pink:hover, form.login-form .tuc button.pink:hover, .pink.offers__card-btn:hover {
     border-color: #b807af;
     color: #b807af; }
-  .payments-btn.purple:hover, .purple.offers__card-btn:hover {
+  .payments-btn.purple:hover, form.login-form .tuc button.purple:hover, .purple.offers__card-btn:hover {
     border-color: #8f41bc;
     color: #8f41bc; }
 
@@ -1774,7 +1940,7 @@ h1 {
     padding: 10px 0; }
   #payments-popup .rate__price {
     border-top: 1px solid rgba(255, 255, 255, 0.5); }
-  #payments-popup .payments-btn, #payments-popup .offers__card-btn {
+  #payments-popup .payments-btn, #payments-popup form.login-form .tuc button, form.login-form .tuc #payments-popup button, #payments-popup .offers__card-btn {
     width: 265px;
     max-width: 265px;
     height: 65px;

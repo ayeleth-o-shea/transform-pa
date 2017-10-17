@@ -24,6 +24,13 @@ body {
   background-color: #fff;
   position: relative;
   overflow-x: hidden;
+
+  &.login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 a {
@@ -139,7 +146,12 @@ $blue: #2594da;
 .pink {
   background-color: #b807af;
 }
-$pink: #b807af; /* Colors end */
+$pink: #b807af;
+
+.grey {
+  background-color: #e0dfe5;
+}
+$grey: #e0dfe5; /* Colors end */
 /* Fonts start */
 
 .proximaCondBlack {
@@ -245,6 +257,106 @@ $pink: #b807af; /* Colors end */
   }
 }
 /* Header end */
+/* Login start */
+#login {
+  flex-basis: 100%;
+  background-color: #e92323;
+  background-image: url('../img/login.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  img {
+    margin-top: 126px;
+    max-width: 565px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .row.login {
+    margin: 125px 0 100px;
+  }
+}
+
+form.login-form {
+  text-shadow: 0 1px 1px rgba(150, 150, 150, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  height: 325px;
+  margin: 0 auto;
+  text-align: left;
+
+  input[type="password"],
+  input[type="text"] {
+    width: 100%;
+    border: 1px solid #c8cbd8;
+    height: 66px;
+    padding-left: 15px;
+    font-size: 20px;
+    color: #000;
+    text-shadow: 0 1px 1px rgba(150, 150, 150, .3);
+    background-color: #eceff7;
+  }
+
+  .input {
+    &:first-child {
+      padding-bottom: 15px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 20px;
+      text-transform: none;
+    }
+
+    a {
+      display: block;
+      margin-top: 10px;
+      font-size: 14px;
+      margin-bottom: 25px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .tuc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 20px;
+      text-transform: none;
+    }
+
+    label {
+      flex-basis: 40%;
+      white-space: nowrap;
+    }
+
+    button {
+      flex-basis: 43% !important;
+      max-width: 43% !important;
+      width: 43% !important;
+      height: 70px !important;
+      line-height: 70px !important;
+      border: none !important;
+      @extend .payments-btn;
+    }
+  }
+}
+
+.login {
+  flex-direction: column;
+}
+/* Login end */
 /* First start */
 #first {
   background: url('../img/main-bg.jpg') no-repeat center center / cover;
@@ -494,7 +606,7 @@ h2 {
   background: none;
   color: #fff;
   height: 100%;
-  width: 270px;
+  width: 280px;
 }
 
 .timeline {
@@ -515,11 +627,13 @@ h2 {
   }
 
   &-end {
-    height: 450px;
+    height: 470px;
     border-radius: 1px;
     padding: 18px 25px;
 
     .theme__botton {
+      margin-bottom: 15px;
+
       p {
         margin: 0;
       }
@@ -528,15 +642,85 @@ h2 {
     .theme__button {
       width: 100%;
       margin: 0;
+
+      &.blocked {
+        border: 1px solid rgba(0, 0, 0, .3);
+        box-shadow: none;
+
+        p {
+          color: rgba(0, 0, 0, .3);
+
+          &:after {
+            content: 'Модуль заблокирован';
+          }
+        }
+
+        img {
+          opacity: 0;
+        }
+      }
+
+      &.done {
+        p {
+          &:after {
+            content: 'Посмотреть еще раз';
+          }
+        }
+      }
+
+      &.open {
+        p {
+          &:after {
+            content: 'Перейти к изучению';
+          }
+        }
+      }
+
+      &.close {
+        p {
+          &:after {
+            content: 'Модуль будет доступен 05.11.2017';
+          }
+        }
+
+        img {
+          display: none;
+        }
+      }
     }
   }
 
   &-status {
     height: 65px;
+    margin-bottom: 15px;
+    text-align: center;
+
+    img {
+      max-height: 64px;
+      opacity: 0.25;
+    }
+
+    &.blocked {
+      img {
+        content: url('../img/theme-lock.png');
+      }
+    }
+
+    &.done {
+      img {
+        content: url('../img/done.png');
+      }
+    }
+
+    &.close {
+      img {
+        content: url('../img/theme-lock.png');
+      }
+    }
   }
 
   &-title {
-    margin-bottom: 60px;
+    height: 165px;
 
     h2 {
       margin: 0 0 5px !important;
@@ -558,6 +742,34 @@ h2 {
 
   &-end.yellow {
     box-shadow: 0 -52px 0 -4px rgba(255,173,1,.3);
+  }
+
+  &-end.green {
+    box-shadow: 0 -52px 0 -4px rgba(1,160,104,.3);
+  }
+
+  &-end.darkblue {
+    box-shadow: 0 -52px 0 -4px rgba(19,79,191,.3);
+  }
+
+  &-end.orange {
+    box-shadow: 0 -52px 0 -4px rgba(241,82,27,.3);
+  }
+
+  &-end.mint {
+    box-shadow: 0 -52px 0 -4px rgba(31,175,182, .3);
+  }
+
+  &-end.purple {
+    box-shadow: 0 -52px 0 -4px rgba(143,65,188,.3);
+  }
+
+  &-end.blue {
+    box-shadow: 0 -52px 0 -4px rgba(37,148,218,.3);
+  }
+
+  &-pink {
+    box-shadow: 0 -52px 0 -4px rgba(184,7,175,.3);
   }
 }
 

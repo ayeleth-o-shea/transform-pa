@@ -57,6 +57,7 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC86W4J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <div class="container" style="margin: 50px auto">
+    <a href="login.php" style="color: #000; margin-right: 30px;text-transform: none;">lOGIN</a>
     <a href="index.php" style="color: #000; margin-right: 30px;text-transform: none;">hOME</a>
     <a href="theme.php" style="color: #000; margin-right: 30px;text-transform: none;">tHEME</a>
     <a href="modul.php" style="color: #000; margin-right: 30px;text-transform: none;">mODUL</a>
@@ -145,7 +146,7 @@
           <div class="wrap">
             <div class="frame" id="basic">
               <ul class="clearfix">
-                <li class="active">
+                <li class="">
                   <div class="timeline">
                     <div class="timeline-top yellow">
                       <div class="theme__top">
@@ -155,7 +156,9 @@
                       </div>
                     </div>
                     <div class="timeline-end yellow">
-                      <div class="timeline-status blocked"></div>
+                      <div class="timeline-status blocked">
+                        <img src="" alt="">
+                      </div>
                       <div class="timeline-title">
                         <span>модуль</span>
                         <h2>Построение отдела продаж</h2>
@@ -165,25 +168,346 @@
                         Михаил Колмаков<br>8 октября
                       </div>
                       <div class="theme__bottom">
-                        <a href="#" class="active theme__button">
-                          <p>Перейти к изучению</p>
+                        <a href="#" class="active theme__button blocked">
+                          <p></p>
                           <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
                         </a>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="blue">2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-                <li>6</li>
-                <li>7</li>
-                <li>8</li>
-                <li>9</li>
-                <li>10</li>
-                <li>11</li>
-                <li>12</li>
+                <li>
+
+                  <div class="timeline">
+                    <div class="timeline-top green">
+                      <div class="theme__top">
+                        <div class="theme__line"></div>
+                        <div>2 Неделя</div>
+                        <div class="theme__line"></div>
+                      </div>
+                    </div>
+                    <div class="timeline-end green">
+                      <div class="timeline-status done">
+                        <img src="" alt="">
+                      </div>
+                      <div class="timeline-title">
+                        <span>модуль</span>
+                        <h2>Дизайн и креативы: лендинги и полиграфия</h2>
+                        <span>Тема: Автоматизация</span>
+                      </div>
+                      <div class="timeline-speaker">
+                        Михаил Колмаков<br>15 октября
+                      </div>
+                      <div class="theme__bottom">
+                        <a href="#" class="active theme__button done">
+                          <p></p>
+                          <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                </li>
+                <li>
+                  <div class="timeline">
+                    <div class="timeline-top darkblue">
+                      <div class="theme__top">
+                        <div class="theme__line"></div>
+                        <div>3 Неделя</div>
+                        <div class="theme__line"></div>
+                      </div>
+                    </div>
+                    <div class="timeline-end darkblue">
+                      <div class="timeline-status open">
+                        <img src="" alt="">
+                      </div>
+                      <div class="timeline-title">
+                        <span>модуль</span>
+                        <h2>Дизайн и креативы: лендинги и полиграфия</h2>
+                        <span>Тема: Упаковка</span>
+                      </div>
+                      <div class="timeline-speaker">
+                        Андрей Сазонов<br>29 октября
+                      </div>
+                      <div class="theme__bottom">
+                        <a href="#" class="active theme__button open">
+                          <p></p>
+                          <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="active">
+                  <div class="timeline">
+                    <div class="timeline-top orange">
+                      <div class="theme__top">
+                        <div class="theme__line"></div>
+                        <div>4 Неделя</div>
+                        <div class="theme__line"></div>
+                      </div>
+                    </div>
+                    <div class="timeline-end orange">
+                      <div class="timeline-status open">
+                        <img src="" alt="">
+                      </div>
+                      <div class="timeline-title">
+                        <span>модуль</span>
+                        <h2>Выбор ниши</h2>
+                        <span>Тема: Стратегия и финансы</span>
+                      </div>
+                      <div class="timeline-speaker">
+                        Павел Кочкин<br>29 октября
+                      </div>
+                      <div class="theme__bottom">
+                        <a href="#" class="active theme__button open">
+                          <p></p>
+                          <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline">
+                    <div class="timeline-top grey">
+                      <div class="theme__top">
+                        <div class="theme__line"></div>
+                        <div>5 Неделя</div>
+                        <div class="theme__line"></div>
+                      </div>
+                    </div>
+                    <div class="timeline-end grey">
+                      <div class="timeline-status close">
+                        <img src="" alt="">
+                      </div>
+                      <div class="timeline-title">
+                        <span>модуль</span>
+                        <h2>Дизайн и креативы: лендинги и полиграфия</h2>
+                        <span>Тема: Упаковка</span>
+                      </div>
+                      <div class="timeline-speaker">
+                        Андрей Сазонов<br>22 октября
+                      </div>
+                      <div class="theme__bottom">
+                        <a href="#" class="active theme__button close">
+                          <p></p>
+                          <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline">
+                    <div class="timeline-top grey">
+                      <div class="theme__top">
+                        <div class="theme__line"></div>
+                        <div>6 Неделя</div>
+                        <div class="theme__line"></div>
+                      </div>
+                    </div>
+                    <div class="timeline-end grey">
+                      <div class="timeline-status close">
+                        <img src="" alt="">
+                      </div>
+                      <div class="timeline-title">
+                        <span>модуль</span>
+                        <h2>Построение отдела продаж</h2>
+                        <span>Тема: Продажи</span>
+                      </div>
+                      <div class="timeline-speaker">
+                        Михаил Колмаков<br>8 октября
+                      </div>
+                      <div class="theme__bottom">
+                        <a href="#" class="active theme__button close">
+                          <p></p>
+                          <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline">
+                    <div class="timeline-top grey">
+                      <div class="theme__top">
+                        <div class="theme__line"></div>
+                        <div>6 Неделя</div>
+                        <div class="theme__line"></div>
+                      </div>
+                    </div>
+                    <div class="timeline-end grey">
+                      <div class="timeline-status close">
+                        <img src="" alt="">
+                      </div>
+                      <div class="timeline-title">
+                        <span>модуль</span>
+                        <h2>Построение отдела продаж</h2>
+                        <span>Тема: Продажи</span>
+                      </div>
+                      <div class="timeline-speaker">
+                        Михаил Колмаков<br>8 октября
+                      </div>
+                      <div class="theme__bottom">
+                        <a href="#" class="active theme__button close">
+                          <p></p>
+                          <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline">
+                    <div class="timeline-top grey">
+                      <div class="theme__top">
+                        <div class="theme__line"></div>
+                        <div>6 Неделя</div>
+                        <div class="theme__line"></div>
+                      </div>
+                    </div>
+                    <div class="timeline-end grey">
+                      <div class="timeline-status close">
+                        <img src="" alt="">
+                      </div>
+                      <div class="timeline-title">
+                        <span>модуль</span>
+                        <h2>Построение отдела продаж</h2>
+                        <span>Тема: Продажи</span>
+                      </div>
+                      <div class="timeline-speaker">
+                        Михаил Колмаков<br>8 октября
+                      </div>
+                      <div class="theme__bottom">
+                        <a href="#" class="active theme__button close">
+                          <p></p>
+                          <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline">
+                    <div class="timeline-top grey">
+                      <div class="theme__top">
+                        <div class="theme__line"></div>
+                        <div>6 Неделя</div>
+                        <div class="theme__line"></div>
+                      </div>
+                    </div>
+                    <div class="timeline-end grey">
+                      <div class="timeline-status close">
+                        <img src="" alt="">
+                      </div>
+                      <div class="timeline-title">
+                        <span>модуль</span>
+                        <h2>Построение отдела продаж</h2>
+                        <span>Тема: Продажи</span>
+                      </div>
+                      <div class="timeline-speaker">
+                        Михаил Колмаков<br>8 октября
+                      </div>
+                      <div class="theme__bottom">
+                        <a href="#" class="active theme__button close">
+                          <p></p>
+                          <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline">
+                    <div class="timeline-top grey">
+                      <div class="theme__top">
+                        <div class="theme__line"></div>
+                        <div>6 Неделя</div>
+                        <div class="theme__line"></div>
+                      </div>
+                    </div>
+                    <div class="timeline-end grey">
+                      <div class="timeline-status close">
+                        <img src="" alt="">
+                      </div>
+                      <div class="timeline-title">
+                        <span>модуль</span>
+                        <h2>Построение отдела продаж</h2>
+                        <span>Тема: Продажи</span>
+                      </div>
+                      <div class="timeline-speaker">
+                        Михаил Колмаков<br>8 октября
+                      </div>
+                      <div class="theme__bottom">
+                        <a href="#" class="active theme__button close">
+                          <p></p>
+                          <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline">
+                    <div class="timeline-top grey">
+                      <div class="theme__top">
+                        <div class="theme__line"></div>
+                        <div>6 Неделя</div>
+                        <div class="theme__line"></div>
+                      </div>
+                    </div>
+                    <div class="timeline-end grey">
+                      <div class="timeline-status close">
+                        <img src="" alt="">
+                      </div>
+                      <div class="timeline-title">
+                        <span>модуль</span>
+                        <h2>Построение отдела продаж</h2>
+                        <span>Тема: Продажи</span>
+                      </div>
+                      <div class="timeline-speaker">
+                        Михаил Колмаков<br>8 октября
+                      </div>
+                      <div class="theme__bottom">
+                        <a href="#" class="active theme__button close">
+                          <p></p>
+                          <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline">
+                    <div class="timeline-top grey">
+                      <div class="theme__top">
+                        <div class="theme__line"></div>
+                        <div>6 Неделя</div>
+                        <div class="theme__line"></div>
+                      </div>
+                    </div>
+                    <div class="timeline-end grey">
+                      <div class="timeline-status close">
+                        <img src="" alt="">
+                      </div>
+                      <div class="timeline-title">
+                        <span>модуль</span>
+                        <h2>Построение отдела продаж</h2>
+                        <span>Тема: Продажи</span>
+                      </div>
+                      <div class="timeline-speaker">
+                        Михаил Колмаков<br>8 октября
+                      </div>
+                      <div class="theme__bottom">
+                        <a href="#" class="active theme__button close">
+                          <p></p>
+                          <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
                 <li>13</li>
                 <li>14</li>
                 <li>15</li>
@@ -234,11 +558,12 @@
                 <li>60</li>
                 <li>61</li>
               </ul>
+
             </div>
             <div class="scrollbar">
               <div class="handle">
                 <img src="img/arrow.png" alt="" style=" transform: scale(-1,1);">
-                  <img src="img/arrow.png" alt="">
+                <img src="img/arrow.png" alt="">
                 <div class="mousearea"></div>
               </div>
             </div>
