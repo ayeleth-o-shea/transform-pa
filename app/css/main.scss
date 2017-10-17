@@ -110,47 +110,47 @@ input[type=checkbox]:checked:before {
 /* Colors start */
 
 .darkblue {
-  background-color: #134fbf;
+  background-color: #134fbf !important;
 }
 $darkblue: #134fbf;
 
 .mint {
-  background-color: #1fafb6;
+  background-color: #1fafb6 !important;
 }
 $mint: #1fafb6;
 
 .yellow {
-  background-color: #ffad01;
+  background-color: #ffad01 !important;
 }
 $yellow: #ffad01;
 
 .green {
-  background-color: #01a068;
+  background-color: #01a068 !important;
 }
 $green: #01a068;
 
 .orange {
-  background-color: #f1521b;
+  background-color: #f1521b !important;
 }
 $orange: #f1521b;
 
 .purple {
-  background-color: #8f41bc;
+  background-color: #8f41bc !important;
 }
 $purple: #8f41bc;
 
 .blue {
-  background-color: #2594da;
+  background-color: #2594da !important;
 }
 $blue: #2594da;
 
 .pink {
-  background-color: #b807af;
+  background-color: #b807af !important;
 }
 $pink: #b807af;
 
 .grey {
-  background-color: #e0dfe5;
+  background-color: #e0dfe5 !important;
 }
 $grey: #e0dfe5; /* Colors end */
 /* Fonts start */
@@ -1098,7 +1098,7 @@ h1 {
       height: 80%;
       top: 10%;
       left: 0;
-      border-left: 1px solid #bcc1d3;
+      border-left: 1px solid rgba(255, 255, 255, .4);
       z-index: 1;
     }
 
@@ -1248,8 +1248,8 @@ h1 {
   flex-grow: 1;
   width: 100%;
   padding: 17px 0;
-  border-top: 1px solid #bcc1d3;
-  border-bottom: 1px solid #bcc1d3;
+  border-top: 1px solid rgba(255, 255, 255, .4);
+  border-bottom: 1px solid rgba(255, 255, 255, .4);
   color: #9699b1;
   margin-bottom: 20px;
 }
@@ -1277,7 +1277,7 @@ h1 {
     height: 100%;
     top: 0;
     left: 0;
-    border-left: 1px solid #bcc1d3;
+    border-left: 1px solid rgba(255, 255, 255, .4);
     z-index: 1;
   }
 }
@@ -1972,7 +1972,8 @@ h1 {
     margin-top: 35px;
   }
 
-  p {
+  li {
+    list-style-type: disc;
     font-size: 20px;
     text-transform: none;
     line-height: 1.5em;
@@ -1991,7 +1992,7 @@ h1 {
     height: 107%;
     top: -72px;
     right: -29px;
-    background-color: #bcc1d3;
+    background-color: rgba(255, 255, 255, .4);
   }
 
   .theme__line {
@@ -2017,8 +2018,8 @@ h1 {
   }
 
   .rate__price {
-    border-top: 1px solid #8fd7db;
-    border-bottom: 1px solid #8fd7db;
+    border-top: 1px solid rgba(255, 255, 255, .4);
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
     padding-top: 10px;
     padding-bottom: 5px;
     margin: 0 35px;
@@ -2037,9 +2038,14 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 320px;
     min-height: 320px;
     padding-bottom: 20px;
+    margin-bottom: 20px;
+
+    &:last-child,
+    &:nth-child(5) {
+      margin-bottom: 0;
+    }
   }
 
   .rate__middle {
@@ -2070,6 +2076,8 @@ h1 {
     align-items: center;
     width: 100%;
     padding: 50px 27px 0;
+    max-width: 330px;
+    margin: 0 auto;
 
     a:hover {
       &:hover {
@@ -2125,6 +2133,131 @@ h1 {
   &.purple:hover {
     border-color: $purple;
     color: $purple;
+  }
+}
+
+#payments.tariff {
+  .rate__choose {
+    margin: 15px 35px 0;
+    padding: 35px;
+    border: 1px solid rgba(255, 255, 255, .4);
+    text-transform: none;
+  }
+}
+
+#payments.advanced {
+  .rate-small .rate {
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+      flex-basis: 100%;
+    }
+  }
+
+  .rate-small .rate.blue {
+    display: none;
+  }
+}
+
+#payments.master {
+  .rate-small .rate {
+    &:nth-child(3) {
+      flex-basis: 100%;
+    }
+
+    &:nth-child(5) {
+      margin-bottom: 20px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+      flex-basis: 100%;
+    }
+  }
+
+  .rate-small .rate.blue,
+  .rate-small .rate.green {
+    display: none;
+  }
+}
+
+#payments.personal {
+  .rate-small .rate {
+    flex-basis: 100%;
+
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(5) {
+      margin-bottom: 20px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .rate-small .rate.blue,
+  .rate-small .rate.green,
+  .rate-small .rate.yellow {
+    display: none;
+  }
+}
+
+#payments.coaching {
+  .rate-small .rate {
+    flex-basis: 100%;
+
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(5) {
+      margin-bottom: 20px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .rate-small .rate.blue,
+  .rate-small .rate.green,
+  .rate-small .rate.orange,
+  .rate-small .rate.yellow {
+    display: none;
+  }
+}
+
+#payments.platinum {
+  .rate-small .rate {
+    flex-basis: 100%;
+
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(5) {
+      margin-bottom: 20px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .rate-small .rate.blue,
+  .rate-small .rate.green,
+  .rate-small .rate.orange,
+  .rate-small .rate.pink,
+  .rate-small .rate.yellow {
+    display: none;
+  }
+}
+
+#payments.strategy {
+  .rate-big {
+    flex-basis: 100%;
+  }
+
+  .rate-small {
+    display: none;
   }
 }
 /* Payments end */
@@ -2285,7 +2418,7 @@ h1 {
   justify-content: space-between;
 
   &__left {
-    flex-basis: 37%;
+    flex-basis: 38%;
     position: relative;
 
     &::after {
@@ -2295,7 +2428,7 @@ h1 {
       height: 112%;
       top: -72px;
       right: -29px;
-      background-color: #bcc1d3;
+      background-color: rgba(255, 255, 255, .4);
     }
   }
 
@@ -2352,18 +2485,18 @@ h1 {
     color: $green;
     font-weight: bold;
     padding: 27px 0;
-    border-top: 1px solid #bcc1d3;
-    border-bottom: 1px solid #bcc1d3;
+    border-top: 1px solid rgba(255, 255, 255, .4);
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
     margin: 33px 0 15px;
   }
 
   &__dates {
     display: flex;
     flex-grow: 1;
-    color: #bcc1d3;
+    color: rgba(255, 255, 255, .4);
     font-size: 14px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #bcc1d3;
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
 
     div {
       flex-basis: 50%;
@@ -2378,12 +2511,12 @@ h1 {
 
   &__date-next {
     padding-left: 34px !important;
-    border-left: 1px solid #bcc1d3;
+    border-left: 1px solid rgba(255, 255, 255, .4);
   }
 
   &__end,
   &__end a {
-    color: #bcc1d3;
+    color: rgba(255, 255, 255, .4);
     font-size: 14px;
     margin-top: 25px;
   }
@@ -2405,7 +2538,7 @@ h1 {
   justify-content: space-between;
   flex-grow: 1;
   align-items: center;
-  border-bottom: 1px solid #bcc1d3;
+  border-bottom: 1px solid rgba(255, 255, 255, .4);
   color: #000;
 
   &.active {
@@ -2415,6 +2548,10 @@ h1 {
       max-height: 14px;
       max-width: 15px;
     }
+  }
+
+  &.tarif {
+    background-color: rgba(1,160,104,.2);
   }
 }
 

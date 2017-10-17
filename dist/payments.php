@@ -127,10 +127,10 @@
             <span>/ месяц</span>
           </div>
           <div class="rate__subtitle">О тарифе:</div>
-          <p class="rate__content">52&nbsp;учебных модуля по&nbsp;всем направлениям развития бизнеса с&nbsp;обязательными домашними заданиями</p>
-          <p class="rate__content">Проверка выполненных заданий тьюторами программы</p>
-          <p class="rate__content">Доступ к&nbsp;базе знаний марафона с&nbsp;вебинарами и&nbsp;мастер-классами экспертов в&nbsp;различных отраслях</p>
-          <p class="rate__content">Участие в&nbsp;рейтинге марафона и&nbsp;возможность выиграть главные или дополнительные призы проекта</p>
+          <li class="rate__content">52&nbsp;учебных модуля по&nbsp;всем направлениям развития бизнеса с&nbsp;обязательными домашними заданиями</li>
+          <li class="rate__content">Проверка выполненных заданий тьюторами программы</li>
+          <li class="rate__content">Доступ к&nbsp;базе знаний марафона с&nbsp;вебинарами и&nbsp;мастер-классами экспертов в&nbsp;различных отраслях</li>
+          <li class="rate__content">Участие в&nbsp;рейтинге марафона и&nbsp;возможность выиграть главные или дополнительные призы проекта</li>
         </div>
         <div class="rate-small">
           <div class="rate blue">
@@ -184,7 +184,7 @@
               <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
             </ul>
           </div>
-          <div class="rate yellow" style="margin: 30px 0">
+          <div class="rate yellow" >
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -211,7 +211,7 @@
               <li class="rate__content">Персональный консультант по всем вопросам изучения и реализации заданий учебных модулей</li>
             </ul>
           </div>
-          <div class="rate orange" style="margin: 30px 0">
+          <div class="rate orange" >
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>

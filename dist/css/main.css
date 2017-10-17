@@ -103,31 +103,31 @@ input[type=checkbox]:checked:before {
 /* Speca end */
 /* Colors start */
 .darkblue {
-  background-color: #134fbf; }
+  background-color: #134fbf !important; }
 
 .mint {
-  background-color: #1fafb6; }
+  background-color: #1fafb6 !important; }
 
 .yellow {
-  background-color: #ffad01; }
+  background-color: #ffad01 !important; }
 
 .green {
-  background-color: #01a068; }
+  background-color: #01a068 !important; }
 
 .orange {
-  background-color: #f1521b; }
+  background-color: #f1521b !important; }
 
 .purple {
-  background-color: #8f41bc; }
+  background-color: #8f41bc !important; }
 
 .blue {
-  background-color: #2594da; }
+  background-color: #2594da !important; }
 
 .pink {
-  background-color: #b807af; }
+  background-color: #b807af !important; }
 
 .grey {
-  background-color: #e0dfe5; }
+  background-color: #e0dfe5 !important; }
 
 /* Colors end */
 /* Fonts start */
@@ -973,7 +973,7 @@ h1 {
       height: 80%;
       top: 10%;
       left: 0;
-      border-left: 1px solid #bcc1d3;
+      border-left: 1px solid rgba(255, 255, 255, 0.4);
       z-index: 1; }
     .modul__end .theme__button {
       z-index: 10;
@@ -1113,8 +1113,8 @@ h1 {
           flex-grow: 1;
   width: 100%;
   padding: 17px 0;
-  border-top: 1px solid #bcc1d3;
-  border-bottom: 1px solid #bcc1d3;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   color: #9699b1;
   margin-bottom: 20px; }
 
@@ -1154,7 +1154,7 @@ h1 {
     height: 100%;
     top: 0;
     left: 0;
-    border-left: 1px solid #bcc1d3;
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
     z-index: 1; }
 
 .test-progress {
@@ -1793,7 +1793,8 @@ h1 {
     font-size: 15px;
     margin-bottom: 7px;
     margin-top: 35px; }
-  .rate p {
+  .rate li {
+    list-style-type: disc;
     font-size: 20px;
     text-transform: none;
     line-height: 1.5em;
@@ -1810,7 +1811,7 @@ h1 {
     height: 107%;
     top: -72px;
     right: -29px;
-    background-color: #bcc1d3; }
+    background-color: rgba(255, 255, 255, 0.4); }
   .rate-big .theme__line:first-child {
     max-width: 40px; }
   .rate-big .theme__line:last-child {
@@ -1825,8 +1826,8 @@ h1 {
     margin-top: 45px;
     margin-bottom: 10px; }
   .rate-big .rate__price {
-    border-top: 1px solid #8fd7db;
-    border-bottom: 1px solid #8fd7db;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
     padding-top: 10px;
     padding-bottom: 5px;
     margin: 0 35px; }
@@ -1858,9 +1859,11 @@ h1 {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    height: 320px;
     min-height: 320px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    margin-bottom: 20px; }
+    .rate-small .rate:last-child, .rate-small .rate:nth-child(5) {
+      margin-bottom: 0; }
   .rate-small .rate__middle {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
@@ -1901,7 +1904,9 @@ h1 {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    padding: 50px 27px 0; }
+    padding: 50px 27px 0;
+    max-width: 330px;
+    margin: 0 auto; }
     .rate-small .rate__buttons a:hover:hover {
       text-decoration: underline; }
 
@@ -1939,6 +1944,87 @@ h1 {
   .payments-btn.purple:hover, form.login-form .tuc button.purple:hover, .purple.offers__card-btn:hover {
     border-color: #8f41bc;
     color: #8f41bc; }
+
+#payments.tariff .rate__choose {
+  margin: 15px 35px 0;
+  padding: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  text-transform: none; }
+
+#payments.advanced .rate-small .rate {
+  margin-bottom: 20px; }
+  #payments.advanced .rate-small .rate:last-child {
+    margin-bottom: 0;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%; }
+
+#payments.advanced .rate-small .rate.blue {
+  display: none; }
+
+#payments.master .rate-small .rate:nth-child(3) {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%; }
+
+#payments.master .rate-small .rate:nth-child(5) {
+  margin-bottom: 20px; }
+
+#payments.master .rate-small .rate:last-child {
+  margin-bottom: 0;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%; }
+
+#payments.master .rate-small .rate.blue,
+#payments.master .rate-small .rate.green {
+  display: none; }
+
+#payments.personal .rate-small .rate {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%; }
+  #payments.personal .rate-small .rate:nth-child(3), #payments.personal .rate-small .rate:nth-child(4), #payments.personal .rate-small .rate:nth-child(5) {
+    margin-bottom: 20px; }
+  #payments.personal .rate-small .rate:last-child {
+    margin-bottom: 0; }
+
+#payments.personal .rate-small .rate.blue,
+#payments.personal .rate-small .rate.green,
+#payments.personal .rate-small .rate.yellow {
+  display: none; }
+
+#payments.coaching .rate-small .rate {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%; }
+  #payments.coaching .rate-small .rate:nth-child(3), #payments.coaching .rate-small .rate:nth-child(4), #payments.coaching .rate-small .rate:nth-child(5) {
+    margin-bottom: 20px; }
+  #payments.coaching .rate-small .rate:last-child {
+    margin-bottom: 0; }
+
+#payments.coaching .rate-small .rate.blue,
+#payments.coaching .rate-small .rate.green,
+#payments.coaching .rate-small .rate.orange,
+#payments.coaching .rate-small .rate.yellow {
+  display: none; }
+
+#payments.platinum .rate-small .rate {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%; }
+  #payments.platinum .rate-small .rate:nth-child(3), #payments.platinum .rate-small .rate:nth-child(4), #payments.platinum .rate-small .rate:nth-child(5) {
+    margin-bottom: 20px; }
+  #payments.platinum .rate-small .rate:last-child {
+    margin-bottom: 0; }
+
+#payments.platinum .rate-small .rate.blue,
+#payments.platinum .rate-small .rate.green,
+#payments.platinum .rate-small .rate.orange,
+#payments.platinum .rate-small .rate.pink,
+#payments.platinum .rate-small .rate.yellow {
+  display: none; }
+
+#payments.strategy .rate-big {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%; }
+
+#payments.strategy .rate-small {
+  display: none; }
 
 /* Payments end */
 /* changeMail-popup start */
@@ -2077,8 +2163,8 @@ h1 {
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .offers__left {
-    -ms-flex-preferred-size: 37%;
-        flex-basis: 37%;
+    -ms-flex-preferred-size: 38%;
+        flex-basis: 38%;
     position: relative; }
     .offers__left::after {
       position: absolute;
@@ -2087,7 +2173,7 @@ h1 {
       height: 112%;
       top: -72px;
       right: -29px;
-      background-color: #bcc1d3; }
+      background-color: rgba(255, 255, 255, 0.4); }
   .offers__card {
     background-color: #fff;
     color: #000;
@@ -2143,8 +2229,8 @@ h1 {
     color: #01a068;
     font-weight: bold;
     padding: 27px 0;
-    border-top: 1px solid #bcc1d3;
-    border-bottom: 1px solid #bcc1d3;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
     margin: 33px 0 15px; }
   .offers__dates {
     display: -webkit-box;
@@ -2153,10 +2239,10 @@ h1 {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
-    color: #bcc1d3;
+    color: rgba(255, 255, 255, 0.4);
     font-size: 14px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #bcc1d3; }
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
     .offers__dates div {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
@@ -2166,10 +2252,10 @@ h1 {
       font-size: 20px; }
   .offers__date-next {
     padding-left: 34px !important;
-    border-left: 1px solid #bcc1d3; }
+    border-left: 1px solid rgba(255, 255, 255, 0.4); }
   .offers__end,
   .offers__end a {
-    color: #bcc1d3;
+    color: rgba(255, 255, 255, 0.4);
     font-size: 14px;
     margin-top: 25px; }
   .offers__end a:hover {
@@ -2200,13 +2286,15 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid #bcc1d3;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   color: #000; }
   .chart__item.active {
     color: #9699b1; }
     .chart__item.active img {
       max-height: 14px;
       max-width: 15px; }
+  .chart__item.tarif {
+    background-color: rgba(1, 160, 104, 0.2); }
 
 .chart__title {
   color: #9699b1;
