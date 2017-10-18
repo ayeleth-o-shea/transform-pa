@@ -109,8 +109,8 @@
         <h2>Модули темы обучения</h2>
       </div>
       <div class="row">
-        <div class="modul active">
-          <div class="modul__number">
+        <div class="modul active darkblue">
+          <div class="modul__number darkblue">
             <p>1</p>
             <div class="theme__top">
               <div class="theme__line"></div>
