@@ -1743,7 +1743,34 @@ h1 {
     #payments h2 span {
       font-family: 'ProximaNova';
       font-size: 14px;
-      text-transform: uppercase; }
+      text-transform: uhppercase; }
+  #payments #sgf {
+    background: url("../img/sgf-payments-bg.jpg") no-repeat center center/cover;
+    margin-top: 33px;
+    border-radius: 3px; }
+    #payments #sgf .row {
+      padding-left: 33px;
+      max-width: 80%; }
+      #payments #sgf .row:last-child {
+        padding-left: 110px; }
+    #payments #sgf img {
+      max-width: 513px; }
+  #payments .sgf-title {
+    font-size: 36px;
+    line-height: 36px;
+    padding: 32px 0 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    #payments .sgf-title img {
+      margin-left: 6px; }
+  #payments .sgf-button, #payments .profile-form__group button[type^="submit"], .profile-form__group #payments button[type^="submit"] {
+    background-color: #2f2e56;
+    color: #f5464d;
+    border: 1px solid #ed1c24; }
 
 .rates-titles {
   display: -webkit-box;
@@ -2043,6 +2070,22 @@ h1 {
       flex-basis: 100%; }
   #payments.strategy .rate-big:after {
     display: none; }
+
+#payments.strategy .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+#payments.strategy .rate__choose,
+#payments.strategy .rate__price,
+#payments.strategy ul {
+  max-width: 40%; }
+
+#payments.strategy ul li {
+  margin-bottom: 20px;
+  list-style-type: disc !important; }
 
 #payments.strategy .rate-small {
   display: none; }

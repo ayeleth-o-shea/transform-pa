@@ -287,7 +287,7 @@
               <a href="#payments-popup" class="fancybox">Подробнее</a>
               <button type="button" class="purple payments-btn">Выбрать тариф</button>
             </div>
-            <ul style="display: none">
+            <ul style="display:none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
               <li class="rate__content">Домашние задания</li>
               <li class="rate__content">Персональный куратор</li>
@@ -315,6 +315,22 @@
           </div>
         </div>
       </div>
+      <section id="sgf">
+
+          <div class="row">
+            <img src="img/payments-sgf.png" alt="" class="img-fluid">
+          </div>
+          <div class="row">
+            <div class="sgf-title">
+              Специальное предложение<br>
+              для участников бизнес- <br>
+              марафона «Трансформация»
+              <img src="./img/sgf-discount.png" alt="">
+            </div>
+            <a href="http://synergyglobal.ru/" target="_blank" class="sgf-button">Подробнее</a>
+          </div>
+
+      </section>
     </div>
   </section>
   <section id="chart">
@@ -435,19 +451,6 @@
             <div class="chart__value">1000 руб.</div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section id="sgf">
-    <div class="container">
-      <div class="row">
-        <img src="img/sgf-logo.png" alt="" class="img-fluid">
-      </div>
-      <div class="row">
-        <div class="sgf-title">
-          Глобальное бизнес-событие года
-        </div>
-        <a href="http://synergyglobal.ru/" target="_blank" class="sgf-button">Узнать подробнее</a>
       </div>
     </div>
   </section>
