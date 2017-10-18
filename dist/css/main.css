@@ -872,12 +872,28 @@ h1 {
     color: #fff; }
     .modul.active .modul__title h2 {
       color: #fff; }
-    .modul.active .modul__number {
-      background-color: #1143a2; }
-      .modul.active .modul__number .theme__top {
-        color: #fff; }
-      .modul.active .modul__number .theme__line {
-        background-color: #fff; }
+    .modul.active .modul__number.darkblue {
+      background-color: #0f3f99 !important; }
+    .modul.active .modul__number.mint {
+      background-color: #198c92 !important; }
+    .modul.active .modul__number.yellow {
+      background-color: #cc8a01 !important; }
+    .modul.active .modul__number.green {
+      background-color: #018053 !important; }
+    .modul.active .modul__number.orange {
+      background-color: #c14216 !important; }
+    .modul.active .modul__number.purple {
+      background-color: #723496 !important; }
+    .modul.active .modul__number.blue {
+      background-color: #1e76ae !important; }
+    .modul.active .modul__number.pink {
+      background-color: #93068c !important; }
+    .modul.active .modul__number.grey {
+      background-color: #b3b2b7 !important; }
+    .modul.active .modul__number .theme__top {
+      color: #fff; }
+    .modul.active .modul__number .theme__line {
+      background-color: #fff; }
     .modul.active .modul__value {
       opacity: 1; }
   .modul__number {

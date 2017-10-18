@@ -996,7 +996,41 @@ h1 {
     color: #fff;
 
     .modul__number {
-      background-color: #1143a2;
+      &.darkblue {
+        background-color: #134fbf * 0.8 !important;
+      }
+
+      &.mint {
+        background-color: #1fafb6 * 0.8 !important;
+      }
+
+      &.yellow {
+        background-color: #ffad01 * 0.8 !important;
+      }
+
+      &.green {
+        background-color: #01a068 * 0.8 !important;
+      }
+
+      &.orange {
+        background-color: #f1521b * 0.8 !important;
+      }
+
+      &.purple {
+        background-color: #8f41bc * 0.8 !important;
+      }
+
+      &.blue {
+        background-color: #2594da * 0.8 !important;
+      }
+
+      &.pink {
+        background-color: #b807af * 0.8 !important;
+      }
+
+      &.grey {
+        background-color: #e0dfe5 * 0.8 !important;
+      }
 
       & .theme__top {
         color: #fff;
