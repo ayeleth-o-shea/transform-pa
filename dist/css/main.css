@@ -1827,7 +1827,7 @@ h1 {
     height: 107%;
     top: -72px;
     right: -29px;
-    background-color: rgba(255, 255, 255, 0.4); }
+    background-color: #bcc1d3; }
   .rate-big .theme__line:first-child {
     max-width: 40px; }
   .rate-big .theme__line:last-child {
@@ -2038,6 +2038,8 @@ h1 {
 #payments.strategy .rate-big {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%; }
+  #payments.strategy .rate-big:after {
+    display: none; }
 
 #payments.strategy .rate-small {
   display: none; }
@@ -2141,7 +2143,7 @@ h1 {
     line-height: 1.5em;
     padding: 10px 0; }
   #payments-popup .rate__price {
-    border-top: 1px solid rgba(255, 255, 255, 0.5); }
+    border-top: 1px solid #bcc1d3; }
   #payments-popup .payments-btn, #payments-popup form.login-form .tuc button, form.login-form .tuc #payments-popup button, #payments-popup .offers__card-btn {
     width: 265px;
     max-width: 265px;
@@ -2189,7 +2191,7 @@ h1 {
       height: 112%;
       top: -72px;
       right: -29px;
-      background-color: rgba(255, 255, 255, 0.4); }
+      background-color: #bcc1d3; }
   .offers__card {
     background-color: #fff;
     color: #000;
@@ -2245,8 +2247,8 @@ h1 {
     color: #01a068;
     font-weight: bold;
     padding: 27px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.4);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    border-top: 1px solid #bcc1d3;
+    border-bottom: 1px solid #bcc1d3;
     margin: 33px 0 15px; }
   .offers__dates {
     display: -webkit-box;
@@ -2255,10 +2257,10 @@ h1 {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
-    color: rgba(255, 255, 255, 0.4);
+    color: #bcc1d3;
     font-size: 14px;
     padding-bottom: 15px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    border-bottom: 1px solid #bcc1d3; }
     .offers__dates div {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
@@ -2268,10 +2270,10 @@ h1 {
       font-size: 20px; }
   .offers__date-next {
     padding-left: 34px !important;
-    border-left: 1px solid rgba(255, 255, 255, 0.4); }
+    border-left: 1px solid #bcc1d3; }
   .offers__end,
   .offers__end a {
-    color: rgba(255, 255, 255, 0.4);
+    color: #bcc1d3;
     font-size: 14px;
     margin-top: 25px; }
   .offers__end a:hover {
@@ -2302,7 +2304,7 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid #bcc1d3;
   color: #000; }
   .chart__item.active {
     color: #9699b1; }

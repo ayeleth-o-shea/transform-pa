@@ -2026,7 +2026,7 @@ h1 {
     height: 107%;
     top: -72px;
     right: -29px;
-    background-color: rgba(255, 255, 255, .4);
+    background-color: #bcc1d3;
   }
 
   .theme__line {
@@ -2288,6 +2288,10 @@ h1 {
 #payments.strategy {
   .rate-big {
     flex-basis: 100%;
+
+    &:after {
+      display: none;
+    }
   }
 
   .rate-small {
@@ -2413,7 +2417,7 @@ h1 {
   }
 
   .rate__price {
-    border-top: 1px solid rgba(255,255,255,.5);
+    border-top: 1px solid #bcc1d3;
   }
 
   .payments-btn {
@@ -2462,7 +2466,7 @@ h1 {
       height: 112%;
       top: -72px;
       right: -29px;
-      background-color: rgba(255, 255, 255, .4);
+      background-color: #bcc1d3;
     }
   }
 
@@ -2519,18 +2523,18 @@ h1 {
     color: $green;
     font-weight: bold;
     padding: 27px 0;
-    border-top: 1px solid rgba(255, 255, 255, .4);
-    border-bottom: 1px solid rgba(255, 255, 255, .4);
+    border-top: 1px solid #bcc1d3;
+    border-bottom: 1px solid #bcc1d3;
     margin: 33px 0 15px;
   }
 
   &__dates {
     display: flex;
     flex-grow: 1;
-    color: rgba(255, 255, 255, .4);
+    color: #bcc1d3;
     font-size: 14px;
     padding-bottom: 15px;
-    border-bottom: 1px solid rgba(255, 255, 255, .4);
+    border-bottom: 1px solid #bcc1d3;
 
     div {
       flex-basis: 50%;
@@ -2545,12 +2549,12 @@ h1 {
 
   &__date-next {
     padding-left: 34px !important;
-    border-left: 1px solid rgba(255, 255, 255, .4);
+    border-left: 1px solid #bcc1d3;
   }
 
   &__end,
   &__end a {
-    color: rgba(255, 255, 255, .4);
+    color: #bcc1d3;
     font-size: 14px;
     margin-top: 25px;
   }
@@ -2572,7 +2576,7 @@ h1 {
   justify-content: space-between;
   flex-grow: 1;
   align-items: center;
-  border-bottom: 1px solid rgba(255, 255, 255, .4);
+  border-bottom: 1px solid #bcc1d3;
   color: #000;
 
   &.active {
