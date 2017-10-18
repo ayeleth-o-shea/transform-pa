@@ -63,6 +63,7 @@
     <a href="modul.php" style="color: #000; margin-right: 30px;text-transform: none;">mODUL</a>
     <a href="profile.php" style="color: #000; margin-right: 30px;text-transform: none;">pROFILE</a>
     <a href="payments.php" style="color: #000; margin-right: 30px;text-transform: none;">pAYMENTS</a>
+    <a href="payments-upgrade.php" style="color: #000; margin-right: 30px;text-transform: none;">pAYMENTS-uPGRADE</a>
   </div>
   <header>
     <div class="container">
@@ -187,7 +188,7 @@
               <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
             </ul>
           </div>
-          <div class="rate yellow" >
+          <div class="rate yellow">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -214,7 +215,7 @@
               <li class="rate__content">Персональный консультант по всем вопросам изучения и реализации заданий учебных модулей</li>
             </ul>
           </div>
-          <div class="rate orange" >
+          <div class="rate orange">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -403,7 +404,7 @@
               <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
             </ul>
           </div>
-          <div class="rate yellow" >
+          <div class="rate yellow">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -430,7 +431,7 @@
               <li class="rate__content">Персональный консультант по всем вопросам изучения и реализации заданий учебных модулей</li>
             </ul>
           </div>
-          <div class="rate orange" >
+          <div class="rate orange">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -619,7 +620,7 @@
               <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
             </ul>
           </div>
-          <div class="rate yellow" >
+          <div class="rate yellow">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -646,7 +647,7 @@
               <li class="rate__content">Персональный консультант по всем вопросам изучения и реализации заданий учебных модулей</li>
             </ul>
           </div>
-          <div class="rate orange" >
+          <div class="rate orange">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -835,7 +836,7 @@
               <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
             </ul>
           </div>
-          <div class="rate yellow" >
+          <div class="rate yellow">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -862,7 +863,7 @@
               <li class="rate__content">Персональный консультант по всем вопросам изучения и реализации заданий учебных модулей</li>
             </ul>
           </div>
-          <div class="rate orange" >
+          <div class="rate orange">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -1051,7 +1052,7 @@
               <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
             </ul>
           </div>
-          <div class="rate yellow" >
+          <div class="rate yellow">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -1078,7 +1079,7 @@
               <li class="rate__content">Персональный консультант по всем вопросам изучения и реализации заданий учебных модулей</li>
             </ul>
           </div>
-          <div class="rate orange" >
+          <div class="rate orange">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -1187,7 +1188,7 @@
   <section id="payments" class="tariff strategy">
     <div class="container">
       <div class="row rates-titles">
-        <h2 style="margin-bottom: 20px">Ваш тариф</h2>    
+        <h2 style="margin-bottom: 20px">Ваш тариф</h2>
       </div>
       <div class="row rates">
         <div class="rate rate-big purple">
@@ -1263,7 +1264,7 @@
               <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
             </ul>
           </div>
-          <div class="rate yellow" >
+          <div class="rate yellow">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -1290,7 +1291,7 @@
               <li class="rate__content">Персональный консультант по всем вопросам изучения и реализации заданий учебных модулей</li>
             </ul>
           </div>
-          <div class="rate orange" >
+          <div class="rate orange">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>

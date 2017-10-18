@@ -61,6 +61,7 @@
     <a href="modul.php" style="color: #000; margin-right: 30px;text-transform: none;">mODUL</a>
     <a href="profile.php" style="color: #000; margin-right: 30px;text-transform: none;">pROFILE</a>
     <a href="payments.php" style="color: #000; margin-right: 30px;text-transform: none;">pAYMENTS</a>
+    <a href="payments-upgrade.php" style="color: #000; margin-right: 30px;text-transform: none;">pAYMENTS-uPGRADE</a>
   </div>
   <header>
     <div class="container">
