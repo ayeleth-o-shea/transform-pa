@@ -161,7 +161,7 @@
           </div>
           <div class="test-time">
             <img src="img/clock.png" alt="">
-            <div class="test-clock">01:58:<span>45</span></div>
+            <div class="test-clock">00:00:00</div>
           </div>
         </div>
       </div>
