@@ -189,7 +189,7 @@
                     </div>
                     <div class="timeline-end green">
                       <div class="timeline-status done">
-                        <img src="" alt="">
+
                       </div>
                       <div class="timeline-title">
                         <span>модуль</span>
@@ -220,7 +220,7 @@
                     </div>
                     <div class="timeline-end darkblue">
                       <div class="timeline-status open">
-                        <img src="" alt="">
+
                       </div>
                       <div class="timeline-title">
                         <span>модуль</span>
@@ -250,7 +250,7 @@
                     </div>
                     <div class="timeline-end orange">
                       <div class="timeline-status open">
-                        <img src="" alt="">
+
                       </div>
                       <div class="timeline-title">
                         <span>модуль</span>
@@ -280,7 +280,7 @@
                     </div>
                     <div class="timeline-end grey">
                       <div class="timeline-status close">
-                        <img src="" alt="">
+
                       </div>
                       <div class="timeline-title">
                         <span>модуль</span>
@@ -310,7 +310,7 @@
                     </div>
                     <div class="timeline-end grey">
                       <div class="timeline-status close">
-                        <img src="" alt="">
+
                       </div>
                       <div class="timeline-title">
                         <span>модуль</span>
@@ -340,7 +340,7 @@
                     </div>
                     <div class="timeline-end grey">
                       <div class="timeline-status close">
-                        <img src="" alt="">
+
                       </div>
                       <div class="timeline-title">
                         <span>модуль</span>
@@ -370,7 +370,7 @@
                     </div>
                     <div class="timeline-end grey">
                       <div class="timeline-status close">
-                        <img src="" alt="">
+
                       </div>
                       <div class="timeline-title">
                         <span>модуль</span>
@@ -400,7 +400,7 @@
                     </div>
                     <div class="timeline-end grey">
                       <div class="timeline-status close">
-                        <img src="" alt="">
+
                       </div>
                       <div class="timeline-title">
                         <span>модуль</span>
@@ -430,7 +430,7 @@
                     </div>
                     <div class="timeline-end grey">
                       <div class="timeline-status close">
-                        <img src="" alt="">
+
                       </div>
                       <div class="timeline-title">
                         <span>модуль</span>
@@ -460,7 +460,7 @@
                     </div>
                     <div class="timeline-end grey">
                       <div class="timeline-status close">
-                        <img src="" alt="">
+
                       </div>
                       <div class="timeline-title">
                         <span>модуль</span>
@@ -490,7 +490,7 @@
                     </div>
                     <div class="timeline-end grey">
                       <div class="timeline-status close">
-                        <img src="" alt="">
+
                       </div>
                       <div class="timeline-title">
                         <span>модуль</span>

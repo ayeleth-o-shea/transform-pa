@@ -623,15 +623,14 @@ h2 {
     height: 65px;
     margin-bottom: 15px;
     text-align: center; }
-    .timeline-status img {
-      max-height: 64px;
+    .timeline-status:after {
       opacity: 0.25; }
-    .timeline-status.blocked img {
-      content: url("../img/theme-lock.png"); }
-    .timeline-status.done img {
+    .timeline-status.blocked:after {
+      content: url("../img/theme-lock-little.png"); }
+    .timeline-status.done:after {
       content: url("../img/done.png"); }
-    .timeline-status.close img {
-      content: url("../img/theme-lock.png"); }
+    .timeline-status.close:after {
+      content: url("../img/theme-lock-little.png"); }
   .timeline-title {
     height: 165px; }
     .timeline-title h2 {
@@ -890,10 +889,8 @@ h1 {
       background-color: #93068c !important; }
     .modul.active .modul__number.grey {
       background-color: #b3b2b7 !important; }
-    .modul.active .modul__number .theme__top {
+    .modul.active .theme__top {
       color: #fff; }
-    .modul.active .modul__number .theme__line {
-      background-color: #fff; }
     .modul.active .modul__value {
       opacity: 1; }
   .modul__number {
@@ -922,8 +919,33 @@ h1 {
       width: 100%;
       -webkit-box-flex: 1;
           -ms-flex-positive: 1;
-              flex-grow: 1;
-      color: #134fbf; }
+              flex-grow: 1; }
+      .modul__number .theme__top.darkblue {
+        color: #134fbf !important;
+        background: transparent !important; }
+      .modul__number .theme__top.mint {
+        color: #1fafb6 !important;
+        background: transparent !important; }
+      .modul__number .theme__top.yellow {
+        color: #ffad01 !important;
+        background: transparent !important; }
+      .modul__number .theme__top.green {
+        color: #01a068 !important;
+        background: transparent !important; }
+      .modul__number .theme__top.orange {
+        color: #f1521b !important;
+        background: transparent !important; }
+      .modul__number .theme__top.purple {
+        color: #8f41bc !important;
+        background: transparent !important; }
+      .modul__number .theme__top.blue {
+        color: #2594da !important;
+        background: transparent !important; }
+      .modul__number .theme__top.pink {
+        color: #b807af !important;
+        background: transparent !important; }
+    .modul__number .theme__line {
+      background-color: #fff; }
     .modul__number .theme__line {
       -ms-flex-preferred-size: 5%;
           flex-basis: 5%;
@@ -1863,9 +1885,9 @@ h1 {
   .rate-big .theme__line:last-child {
     -ms-flex-preferred-size: 70%;
         flex-basis: 70%; }
-  .rate-big .rate__content,
   .rate-big .rate__subtitle,
-  .rate-big .rate__title {
+  .rate-big .rate__title,
+  .rate-big ul {
     padding: 0 35px; }
   .rate-big .rate__title {
     font-size: 66px;
@@ -1971,7 +1993,7 @@ h1 {
   -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.33);
           box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.33); }
   .payments-btn:hover, form.login-form .tuc button:hover, .offers__card-btn:hover {
-    background-color: #fff; }
+    background-color: #fff !important; }
   .payments-btn.blue:hover, form.login-form .tuc button.blue:hover, .blue.offers__card-btn:hover {
     border-color: #2594da;
     color: #2594da; }
@@ -2085,7 +2107,8 @@ h1 {
 
 #payments.strategy ul li {
   margin-bottom: 20px;
-  list-style-type: disc !important; }
+  list-style-type: disc !important;
+  padding-left: 0; }
 
 #payments.strategy .rate-small {
   display: none; }

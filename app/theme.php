@@ -141,10 +141,10 @@
   <div class="modul">
     <div class="modul__number">
       <p>2</p>
-      <div class="theme__top">
-        <div class="theme__line"></div>
-        <div>Модуль&nbsp;&mdash;&nbsp;1</div>
-        <div class="theme__line"></div>
+      <div class="theme__top pink">
+        <div class="theme__line pink"></div>
+        <div>Модуль&nbsp;&mdash;&nbsp;2</div>
+        <div class="theme__line pink"></div>
       </div>
     </div>
     <div class="modul__center">
@@ -169,10 +169,10 @@
   <div class="modul">
     <div class="modul__number">
       <p>3</p>
-      <div class="theme__top">
-        <div class="theme__line"></div>
-        <div>Модуль&nbsp;&mdash;&nbsp;1</div>
-        <div class="theme__line"></div>
+      <div class="theme__top yellow">
+        <div class="theme__line yellow"></div>
+        <div>Модуль&nbsp;&mdash;&nbsp;3</div>
+        <div class="theme__line yellow"></div>
       </div>
     </div>
     <div class="modul__center">

@@ -95,7 +95,7 @@
   <section id="main" class="profile-main">
     <div class="container">
       <div class="row">
-        <h1>Ваш профиль</h1>
+        <h1>Платежи</h1>
         <div class="theme__bottom">
           <a href="#" class="active theme__button">
             <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
@@ -128,10 +128,12 @@
             <span>/ месяц</span>
           </div>
           <div class="rate__subtitle">О тарифе:</div>
-          <li class="rate__content">52&nbsp;учебных модуля по&nbsp;всем направлениям развития бизнеса с&nbsp;обязательными домашними заданиями</li>
-          <li class="rate__content">Проверка выполненных заданий тьюторами программы</li>
-          <li class="rate__content">Доступ к&nbsp;базе знаний марафона с&nbsp;вебинарами и&nbsp;мастер-классами экспертов в&nbsp;различных отраслях</li>
-          <li class="rate__content">Участие в&nbsp;рейтинге марафона и&nbsp;возможность выиграть главные или дополнительные призы проекта</li>
+          <ul>
+            <li class="rate__content">52&nbsp;учебных модуля по&nbsp;всем направлениям развития бизнеса с&nbsp;обязательными домашними заданиями</li>
+            <li class="rate__content">Проверка выполненных заданий тьюторами программы</li>
+            <li class="rate__content">Доступ к&nbsp;базе знаний марафона с&nbsp;вебинарами и&nbsp;мастер-классами экспертов в&nbsp;различных отраслях</li>
+            <li class="rate__content">Участие в&nbsp;рейтинге марафона и&nbsp;возможность выиграть главные или дополнительные призы проекта</li>
+          </ul>
         </div>
         <div class="rate-small">
           <div class="rate blue">
