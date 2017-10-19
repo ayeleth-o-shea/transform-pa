@@ -1418,7 +1418,10 @@ h1 {
     width: 100%;
     justify-content: flex-end;
 
-    a {
+    button {
+      text-transform: uppercase;
+      font-family: 'ProximaNova', sans-serif;
+      cursor: pointer;
       flex-basis: 10%;
       margin: 0;
       background-color: #ecf0f9;

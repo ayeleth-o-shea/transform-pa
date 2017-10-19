@@ -1267,27 +1267,30 @@ h1 {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end; }
-    .test-form .theme__bottom a {
+    .test-form .theme__bottom button {
+      text-transform: uppercase;
+      font-family: 'ProximaNova', sans-serif;
+      cursor: pointer;
       -ms-flex-preferred-size: 10%;
           flex-basis: 10%;
       margin: 0;
       background-color: #ecf0f9;
       color: #9b9eae; }
-      .test-form .theme__bottom a img {
+      .test-form .theme__bottom button img {
         mix-blend-mode: difference;
         opacity: 0.3; }
-      .test-form .theme__bottom a:first-child {
+      .test-form .theme__bottom button:first-child {
         margin-right: 25px; }
-        .test-form .theme__bottom a:first-child img {
+        .test-form .theme__bottom button:first-child img {
           -webkit-transform: scale(-1, 1);
                   transform: scale(-1, 1); }
-      .test-form .theme__bottom a:last-child img {
+      .test-form .theme__bottom button:last-child img {
         margin-right: 0;
         margin-left: 15px; }
-      .test-form .theme__bottom a:hover img {
+      .test-form .theme__bottom button:hover img {
         mix-blend-mode: hard-light;
         opacity: 1; }
-      .test-form .theme__bottom a:hover {
+      .test-form .theme__bottom button:hover {
         background-color: #14ad6b;
         color: white;
         border-color: white; }

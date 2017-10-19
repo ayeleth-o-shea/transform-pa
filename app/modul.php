@@ -177,14 +177,14 @@
           <label><input type="checkbox"> Сергей Макшанов</label>
           <label><input type="checkbox"> Радислав Гандапас</label>
           <div class="theme__bottom">
-            <a href="#" class="theme__button">
+            <button type="submit" class="theme__button">
               <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
               <p>Предыдущий</p>
-            </a>
-            <a href="#" class="theme__button">
+            </button>
+            <button type="submit" class="theme__button">
               <p>Следующий</p>
               <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
-            </a>
+            </button>
           </div>
         </form>
       </div>
