@@ -87,7 +87,7 @@
   <section id="main" class="profile-main">
     <div class="container">
       <div class="row">
-        <h1>Платежи</h1>
+        <h1>Рейтинг</h1>
         <div class="theme__bottom">
           <a href="#" class="active theme__button">
             <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
@@ -97,357 +97,94 @@
       </div>
     </div>
   </section>
-  <section id="payments">
+  <section id="rating">
     <div class="container">
-      <div class="row rates-titles">
-        <h2>Ваш текущий тариф</h2>
-        <h2>
-          Upgrade
-          <span>Перейдите на новый уровень и получите дополнительные возможности</span>
-        </h2>
+      <div class="row">
+        <h2>Рейтинг участников</h2>
       </div>
-      <div class="row rates">
-        <div class="rate rate-big mint">
-          <div class="theme__top">
-            <div class="theme__line"></div>
-            <div>Тариф</div>
-            <div class="theme__line"></div>
-          </div>
-          <div class="rate__title">Базовый</div>
-          <div class="rate__price">
-            1 000&nbsp;
-            <i class="fa fa-rub" aria-hidden="true"></i>
-            <span>/ месяц</span>
-          </div>
-          <div class="rate__subtitle">О тарифе:</div>
-          <ul>
-            <li class="rate__content">52&nbsp;учебных модуля по&nbsp;всем направлениям развития бизнеса с&nbsp;обязательными домашними заданиями</li>
-            <li class="rate__content">Проверка выполненных заданий тьюторами программы</li>
-            <li class="rate__content">Доступ к&nbsp;базе знаний марафона с&nbsp;вебинарами и&nbsp;мастер-классами экспертов в&nbsp;различных отраслях</li>
-            <li class="rate__content">Участие в&nbsp;рейтинге марафона и&nbsp;возможность выиграть главные или дополнительные призы проекта</li>
-          </ul>
-        </div>
-        <div class="rate-small">
-          <div class="rate blue">
-            <div class="theme__top">
-              <div class="theme__line"></div>
-              <div>Тариф</div>
-              <div class="theme__line"></div>
-            </div>
-            <div class="rate__middle">
-              <div class="rate__title">Продвинутый</div>
-              <div class="rate__price">
-                3 000&nbsp;
-                <i class="fa fa-rub" aria-hidden="true"></i>
-                <span>/ месяц</span>
-              </div>
-            </div>
-            <div class="rate__buttons">
-              <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="blue payments-btn">Выбрать тариф</button>
-            </div>
-            <ul style="display: none">
-              <li class="rate__content">Доступ к 52 учебным модулям</li>
-              <li class="rate__content">Домашние задания</li>
-              <li class="rate__content">Персональный куратор</li>
-              <li class="rate__content">Доступ к базе онлайн-практикумов Школы Бизнеса «Синергия» (любые 6 практикумов на выбор из предложенных 10)</li>
-            </ul>
-          </div>
-          <div class="rate green">
-            <div class="theme__top">
-              <div class="theme__line"></div>
-              <div>Тариф</div>
-              <div class="theme__line"></div>
-            </div>
-            <div class="rate__middle">
-              <div class="rate__title">Мастер-группа</div>
-              <div class="rate__price">
-                10 000&nbsp;
-                <i class="fa fa-rub" aria-hidden="true"></i>
-                <span>/ месяц</span>
-              </div>
-            </div>
-            <div class="rate__buttons">
-              <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="green payments-btn">Выбрать тариф</button>
-            </div>
-            <ul style="display: none">
-              <li class="rate__content">Доступ к 52 учебным модулям</li>
-              <li class="rate__content">Домашние задания</li>
-              <li class="rate__content">Персональный куратор</li>
-              <li class="rate__content">Доступ к базе онлайн-практикумов Школы Бизнеса «Синергия» (любые 6 практикумов на выбор из предложенных 10)</li>
-              <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
-            </ul>
-          </div>
-          <div class="rate yellow" >
-            <div class="theme__top">
-              <div class="theme__line"></div>
-              <div>Тариф</div>
-              <div class="theme__line"></div>
-            </div>
-            <div class="rate__middle">
-              <div class="rate__title">Персональный тренер</div>
-              <div class="rate__price">
-                30 000&nbsp;
-                <i class="fa fa-rub" aria-hidden="true"></i>
-                <span>/ месяц</span>
-              </div>
-            </div>
-            <div class="rate__buttons">
-              <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="yellow payments-btn">Выбрать тариф</button>
-            </div>
-            <ul style="display: none">
-              <li class="rate__content">Доступ к 52 учебным модулям</li>
-              <li class="rate__content">Домашние задания</li>
-              <li class="rate__content">Персональный куратор</li>
-              <li class="rate__content">Доступ к базе онлайн-практикумов Школы Бизнеса «Синергия» (любые 6 практикумов на выбор из предложенных 10)</li>
-              <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
-              <li class="rate__content">Персональный консультант по всем вопросам изучения и реализации заданий учебных модулей</li>
-            </ul>
-          </div>
-          <div class="rate orange" >
-            <div class="theme__top">
-              <div class="theme__line"></div>
-              <div>Тариф</div>
-              <div class="theme__line"></div>
-            </div>
-            <div class="rate__middle">
-              <div class="rate__title">Коучинг</div>
-              <div class="rate__price">
-                50 000&nbsp;
-                <i class="fa fa-rub" aria-hidden="true"></i>
-                <span>/ месяц</span>
-              </div>
-            </div>
-            <div class="rate__buttons">
-              <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="orange payments-btn">Выбрать тариф</button>
-            </div>
-            <ul style="display: none">
-              <li class="rate__content">Доступ к 52 учебным модулям</li>
-              <li class="rate__content">Домашние задания</li>
-              <li class="rate__content">Персональный куратор</li>
-              <li class="rate__content">Доступ к базе онлайн-практикумов Школы Бизнеса «Синергия» (любые 6 практикумов на выбор из предложенных 10)</li>
-              <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
-              <li class="rate__content">Персональный консультант по всем вопросам изучения и реализации заданий учебных модулей</li>
-              <li class="rate__content">Работа участника и его команды с коучем, который интенсивно прокачивает по теме личной эффективности (дополнительные задания, не входящие в программу марафона)</li>
-            </ul>
-          </div>
-          <div class="rate pink">
-            <div class="theme__top">
-              <div class="theme__line"></div>
-              <div>Тариф</div>
-              <div class="theme__line"></div>
-            </div>
-            <div class="rate__middle">
-              <div class="rate__title">Платинум</div>
-              <div class="rate__price">
-                100 000&nbsp;
-                <i class="fa fa-rub" aria-hidden="true"></i>
-                <span>/ месяц</span>
-              </div>
-            </div>
-            <div class="rate__buttons">
-              <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="pink payments-btn">Выбрать тариф</button>
-            </div>
-            <ul style="display: none">
-              <li class="rate__content">Доступ к 52 учебным модулям</li>
-              <li class="rate__content">Домашние задания</li>
-              <li class="rate__content">Персональный куратор</li>
-              <li class="rate__content">Доступ к базе онлайн-практикумов Школы Бизнеса «Синергия» (любые 6 практикумов на выбор из предложенных 10)</li>
-              <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
-              <li class="rate__content">Персональный консультант по всем вопросам изучения и реализации заданий учебных модулей</li>
-              <li class="rate__content">Работа участника и его команды с коучем, который интенсивно прокачивает по теме личной эффективности (дополнительные задания, не входящие в программу марафона)</li>
-              <li class="rate__content">Бесплатное посещение всех программ «Школы Бизнеса» в течение всего обучения</li>
-            </ul>
-          </div>
-          <div class="rate purple">
-            <div class="theme__top">
-              <div class="theme__line"></div>
-              <div>Тариф</div>
-              <div class="theme__line"></div>
-            </div>
-            <div class="rate__middle">
-              <div class="rate__title">Стратегический консалтинг</div>
-              <div class="rate__price">
-                200 000&nbsp;
-                <i class="fa fa-rub" aria-hidden="true"></i>
-                <span>/ месяц</span>
-              </div>
-            </div>
-            <div class="rate__buttons">
-              <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="purple payments-btn">Выбрать тариф</button>
-            </div>
-            <ul style="display:none">
-              <li class="rate__content">Доступ к 52 учебным модулям</li>
-              <li class="rate__content">Домашние задания</li>
-              <li class="rate__content">Персональный куратор</li>
-              <li class="rate__content">Доступ к базе онлайн-практикумов Школы Бизнеса «Синергия» (любые 6 практикумов на выбор из предложенных 10)</li>
-              <li class="rate__content">Ежеквартальная встреча с менторами проекта (живое участие или в формате онлайн), разбор кейсов участников</li>
-              <li class="rate__content">Персональный консультант по всем вопросам изучения и реализации заданий учебных модулей
-              </li>
-              <li class="rate__content">Работа участника и его команды с коучем, который интенсивно прокачивает по теме личной эффективности (дополнительные задания, не входящие в программу марафона)
-              </li>
-              <li class="rate__content">Бесплатное посещение всех программ «Школы Бизнеса» в течение всего обучения
-              </li>
-              <li class="rate__content">Комплексная диагностика бизнеса силами ведущего эксперта в области повышения эффективности бизнеса
-              </li>
-              <li class="rate__content">Выявление проблемных зон и рисков
-              </li>
-              <li class="rate__content">Подготовка дорожной карты действий по повышению эффективности и решению выявленных проблем
-              </li>
-              <li class="rate__content">Оперативное подключение к решению задач узкопрофильных специалистов (в случае необходимости)
-              </li>
-              <li class="rate__content">Авторский надзор за исполнением дорожной карты
-              </li>
-              <li class="rate__content">Персональный менеджер по развитию и оперативная обратная связь по всем вопросам
-              </li>
-            </ul>
-          </div>
-        </div>
+      <div class="row">
+        <table class="rating">
+          <thead>
+            <tr>
+              <th class="start">Место&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></th>
+              <th class="center">Имя&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></th>
+              <th class="end">Баллы&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="first">
+              <td class="start">1 место</td>
+              <td class="center">
+                <div class="photo">
+                  <img src="./img/avatar.png" alt="" class="img-fluid">
+                </div>
+                <div>&nbsp;Роман Журавлев,&nbsp;<span class="city">Москва</span></div>
+              </td>
+              <td class="end">100</td>
+            </tr>
+            <tr class="second">
+              <td class="start">2 место</td>
+              <td class="center">
+                <div class="photo">
+                  <img src="./img/avatar.png" alt="" class="img-fluid">
+                </div>
+                <div>&nbsp;Роман Журавлев,&nbsp;<span class="city">Москва</span></div>
+              </td>
+              <td class="end">100</td>
+            </tr>
+            <tr class="third">
+              <td class="start">3 место</td>
+              <td class="center">
+                <div class="photo">
+                  <img src="./img/avatar.png" alt="" class="img-fluid">
+                </div>
+                <div>&nbsp;Роман Журавлев,&nbsp;<span class="city">Москва</span></div>
+              </td>
+              <td class="end">100</td>
+            </tr>
+            <tr class="self">
+              <td class="start">999 место</td>
+              <td class="center">
+                <div class="photo">
+                  <img src="./img/avatar.png" alt="" class="img-fluid">
+                </div>
+                <div>&nbsp;Роман Журавлев,&nbsp;<span class="city">Москва</span></div>
+              </td>
+              <td class="end">100</td>
+            </tr>
+            <tr class="">
+              <td class="start">5555 место</td>
+              <td class="center">
+                <div class="photo">
+                  <img src="./img/avatar.png" alt="" class="img-fluid">
+                </div>
+                <div>&nbsp;Роман Журавлев,&nbsp;<span class="city">Москва</span></div>
+              </td>
+              <td class="end">100</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <section id="sgf">
-
-          <div class="row">
-            <img src="img/payments-sgf.png" alt="" class="img-fluid">
-          </div>
-          <div class="row">
-            <div class="sgf-title">
-              Специальное предложение<br>
-              для участников бизнес- <br>
-              марафона «Трансформация»
-              <img src="./img/sgf-discount.png" alt="">
-            </div>
-            <a href="http://synergyglobal.ru/" target="_blank" class="sgf-button">Подробнее</a>
-          </div>
-
-      </section>
-    </div>
-  </section>
-  <section id="chart">
-    <div class="container">
-      <div class="row rates-titles chart-titles">
-        <h2>Карта для совершения платежей</h2>
-        <h2>График платежей</h2>
-      </div>
-
-      <div class="row offers">
-        <div class="offers__left">
-          <div class="offers__card">
-            <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
-            <div class="offers__card-number">
-              <p>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-              </p>
-              <p>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-              </p>
-              <p>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-              </p>
-              <p>
-                1234
-              </p>
-            </div>
-          </div>
-          <button type="button" class="offers__card-btn">Привязать другую карту</button>
-          <div class="offers__writeOff">
-            08.11.2017 с вашего счета будет списано 1000 руб. <br>в счет следующего платежа
-          </div>
-          <div class="offers__dates">
-            <div class="offers__date-last">
-              Последнее<br> поступление средств<br> <span>08.10.2017</span>
-            </div>
-            <div class="offers__date-next">
-              Дата следующего<br> платежа<br> <span>08.11.2017</span>
-            </div>
-          </div>
-          <div class="offers__end">
-            Если у&nbsp;вас возникли вопросы по&nbsp;поводу тарифов и&nbsp;оплаты обучения, позвоните нам: <a href="tel:+78001008926">8&nbsp;800&nbsp;100 89&nbsp;26</a>
-          </div>
-        </div>
-        <div class="offers__right">
-          <div class="chart__item">
-            <div class="chart__title">Статус</div>
-            <div class="chart__title">Дата</div>
-            <div class="chart__title">Сумма</div>
-          </div>
-          <div class="chart__item active">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-        </div>
+      <div class="row">
+        <a href="#" class="rating__show">
+          Развернуть<span>+</span>весь рейтинг
+        </a>
       </div>
     </div>
   </section>
+  <!-- <section id="sgf">
+    <div class="container">
+      <div class="row">
+        <img src="img/sgf-logo.png" alt="" class="img-fluid">
+      </div>
+      <div class="row">
+        <div class="sgf-title">
+          Глобальное бизнес-событие года
+        </div>
+        <a href="http://synergyglobal.ru/" target="_blank" class="sgf-button">Узнать подробнее</a>
+      </div>
+    </div>
+  </section> -->
   <footer>
     <div class="container">
       <div class="row footer">
