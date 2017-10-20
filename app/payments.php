@@ -56,15 +56,7 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC86W4J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="container" style="margin: 50px auto">
-    <a href="login.php" style="color: #000; margin-right: 30px;text-transform: none;">lOGIN</a>
-    <a href="index.php" style="color: #000; margin-right: 30px;text-transform: none;">hOME</a>
-    <a href="theme.php" style="color: #000; margin-right: 30px;text-transform: none;">tHEME</a>
-    <a href="modul.php" style="color: #000; margin-right: 30px;text-transform: none;">mODUL</a>
-    <a href="profile.php" style="color: #000; margin-right: 30px;text-transform: none;">pROFILE</a>
-    <a href="payments.php" style="color: #000; margin-right: 30px;text-transform: none;">pAYMENTS</a>
-    <a href="payments-upgrade.php" style="color: #000; margin-right: 30px;text-transform: none;">pAYMENTS-uPGRADE</a>
-  </div>
+
   <header>
     <div class="container">
       <div class="row header">

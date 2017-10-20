@@ -334,6 +334,24 @@ form.login-form {
       -ms-flex-direction: column;
           flex-direction: column; }
 
+form.login-form.partner {
+  height: auto; }
+  form.login-form.partner h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px; }
+  form.login-form.partner .input {
+    margin-bottom: 15px; }
+  form.login-form.partner .input:first-child {
+    padding-bottom: 0; }
+  form.login-form.partner button {
+    -ms-flex-preferred-size: 50% !important;
+        flex-basis: 50% !important;
+    max-width: 50% !important; }
+
 /* Login end */
 /* First start */
 #first {
