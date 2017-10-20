@@ -40,6 +40,12 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between; }
 
+.container {
+  max-width: 1180px !important; }
+
+.row {
+  overflow: hidden; }
+
 a {
   color: #fff; }
   a:hover {
@@ -351,7 +357,7 @@ form.login-form {
 .home-wrapper {
   background-color: #efeff2;
   padding-bottom: 75px; }
-  .home-wrapper [class^='col-md'] {
+  .home-wrapper [class^='col'] {
     margin-top: -25px; }
 
 #home {
@@ -366,7 +372,7 @@ form.login-form {
         -ms-flex-align: stretch;
             align-items: stretch;
     margin-top: -25px; }
-  #home [class^='col-md'] {
+  #home [class^='col'] {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

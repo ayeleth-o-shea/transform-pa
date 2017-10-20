@@ -23,7 +23,7 @@
   <!-- End Google Tag Manager -->
 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1200px">
+  <meta name="viewport" content="width=1180">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Личный кабинет | Бизнес-марафон ТРАНСФОРМАЦИЯ</title>
 
@@ -69,23 +69,23 @@
   <header>
     <div class="container">
       <div class="row header">
-        <div class="col-md-2">
+        <div class="col-2">
           <img src="img/header-logo.png" alt="" class="img-fluid">
         </div>
-        <ul class="col-md-3 menu">
+        <ul class="col-3 menu">
           <li><a href="#" class="active">Обучение</a></li>
           <li><a href="#">Рейтинг</a></li>
           <li><a href="#">Платежи</a></li>
           <li><a href="#">Правила</a></li>
         </ul>
-        <div class="col-md-3 support">
+        <div class="col-3 support">
           <p>центр<br>поддержки<br>марафона</p>
           <div>
             <a href="tel:88001008926">8 800 100-89-26</a>
             <a href="mailto:transformation@synergy.ru">transformation@synergy.ru</a>
           </div>
         </div>
-        <div class="col-md-3 user">
+        <div class="col-3 user">
           <div class="user__name"><a href="#">Илья Обломов</a></div>
           <div class="user__avatar"><img src="img/avatar.png" alt="" class="img-fluid"></div>
           <div class="user__close"><a href="#">Выйти</a></div>
@@ -105,7 +105,7 @@
     <div class="home-wrapper">
       <div class="container">
         <div class="row home">
-          <div class="col-md-6">
+          <div class="col-6">
             <div class="status status-big">
               <div class="status__name">Илья<br> Обломов</div>
               <div class="status__count">
@@ -114,19 +114,19 @@
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-2">
             <div class="status">
               <div class="status__value">0 <span>&nbsp;/&nbsp;52</span></div>
               <div class="status__about">Заданий<br> выполнено</div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-2">
             <div class="status">
               <div class="status__value">5200 <span>&nbsp;/&nbsp;5200</span></div>
               <div class="status__about">Баллов<br> набрано</div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-2">
             <div class="status">
               <div class="status__value">0 <span>&nbsp;/&nbsp;52</span></div>
               <div class="status__about">Модулей<br> изучено</div>
@@ -576,12 +576,12 @@
     </section>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-12">
           <h2>Темы программы</h2>
         </div>
       </div>
       <div class="row themes">
-        <div class="col-md-3">
+        <div class="col-3">
           <div class="theme theme-darkblue">
             <div class="theme__top">
               <div class="theme__line"></div>
@@ -602,7 +602,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-3">
           <div class="theme theme-mint">
             <div class="theme__top">
               <div class="theme__line"></div>
@@ -623,7 +623,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-3">
           <div class="theme theme-yellow">
             <div class="theme__top">
               <div class="theme__line"></div>
@@ -644,7 +644,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-3">
           <div class="theme theme-green">
             <div class="theme__top">
               <div class="theme__line"></div>
@@ -667,7 +667,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-3">
           <div class="theme theme-orange">
             <div class="theme__top">
               <div class="theme__line"></div>
@@ -688,7 +688,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-3">
           <div class="theme theme-purple">
             <div class="theme__top">
               <div class="theme__line"></div>
@@ -709,7 +709,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-3">
           <div class="theme theme-blue">
             <div class="theme__top">
               <div class="theme__line"></div>
@@ -730,7 +730,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-3">
           <div class="theme theme-pink">
             <div class="theme__top">
               <div class="theme__line"></div>

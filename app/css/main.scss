@@ -33,6 +33,14 @@ body {
   }
 }
 
+.container {
+  max-width: 1180px !important;
+}
+
+.row {
+  overflow: hidden;
+}
+
 a {
   color: #fff;
 
@@ -383,7 +391,7 @@ form.login-form {
   background-color: #efeff2;
   padding-bottom: 75px;
 
-  [class^='col-md'] {
+  [class^='col'] {
     margin-top: -25px;
   }
 }
@@ -402,7 +410,7 @@ form.login-form {
     margin-top: -25px;
   }
 
-  [class^='col-md'] {
+  [class^='col'] {
     display: flex;
     padding: 0 10px;
   }
