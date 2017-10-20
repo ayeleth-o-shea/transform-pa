@@ -391,6 +391,10 @@ form.login-form {
   background-color: #efeff2;
   padding-bottom: 75px;
 
+  .row {
+    overflow: visible;
+  }
+
   [class^='col'] {
     margin-top: -25px;
   }
@@ -1407,7 +1411,6 @@ h1 {
   justify-content: space-between;
   flex-grow: 1;
   flex-wrap: wrap;
-  height: 370px;
   margin-top: 30px;
 
   label {
@@ -1421,6 +1424,7 @@ h1 {
     padding-left: 30px;
     height: 100px;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+    margin-bottom: 30px;
   }
 
   .theme__bottom {
