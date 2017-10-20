@@ -23,7 +23,7 @@
   <!-- End Google Tag Manager -->
 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1180">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Личный кабинет | Бизнес-марафон ТРАНСФОРМАЦИЯ</title>
 
