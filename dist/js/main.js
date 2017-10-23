@@ -42,6 +42,7 @@ $(function() {
   initRatesPopup();
   initChartItemActive();
   initExpandAnswer();
+  initCalendar();
   initTimeline();
 
   function initPopup() {
@@ -119,7 +120,13 @@ $(function() {
     });
   }
 
+  function initCalendar() {
+    $('.calendar__choose').click(function() {
+      var myDatepicker = $('.datepicker-here').datepicker().data('datepicker');
+      myDatepicker.show();
+    })
 
+  }
 
   function initTimeline() {
 

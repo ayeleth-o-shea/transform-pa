@@ -43,9 +43,6 @@ body {
 .container {
   max-width: 1180px !important; }
 
-.row {
-  overflow: hidden; }
-
 a {
   color: #fff; }
   a:hover {
@@ -145,7 +142,7 @@ input[type=checkbox]:checked:before {
   font-family: 'AkzidenzGroteskProCond';
   font-weight: normal; }
 
-.akzidenzMdCn, .status__name, .status__value, .theme__top, h1, .modul__number, .user-side__name, .offers__card-number p, td.start, td.center, td.end {
+.akzidenzMdCn, .status__name, .status__value, .theme__top, h1, .modul__number, .user-side__name, .offers__card-number p, td.start, td.center, td.end, .calendar__name, .fund__value {
   font-family: 'AkzidenzGroteskProCond';
   font-weight: 500; }
 
@@ -231,8 +228,7 @@ input[type=checkbox]:checked:before {
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  padding-left: 60px; }
+          align-items: center; }
   .user__avatar {
     max-width: 35px; }
 
@@ -2428,7 +2424,7 @@ h1 {
   #rating h2 {
     margin: 58px auto 28px; }
 
-table.rating {
+table {
   width: 100%;
   border: 0;
   border-collapse: collapse; }
@@ -2449,15 +2445,15 @@ tr {
   tr.first {
     color: #f1521b; }
     tr.first .photo {
-      border: 5px solid #f1521b; }
+      border: 4px solid #f1521b; }
   tr.second {
     color: #ffad01; }
     tr.second .photo {
-      border: 5px solid #ffad01; }
+      border: 4px solid #ffad01; }
   tr.third {
     color: #01a068; }
     tr.third .photo {
-      border: 5px solid #01a068; }
+      border: 4px solid #01a068; }
   tr.self {
     color: white; }
     tr.self td {
@@ -2528,7 +2524,8 @@ th.center {
     color: white;
     width: 50px;
     height: 50px;
-    border: 1px solid white;
+    -webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.33);
+            box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.33);
     line-height: 52px;
     text-align: center;
     border-radius: 50%;
@@ -2537,3 +2534,202 @@ th.center {
     font-weight: bold; }
 
 /* Rating end */
+/* Statistics start */
+#statistics {
+  background-color: #efeff2; }
+
+.statistics {
+  background-color: white;
+  width: 100%;
+  padding-top: 58px; }
+  .statistics h2 {
+    width: 49.4%;
+    text-align: center;
+    line-height: 82px; }
+  .statistics h2:first-child {
+    background-color: #efeff2;
+    margin-right: 0.3%; }
+    .statistics h2:first-child a {
+      color: #9699b1; }
+  .statistics h2:last-child {
+    background-color: #a5a4b5;
+    color: white;
+    margin-left: 0.3%; }
+    .statistics h2:last-child span {
+      font-size: 20px; }
+  .statistics.offers h2:last-child {
+    background-color: #efeff2;
+    margin-right: 0.3%; }
+    .statistics.offers h2:last-child a {
+      color: #9699b1; }
+  .statistics.offers h2:first-child {
+    background-color: #a5a4b5;
+    color: white;
+    margin-left: 0.3%; }
+    .statistics.offers h2:first-child span {
+      font-size: 20px; }
+    .statistics.offers h2:first-child a {
+      color: #fff; }
+
+.funds {
+  border-top: 1px solid #bcc1d3;
+  margin-top: 60px; }
+
+.calendar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 47px; }
+  .calendar__name {
+    color: black;
+    font-size: 56px;
+    margin-right: 35px; }
+  .calendar__period {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 10px; }
+    .calendar__period span {
+      font-size: 16px;
+      color: #bcc1d3;
+      margin-bottom: 5px; }
+  .calendar input {
+    background-color: transparent;
+    cursor: pointer;
+    color: #01a068;
+    text-decoration: underline;
+    font-weight: 700;
+    font-family: 'ProximaNove', sans-serif;
+    font-variant: proportional-nums;
+    font-variant-numeric: proportional-nums; }
+    .calendar input::-webkit-input-placeholder {
+      color: #01a068; }
+    .calendar input:-ms-input-placeholder {
+      color: #01a068; }
+    .calendar input::-ms-input-placeholder {
+      color: #01a068; }
+    .calendar input::placeholder {
+      color: #01a068; }
+  .calendar__choose {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #01a068;
+    cursor: pointer; }
+    .calendar__choose img {
+      max-height: 30px;
+      margin-right: 10px; }
+
+.datepicker--cell.-selected-,
+.datepicker--cell.-selected-.-current-,
+.datepicker--cell.-selected-.-focus- {
+  background: #01a068; }
+
+.datepicker--cell.-in-range- {
+  background: rgba(1, 160, 104, 0.15); }
+
+.fund {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 52px 0 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .fund__item {
+    background-color: white;
+    padding: 43px 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border: 1px solid #bcc1d3; }
+    .fund__item:nth-child(1) {
+      -ms-flex-preferred-size: 14.2%;
+          flex-basis: 14.2%; }
+    .fund__item:nth-child(2) {
+      -ms-flex-preferred-size: 13.9%;
+          flex-basis: 13.9%; }
+    .fund__item:nth-child(3) {
+      -ms-flex-preferred-size: 22.4%;
+          flex-basis: 22.4%; }
+    .fund__item:nth-child(4) {
+      -ms-flex-preferred-size: 21.5%;
+          flex-basis: 21.5%; }
+    .fund__item:nth-child(5) {
+      -ms-flex-preferred-size: 22.0%;
+          flex-basis: 22.0%; }
+    .fund__item span {
+      color: #9699b1; }
+  .fund a {
+    -ms-flex-preferred-size: 22.0%;
+        flex-basis: 22.0%;
+    margin-left: auto;
+    margin-top: 10px;
+    background: #01a068;
+    line-height: 68px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 5px 29px 0 rgba(0, 0, 0, 0.33);
+            box-shadow: 0 5px 29px 0 rgba(0, 0, 0, 0.33); }
+  .fund__value {
+    font-size: 56px;
+    color: black; }
+    .fund__value span {
+      font-size: 26px;
+      color: black; }
+
+.summary {
+  padding: 40px 0;
+  border-top: 1px solid #bcc1d3; }
+  .summary.off {
+    margin-top: 60px; }
+  .summary h2 {
+    margin-bottom: 32px; }
+
+table.stat {
+  font-size: 20px;
+  text-transform: none; }
+  table.stat td {
+    padding-left: 5px;
+    padding-right: 5px; }
+  table.stat th {
+    text-align: center;
+    padding-bottom: 0;
+    text-transform: uppercase; }
+  table.stat td.link {
+    max-width: 265px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 20px;
+    padding-right: 20px; }
+    table.stat td.link a {
+      color: #01a068;
+      text-decoration: underline; }
+  table.stat td.product span {
+    font-size: 14px; }
+
+/* Statistics end */

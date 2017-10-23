@@ -1,5 +1,5 @@
-@charset "utf-8"; /* Speca start */
-
+@charset "utf-8";
+/* Speca start */
 html {
   display: flex;
   flex-direction: column;
@@ -35,10 +35,6 @@ body {
 
 .container {
   max-width: 1180px !important;
-}
-
-.row {
-  overflow: hidden;
 }
 
 a {
@@ -116,6 +112,7 @@ input[type=checkbox]:checked:before {
 }
 /* Speca end */
 /* Colors start */
+
 .darkblue {
   background-color: #134fbf !important;
 }
@@ -161,7 +158,6 @@ $pink: #b807af;
 }
 $grey: #e0dfe5; /* Colors end */
 /* Fonts start */
-
 .proximaCondBlack {
   font-family: 'ProximaNovaCond';
   font-weight: 900;
@@ -188,7 +184,6 @@ $grey: #e0dfe5; /* Colors end */
 }
 /* Fonts end */
 /* Header start */
-
 .header {
   @extend .akzidenzCn;
   color: #e62020;
@@ -258,7 +253,6 @@ $grey: #e0dfe5; /* Colors end */
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-left: 60px;
 
   &__avatar {
     max-width: 35px;
@@ -266,6 +260,7 @@ $grey: #e0dfe5; /* Colors end */
 }
 /* Header end */
 /* Login start */
+
 #login {
   flex-basis: 100%;
   background-color: #e92323;
@@ -391,6 +386,7 @@ form.login-form.partner {
 }
 /* Login end */
 /* First start */
+
 #first {
   background: url('../img/main-bg.jpg') no-repeat center center / cover;
 
@@ -410,6 +406,7 @@ form.login-form.partner {
 }
 /* First end */
 /* Home start */
+
 .home-wrapper {
   background-color: #efeff2;
   padding-bottom: 75px;
@@ -839,7 +836,6 @@ h2 {
 }
 /* Home end */
 /* SGF start */
-
 #sgf {
   background: url('../img/sgf-bg.jpg') no-repeat center center / cover;
   padding: 25px 0;
@@ -875,6 +871,7 @@ h2 {
 }
 /* SGF end */
 /* Footer start */
+
 footer {
   background-color: #a5a4b5;
   padding: 25px 0;
@@ -962,6 +959,7 @@ footer {
 }
 /* Footer end */
 /* Theme start */
+
 #main {
   background: url('../img/theme-bg.jpg') no-repeat center center /cover;
   padding: 60px 0 17px;
@@ -1000,6 +998,7 @@ h1 {
 }
 /* Theme end */
 /* Theme start */
+
 #theme {
   text-shadow: 0 1px 1px rgba(150, 150, 150, 1);
   padding: 50px 0 90px;
@@ -1218,7 +1217,6 @@ h1 {
 }
 /* Theme end */
 /* Video start */
-
 #video {
   padding: 45px 0;
   text-shadow: 0 1px 1px rgba(150, 150, 150, .5);
@@ -1323,7 +1321,6 @@ h1 {
 }
 /* Video end */
 /* Test start */
-
 #test {
   background-color: #f0f3fa;
   padding: 75px 0;
@@ -1499,7 +1496,6 @@ h1 {
 }
 /* Test end */
 /* Homework start */
-
 #homework {
   padding: 75px 0;
   text-shadow: 0 1px 1px rgba(150, 150, 150, .5);
@@ -1747,7 +1743,6 @@ h1 {
   opacity: 0;
 }
 /* Making it beautiful */
-
 .file_upload {
   border-radius: 3px;
   transition: box-shadow 0.1s linear;
@@ -1787,7 +1782,6 @@ h1 {
 }
 /* Homework end */
 /* modul start */
-
 #modul {
   padding: 80px 0;
   box-shadow: inset 0 0 80px -10px rgba(0,0,0,0.33);
@@ -1832,7 +1826,6 @@ h1 {
 }
 /* modul end */
 /* Profile start */
-
 #profile {
   padding: 58px 0 114px;
   text-shadow: 0 1px 1px rgba(150, 150, 150, .3);
@@ -2004,7 +1997,6 @@ h1 {
 }
 /* Profile end */
 /* Payments start */
-
 #payments {
   padding: 58px 0 100px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
@@ -2435,7 +2427,6 @@ h1 {
 }
 /* Payments end */
 /* changeMail-popup start */
-
 #changeMail-popup,
 #changeMail-success-popup {
   border-radius: 5px;
@@ -2510,7 +2501,6 @@ h1 {
 }
 /* changeMail-popup end */
 /* Payments-popup start */
-
 #payments-popup {
   border-radius: 5px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
@@ -2575,7 +2565,6 @@ h1 {
 }
 /* Payments-popup end */
 /* Chart start */
-
 #chart {
   background-color: #efeff2;
   padding: 72px 0 85px;
@@ -2747,7 +2736,6 @@ h1 {
 }
 /* Chart end */
 /* Rating start */
-
 #rating {
   background-color: #efeff2;
 
@@ -2756,7 +2744,7 @@ h1 {
   }
 }
 
-table.rating {
+table {
   width: 100%;
   border: 0;
   border-collapse: collapse;
@@ -2783,7 +2771,7 @@ tr {
     color: $orange;
 
     .photo {
-      border: 5px solid $orange;
+      border: 4px solid $orange;
     }
   }
 
@@ -2791,7 +2779,7 @@ tr {
     color: $yellow;
 
     .photo {
-      border: 5px solid $yellow;
+      border: 4px solid $yellow;
     }
   }
 
@@ -2799,7 +2787,7 @@ tr {
     color: $green;
 
     .photo {
-      border: 5px solid $green;
+      border: 4px solid $green;
     }
   }
 
@@ -2887,7 +2875,7 @@ th.center {
     color: white;
     width: 50px;
     height: 50px;
-    border: 1px solid white;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.33);
     line-height: 52px;
     text-align: center;
     border-radius: 50%;
@@ -2897,3 +2885,244 @@ th.center {
   }
 }
 /* Rating end */
+/* Statistics start */
+#statistics {
+  background-color: #efeff2;
+}
+
+.statistics {
+  background-color: white;
+  width: 100%;
+  padding-top: 58px;
+
+  h2 {
+    width: 49.4%;
+    text-align: center;
+    line-height: 82px;
+  }
+
+  h2:first-child {
+    background-color: #efeff2;
+    margin-right: 0.3%;
+
+    a {
+      color: #9699b1;
+    }
+  }
+
+  h2:last-child {
+    background-color: #a5a4b5;
+    color: white;
+    margin-left: 0.3%;
+
+    span {
+      font-size: 20px;
+    }
+  }
+
+  &.offers {
+    h2:last-child {
+      background-color: #efeff2;
+      margin-right: 0.3%;
+
+      a {
+        color: #9699b1;
+      }
+    }
+
+    h2:first-child {
+      background-color: #a5a4b5;
+      color: white;
+      margin-left: 0.3%;
+
+      span {
+        font-size: 20px;
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.funds {
+  border-top: 1px solid #bcc1d3;
+  margin-top: 60px;
+}
+
+.calendar {
+  display: flex;
+  align-items: center;
+  padding-top: 47px;
+
+  &__name {
+    color: black;
+    font-size: 56px;
+    @extend .akzidenzMdCn;
+    margin-right: 35px;
+  }
+
+  &__period {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+
+    span {
+      font-size: 16px;
+      color: #bcc1d3;
+      margin-bottom: 5px;
+    }
+  }
+
+  input {
+    background-color: transparent;
+    cursor: pointer;
+    color: $green;
+    text-decoration: underline;
+    font-weight: 700;
+    font-family: 'ProximaNove', sans-serif;
+    font-variant: proportional-nums;
+    font-variant-numeric: proportional-nums;
+
+    &::placeholder {
+      color: $green;
+    }
+  }
+
+  &__choose {
+    display: flex;
+    align-items: center;
+    color: $green;
+    cursor: pointer;
+
+    img {
+      max-height: 30px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.datepicker--cell.-selected-,
+.datepicker--cell.-selected-.-current-,
+.datepicker--cell.-selected-.-focus- {
+  background: $green;
+}
+
+.datepicker--cell.-in-range- {
+  background: rgba(1,160,104,.15);
+}
+
+.fund {
+  display: flex;
+  flex-grow: 1;
+  padding: 52px 0 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &__item {
+    background-color: white;
+    padding: 43px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #bcc1d3;
+
+    &:nth-child(1) {
+      flex-basis: 14.2%;
+    }
+
+    &:nth-child(2) {
+      flex-basis: 13.9%;
+    }
+
+    &:nth-child(3) {
+      flex-basis: 22.4%;
+    }
+
+    &:nth-child(4) {
+      flex-basis: 21.5%;
+    }
+
+    &:nth-child(5) {
+      flex-basis: 22.0%;
+    }
+
+    span {
+      color: #9699b1;
+    }
+  }
+
+  a {
+    flex-basis: 22.0%;
+    margin-left: auto;
+    margin-top: 10px;
+    background: $green;
+    line-height: 68px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 0 5px 29px 0 rgba(0,0,0,0.33);
+  }
+
+  &__value {
+    font-size: 56px;
+    @extend .akzidenzMdCn;
+    color: black;
+
+    span {
+      font-size: 26px;
+      color: black;
+    }
+  }
+}
+
+.summary {
+  padding: 40px 0;
+  border-top: 1px solid #bcc1d3;
+
+  &.off {
+    margin-top: 60px;
+  }
+
+  h2 {
+    margin-bottom: 32px;
+  }
+}
+
+table.stat {
+  font-size: 20px;
+  text-transform: none;
+
+  td {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  th {
+    text-align: center;
+    padding-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  td.link {
+    max-width: 265px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    a {
+      color: $green;
+      text-decoration: underline;
+    }
+  }
+
+  td.product {
+    span {
+      font-size: 14px;
+    }
+  }
+}
+/* Statistics end */
