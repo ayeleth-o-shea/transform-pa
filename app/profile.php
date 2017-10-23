@@ -56,7 +56,7 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC86W4J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  
+
   <header>
     <div class="container">
       <div class="row header">
@@ -67,6 +67,7 @@
           <li><a href="#" class="active">Обучение</a></li>
           <li><a href="#">Рейтинг</a></li>
           <li><a href="#">Платежи</a></li>
+          <li><a href="#">Партнерам</a></li>
           <li><a href="#">Правила</a></li>
         </ul>
         <div class="col-lg-3 support">
@@ -76,7 +77,7 @@
             <a href="mailto:transformation@synergy.ru">transformation@synergy.ru</a>
           </div>
         </div>
-        <div class="col-lg-3 user">
+        <div class="col-lg-2 user">
           <div class="user__name"><a href="#">Илья Обломов</a></div>
           <div class="user__avatar"><img src="img/avatar.png" alt="" class="img-fluid"></div>
           <div class="user__close"><a href="#">Выйти</a></div>
