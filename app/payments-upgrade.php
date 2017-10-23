@@ -1160,18 +1160,14 @@
               <div class="theme__line"></div>
             </div>
             <div class="rate__middle">
-              <div class="rate__title">Стратегический консалтинг</div>
+              <div class="rate__title">Стратегический<br> консалтинг</div>
               <div class="rate__price">
                 200 000&nbsp;
                 <i class="fa fa-rub" aria-hidden="true"></i>
                 <span>/ месяц</span>
               </div>
             </div>
-            <div class="rate__buttons">
-              <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="purple payments-btn">Выбрать тариф</button>
-            </div>
-            <ul style="display: none">
+            <ul>
               <li class="rate__content">Доступ к 52 учебным модулям</li>
               <li class="rate__content">Домашние задания</li>
               <li class="rate__content">Персональный куратор</li>
@@ -1196,6 +1192,9 @@
               <li class="rate__content">Персональный менеджер по развитию и оперативная обратная связь по всем вопросам
               </li>
             </ul>
+            <div class="rate__buttons">
+              <button type="button" class="purple payments-btn">Выбрать тариф</button>
+            </div>
           </div>
         </div>
       </div>
@@ -1209,19 +1208,23 @@
       </div>
       <div class="row rates">
         <div class="rate rate-big purple">
-          <div class="theme__top">
-            <div class="theme__line"></div>
-            <div>Тариф</div>
-            <div class="theme__line"></div>
-          </div>
-          <div class="rate__choose">
-            Вы выбрали новый тариф<br> &laquo;Стратегический консалтинг&raquo;. <br>Переход на новый тарифный план состоится со следующего платежного периода. с 03.12.2017 <br>Ваш ежемесячный платеж составит 200000 рублей в месяц.
-          </div>
-          <div class="rate__title">Стратегический консалтинг</div>
-          <div class="rate__price">
-            200 000&nbsp;
-            <i class="fa fa-rub" aria-hidden="true"></i>
-            <span>/ месяц</span>
+          <div class="rate-big__wrap">
+            <div class="rate-big__left">
+              <div class="theme__top">
+                <div class="theme__line"></div>
+                <div>Тариф</div>
+                <div class="theme__line"></div>
+              </div>
+              <div class="rate__title">Стратегический<br> консалтинг</div>
+              <div class="rate__price">
+                200 000&nbsp;
+                <i class="fa fa-rub" aria-hidden="true"></i>
+                <span>/ месяц</span>
+              </div>
+            </div>
+            <div class="rate__choose">
+              Вы выбрали новый тариф<br> &laquo;Стратегический консалтинг&raquo;. <br>Переход на новый тарифный план состоится со следующего платежного периода. с 03.12.2017 <br>Ваш ежемесячный платеж составит 200000 рублей в месяц.
+            </div>
           </div>
           <div class="rate__subtitle">О тарифе:</div>
           <div class="list">
@@ -1495,66 +1498,79 @@
             <div class="chart__title">Статус</div>
             <div class="chart__title">Дата</div>
             <div class="chart__title">Сумма</div>
+            <div class="chart__title">Тариф</div>
           </div>
           <div class="chart__item active">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
+            <div class="chart__number chart__td">1.</div>
+            <div class="chart__date chart__td">08.10.2017</div>
+            <div class="chart__value chart__td">1000 руб.</div>
+            <div class="chart__tarif chart__td">Продвинутый <a href="#"><img src="./img/chart-info.png" alt="" class="img-fluid"></a></div>
           </div>
           <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
+            <div class="chart__number chart__td">1.</div>
+            <div class="chart__date chart__td">08.10.2017</div>
+            <div class="chart__value chart__td">1000 руб.</div>
+            <div class="chart__tarif chart__td">Продвинутый <a href="#"><img src="./img/chart-info.png" alt="" class="img-fluid"></a></div>
           </div>
           <div class="chart__item tarif">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
+            <div class="chart__number chart__td">1.</div>
+            <div class="chart__date chart__td">08.10.2017</div>
+            <div class="chart__value chart__td">1000 руб.</div>
+            <div class="chart__tarif chart__td">Продвинутый <a href="#"><img src="./img/chart-info.png" alt="" class="img-fluid"></a></div>
           </div>
           <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
+            <div class="chart__number chart__td">1.</div>
+            <div class="chart__date chart__td">08.10.2017</div>
+            <div class="chart__value chart__td">1000 руб.</div>
+            <div class="chart__tarif chart__td">Продвинутый <a href="#"><img src="./img/chart-info.png" alt="" class="img-fluid"></a></div>
+          </div>
+          <div class="chart__item needpay">
+            <div class="chart__number chart__td">1.</div>
+            <div class="chart__date chart__td">08.10.2017</div>
+            <div class="chart__value chart__td">1000 руб.</div>
+            <div class="chart__tarif chart__td">Продвинутый <a href="#"><img src="./img/chart-info.png" alt="" class="img-fluid"></a></div>
           </div>
           <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
+            <div class="chart__number chart__td">1.</div>
+            <div class="chart__date chart__td">08.10.2017</div>
+            <div class="chart__value chart__td">1000 руб.</div>
+            <div class="chart__tarif chart__td">Продвинутый <a href="#"><img src="./img/chart-info.png" alt="" class="img-fluid"></a></div>
           </div>
           <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
+            <div class="chart__number chart__td">1.</div>
+            <div class="chart__date chart__td">08.10.2017</div>
+            <div class="chart__value chart__td">1000 руб.</div>
+            <div class="chart__tarif chart__td">Продвинутый <a href="#"><img src="./img/chart-info.png" alt="" class="img-fluid"></a></div>
           </div>
           <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
+            <div class="chart__number chart__td">1.</div>
+            <div class="chart__date chart__td">08.10.2017</div>
+            <div class="chart__value chart__td">1000 руб.</div>
+            <div class="chart__tarif chart__td">Продвинутый <a href="#"><img src="./img/chart-info.png" alt="" class="img-fluid"></a></div>
           </div>
           <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
+            <div class="chart__number chart__td">1.</div>
+            <div class="chart__date chart__td">08.10.2017</div>
+            <div class="chart__value chart__td">1000 руб.</div>
+            <div class="chart__tarif chart__td">Продвинутый <a href="#"><img src="./img/chart-info.png" alt="" class="img-fluid"></a></div>
           </div>
           <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
+            <div class="chart__number chart__td">1.</div>
+            <div class="chart__date chart__td">08.10.2017</div>
+            <div class="chart__value chart__td">1000 руб.</div>
+            <div class="chart__tarif chart__td">Продвинутый <a href="#"><img src="./img/chart-info.png" alt="" class="img-fluid"></a></div>
           </div>
           <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
+            <div class="chart__number chart__td">1.</div>
+            <div class="chart__date chart__td">08.10.2017</div>
+            <div class="chart__value chart__td">1000 руб.</div>
+            <div class="chart__tarif chart__td">Продвинутый <a href="#"><img src="./img/chart-info.png" alt="" class="img-fluid"></a></div>
           </div>
           <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
+            <div class="chart__number chart__td">1.</div>
+            <div class="chart__date chart__td">08.10.2017</div>
+            <div class="chart__value chart__td">200000 руб.</div>
+            <div class="chart__tarif chart__td">Ст. Консалтинг</div>
           </div>
         </div>
       </div>

@@ -2122,11 +2122,114 @@ h1 {
 #payments.platinum .rate-small .rate.yellow {
   display: none; }
 
+#payments.platinum .rate__choose {
+  line-height: 2em; }
+
+#payments.platinum .rate-big::after {
+  height: 105.5%; }
+
+#payments.platinum .rate-small .rate.purple .rate__title {
+  text-align: left;
+  margin-top: 15px; }
+
+#payments.platinum .rate-small .rate.purple .rate__middle {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+#payments.platinum .rate-small .rate.purple .theme__top {
+  margin-top: 38px; }
+  #payments.platinum .rate-small .rate.purple .theme__top .theme__line:first-child {
+    -ms-flex-preferred-size: 5%;
+        flex-basis: 5%; }
+  #payments.platinum .rate-small .rate.purple .theme__top .theme__line:last-child {
+    -ms-flex-preferred-size: 77%;
+        flex-basis: 77%; }
+
+#payments.platinum .rate-small .rate.purple .rate__price {
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin: 20px 0;
+  width: 100%;
+  padding-left: 0; }
+
+#payments.platinum .rate-small .rate.purple .rate__buttons {
+  padding: 0;
+  margin: 0;
+  display: block;
+  text-align: center;
+  width: 100%;
+  max-width: 99999px; }
+  #payments.platinum .rate-small .rate.purple .rate__buttons button {
+    max-width: 250px;
+    width: 250px; }
+
+#payments.platinum .rate-small .rate.purple ul {
+  padding-left: 45px; }
+  #payments.platinum .rate-small .rate.purple ul li {
+    margin: 0;
+    padding-right: 40px;
+    margin-bottom: 20px; }
+
 #payments.strategy .rate-big {
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%; }
+      flex-basis: 100%;
+  padding-bottom: 40px; }
+  #payments.strategy .rate-big__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 43px; }
+  #payments.strategy .rate-big .theme__top {
+    width: 85%; }
+  #payments.strategy .rate-big__left {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; }
+  #payments.strategy .rate-big .rate__title {
+    line-height: 50px; }
+  #payments.strategy .rate-big .rate__price {
+    max-width: none;
+    border-bottom: none;
+    margin-top: 30px;
+    width: 78.6%; }
+  #payments.strategy .rate-big .rate__subtitle {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: none;
+    margin-bottom: 15px; }
+  #payments.strategy .rate-big .rate__choose {
+    -ms-flex-preferred-size: 55%;
+        flex-basis: 55%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 2em;
+    margin-top: 40px; }
   #payments.strategy .rate-big:after {
     display: none; }
+
+#payments.strategy .theme__line:first-child {
+  -ms-flex-preferred-size: 3%;
+      flex-basis: 3%;
+  max-width: none;
+  opacity: 0.5; }
+
+#payments.strategy .theme__line:last-child {
+  -ms-flex-preferred-size: 74%;
+      flex-basis: 74%;
+  opacity: 0.5; }
 
 #payments.strategy .list {
   display: -webkit-box;
@@ -2135,10 +2238,9 @@ h1 {
   -ms-flex-pack: distribute;
       justify-content: space-around; }
 
-#payments.strategy .rate__choose,
-#payments.strategy .rate__price,
 #payments.strategy ul {
-  max-width: 40%; }
+  max-width: 50%;
+  margin-left: 20px; }
 
 #payments.strategy ul li {
   margin-bottom: 20px;
@@ -2410,11 +2512,38 @@ h1 {
           align-items: center;
   border-bottom: 1px solid #bcc1d3;
   color: #000; }
-  .chart__item.active {
+  .chart__item.active, .chart__item.needpay {
     color: #9699b1; }
-    .chart__item.active img {
+    .chart__item.active .chart__number, .chart__item.needpay .chart__number {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .chart__item.active img, .chart__item.needpay img {
       max-height: 14px;
       max-width: 15px; }
+  .chart__item.needpay img {
+    max-width: none; }
+  .chart__item.needpay .chart__tarif {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-right: 7px; }
+    .chart__item.needpay .chart__tarif a {
+      visibility: visible;
+      height: 20px;
+      width: 20px; }
+      .chart__item.needpay .chart__tarif a img {
+        max-height: 20px !important;
+        opacity: 0.6; }
   .chart__item.tarif {
     background-color: rgba(1, 160, 104, 0.2); }
 
@@ -2422,9 +2551,44 @@ h1 {
   color: #9699b1;
   font-size: 14px; }
 
-.chart__date, .chart__number, .chart__title, .chart__value {
-  width: 100px;
-  text-align: center; }
+.chart__td, .chart__title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  max-width: 20%; }
+
+.chart__number, .chart__title:nth-child(1) {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  max-width: 20%; }
+
+.chart__number {
+  text-align: left;
+  padding-left: 20px; }
+
+.chart__title:nth-child(1), .chart__title:nth-child(4) {
+  text-align: left; }
+
+.chart__title:nth-child(3), .chart__value {
+  -ms-flex-preferred-size: 22%;
+      flex-basis: 22%;
+  max-width: 22%;
+  text-align: left; }
+
+.chart__tarif, .chart__title:nth-child(4) {
+  -ms-flex-preferred-size: 27%;
+      flex-basis: 27%;
+  max-width: 27%;
+  text-align: left; }
+
+.chart__tarif a {
+  visibility: hidden; }
+
+.chart__tarif, .chart__value {
+  text-transform: none; }
 
 /* Chart end */
 /* Rating start */

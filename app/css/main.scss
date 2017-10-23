@@ -2407,15 +2407,134 @@ h1 {
   .rate-small .rate.yellow {
     display: none;
   }
+
+  .rate__choose {
+    line-height: 2em;
+  }
+
+  .rate-big::after {
+    height: 105.5%;
+  }
+
+  .rate-small .rate.purple {
+    .rate__title {
+      text-align: left;
+      margin-top: 15px;
+    }
+
+    .rate__middle {
+      align-items: flex-start;
+    }
+
+    .theme__top {
+      margin-top: 38px;
+
+      .theme__line:first-child {
+        flex-basis: 5%;
+      }
+
+      .theme__line:last-child {
+        flex-basis: 77%;
+      }
+    }
+
+    .rate__price {
+      border-top: 1px solid rgba(255, 255, 255, 0.4);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+      padding-top: 10px;
+      padding-bottom: 5px;
+      margin: 20px 0;
+      width: 100%;
+      padding-left: 0;
+    }
+
+    .rate__buttons {
+      padding: 0;
+      margin: 0;
+      display: block;
+      text-align: center;
+      width: 100%;
+      max-width: 99999px;
+
+      button {
+        max-width: 250px;
+        width: 250px;
+      }
+    }
+
+    ul {
+      padding-left: 45px;
+
+      li {
+        margin: 0;
+        padding-right: 40px;
+        margin-bottom: 20px;
+      }
+    }
+  }
 }
 
 #payments.strategy {
   .rate-big {
     flex-basis: 100%;
+    padding-bottom: 40px;
+
+    &__wrap {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(0,0,0,.2);
+      padding-bottom: 43px;
+    }
+
+    .theme__top {
+      width: 85%;
+    }
+
+    &__left {
+      flex-basis: 50%;
+    }
+
+    .rate__title {
+      line-height: 50px;
+    }
+
+    .rate__price {
+      max-width: none;
+      border-bottom: none;
+      margin-top: 30px;
+      width: 78.6%;
+    }
+
+    .rate__subtitle {
+      font-weight: bold;
+      font-size: 20px;
+      text-transform: none;
+      margin-bottom: 15px;
+    }
+
+    .rate__choose {
+      flex-basis: 55%;
+      align-items: center;
+      display: flex;
+      line-height: 2em;
+      margin-top: 40px;
+    }
 
     &:after {
       display: none;
     }
+  }
+
+  .theme__line:first-child {
+    flex-basis: 3%;
+    max-width: none;
+    opacity: 0.5;
+  }
+
+  .theme__line:last-child {
+    flex-basis: 74%;
+    opacity: 0.5;
   }
 
   .list {
@@ -2423,10 +2542,9 @@ h1 {
     justify-content: space-around;
   }
 
-  .rate__choose,
-  .rate__price,
   ul {
-    max-width: 40%;
+    max-width: 50%;
+    margin-left: 20px;
   }
 
   ul li {
@@ -2720,12 +2838,42 @@ h1 {
   border-bottom: 1px solid #bcc1d3;
   color: #000;
 
-  &.active {
+  &.active,
+  &.needpay {
     color: #9699b1;
+
+    .chart__number {
+      display: flex;
+      align-items: center;
+    }
 
     img {
       max-height: 14px;
       max-width: 15px;
+    }
+  }
+
+  &.needpay {
+    img {
+      max-width: none;
+    }
+
+    .chart__tarif {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-right: 7px;
+
+      a {
+        visibility: visible;
+        height: 20px;
+        width: 20px;
+
+        img {
+          max-height: 20px !important;
+          opacity: 0.6;
+        }
+      }
     }
   }
 
@@ -2740,12 +2888,55 @@ h1 {
 }
 
 .chart {
-  &__date,
-  &__number,
-  &__title,
-  &__value {
-    width: 100px;
+  &__td,
+  &__title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     text-align: center;
+    flex-basis: 20%;
+    max-width: 20%;
+  }
+
+  &__number,
+  &__title:nth-child(1) {
+    flex-basis: 20%;
+    max-width: 20%;
+  }
+
+  &__number {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  &__title:nth-child(1),
+  &__title:nth-child(4) {
+    text-align: left;
+  }
+
+  &__title:nth-child(3),
+  &__value {
+    flex-basis: 22%;
+    max-width: 22%;
+    text-align: left;
+  }
+
+  &__tarif,
+  &__title:nth-child(4) {
+    flex-basis: 27%;
+    max-width: 27%;
+    text-align: left;
+  }
+
+  &__tarif {
+    a {
+      visibility: hidden;
+    }
+  }
+
+  &__tarif,
+  &__value {
+    text-transform: none;
   }
 }
 /* Chart end */

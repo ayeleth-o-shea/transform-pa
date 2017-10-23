@@ -107,6 +107,10 @@ $(function() {
   function initChartItemActive() {
     var active = $('.offers__right').find('.chart__item.active');
     active.find('.chart__number').html('<img src="img/chart-active.png" alt="">');
+
+    var needpay = $('.offers__right').find('.chart__item.needpay');
+    needpay.find('.chart__number').html('<img src="img/chart-needpay.png" alt="">');
+
   }
 
   function initExpandAnswer() {
