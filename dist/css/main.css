@@ -1,5 +1,14 @@
 @charset "UTF-8";
 /* Speca start */
+.test-nav {
+  padding: 25px 0;
+  text-transform: lowercase; }
+  .test-nav a {
+    margin-right: 30px;
+    color: black; }
+    .test-nav a:hover {
+      text-decoration: underline; }
+
 html {
   display: -webkit-box;
   display: -ms-flexbox;

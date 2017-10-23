@@ -1,5 +1,19 @@
-@charset "utf-8";
-/* Speca start */
+@charset "utf-8"; /* Speca start */
+
+.test-nav {
+  padding: 25px 0;
+  text-transform: lowercase;
+
+  a {
+    margin-right: 30px;
+    color: black;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 html {
   display: flex;
   flex-direction: column;

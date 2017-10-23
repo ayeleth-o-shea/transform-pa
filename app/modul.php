@@ -57,6 +57,21 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC86W4J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
+  <div class="container">
+    <div class="row test-nav">
+      <a href="login.php">login</a>
+      <a href="index.php">home</a>
+      <a href="modul.php">modul</a>
+      <a href="theme.php">theme</a>
+      <a href="profile.php">profile</a>
+      <a href="payments.php">payments</a>
+      <a href="payments-upgrade.php">payments-upd</a>
+      <a href="rating.php">rating</a>
+      <a href="partner-login.php">partner-login</a>
+      <a href="statistics.php">partner-stat</a>
+      <a href="offers.php">partner-offers</a></div>
+  </div>
+
   <header>
     <div class="container">
       <div class="row header">
