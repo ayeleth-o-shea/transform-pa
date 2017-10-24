@@ -103,7 +103,7 @@
   <section id="main" class="profile-main">
     <div class="container">
       <div class="row">
-        <h1>Платежи</h1>
+        <h1>Партнерам</h1>
         <div class="theme__bottom">
           <a href="#" class="active theme__button">
             <div><img src="img/theme-open.png" alt="" class="img-fluid"></div>
@@ -113,37 +113,100 @@
       </div>
     </div>
   </section>
-  <section id="payments">
+  <section id="steps">
     <div class="container">
-      <div class="row rates-titles">
-        <h2>Ваш текущий тариф</h2>
-        <h2>
-          Upgrade
-          <span>Перейдите на новый уровень и получите дополнительные возможности</span>
-        </h2>
+      <div class="row">
+        <h2>Как стать партнером</h2>
       </div>
-      <div class="row rates">
-        <div class="rate rate-big mint">
-          <div class="theme__top">
-            <div class="theme__line"></div>
-            <div>Тариф</div>
-            <div class="theme__line"></div>
-          </div>
-          <div class="rate__title">Базовый</div>
-          <div class="rate__price">
-            1 000&nbsp;
-            <i class="fa fa-rub" aria-hidden="true"></i>
-            <span>/ месяц</span>
-          </div>
-          <div class="rate__subtitle">О тарифе:</div>
-          <ul>
-            <li class="rate__content">52&nbsp;учебных модуля по&nbsp;всем направлениям развития бизнеса с&nbsp;обязательными домашними заданиями</li>
-            <li class="rate__content">Проверка выполненных заданий тьюторами программы</li>
-            <li class="rate__content">Доступ к&nbsp;базе знаний марафона с&nbsp;вебинарами и&nbsp;мастер-классами экспертов в&nbsp;различных отраслях</li>
-            <li class="rate__content">Участие в&nbsp;рейтинге марафона и&nbsp;возможность выиграть главные или дополнительные призы проекта</li>
-          </ul>
+      <div class="row">
+        <p class="steps-slogan">Станьте партнером бизнес-марафона &laquo;Трансформация&raquo;. Разместите рекламные материалы с&nbsp;партнерской ссылкой на&nbsp;своих ресурсах и&nbsp;получайте&nbsp;50% с&nbsp;каждой оплаты, совершенной через вашу ссылку. Вы&nbsp;не&nbsp;можете воспользоваться собственной ссылкой для оплаты своего обучения.</p>
+      </div>
+      <div class="row steps">
+        <div class="step">
+          <p>Ознакомьтесь с&nbsp;условиями участия в&nbsp;партнерской программе, посмотрите информацию о&nbsp;предложениях.</p>
+          <h4>Шаг 1</h4>
         </div>
+        <div class="step">
+          <p>Получите уникальную партнерскую метку в&nbsp;личном кабинете. Используйте ее&nbsp;для размещения в&nbsp;рекламных материалах</p>
+          <h4>Шаг 2</h4>
+        </div>
+        <div class="step">
+          <p>С&nbsp;помощью партнерской метки заводите трафик на&nbsp;сайт продукта.</p>
+          <h4>Шаг 3</h4>
+        </div>
+        <div class="step">
+          <p>Контролируйте оплаты в&nbsp;режиме реального времени: вся статистика по реализованным продуктам отображена в&nbsp;личном кабинете.</p>
+          <h4>Шаг 4</h4>
+        </div>
+        <div class="step">
+          <p>Выберите период, за&nbsp;который хотите получить вознаграждение, сформируйте отчет и&nbsp;получайте вознаграждение банковским переводом на&nbsp;карту.</p>
+          <h4 class="last">Шаг 5</h4>
+        </div>
+      </div>
+      <a href="partner-login.php" class="theme__button green">Зарегистрироваться как партнер</a>
+    </div>
+  </section>
+  <section id="howitwork">
+    <div class="container">
+      <div class="row">
+        <h2>Как это работает</h2>
+      </div>
+      <div class="row howitwork">
+        <div class="howitwork__item">
+          Раз в&nbsp;сутки (ночью) происходят обновления по&nbsp;реализованным продуктам с&nbsp;вашей партнерской ссылкой. Результат работы можно увидеть на&nbsp;странице &laquo;Статистика&raquo;.
+        </div>
+        <div class="howitwork__item">
+          Выберите период, обговоренный с&nbsp;менеджером, за&nbsp;который необходимо получить вознаграждение, перенесите данные в&nbsp;Акт и&nbsp;отправьте менеджеру.
+        </div>
+        <div class="howitwork__item">
+          После проверки и&nbsp;утверждения Акта вам будет перечислено вознаграждение&nbsp;&mdash; 50% с&nbsp;каждой транзации
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="partner-contracts">
+    <div class="container">
+      <div class="row">
+        <a href="#">Ознакомиться<br>с договором для физлиц</a>
+        <a href="#">Ознакомиться<br>с договором для юрлиц</a>
+      </div>
+    </div>
+  </div>
+  <section id="payments" class="partner">
+    <div class="container">
+      <div class="row">
+        <h2>Тарифы бизнес-марафона &laquo;Трансформация&raquo;</h2>
+        <p class="steps-slogan">Существует 7&nbsp;пакетов участия в&nbsp;&laquo;Трансформации&raquo;, которые отличаются наполнением и&nbsp;стоимостью. Ежемесячно клиент вносит плату за&nbsp;свой пакет, и&nbsp;с&nbsp;каждой совершенной им&nbsp;транзакции вы&nbsp;получаете&nbsp;50%.</p>
+      </div>
+
+      <div class="row rates">
+
         <div class="rate-small">
+
+          <div class="rate mint">
+            <div class="theme__top">
+              <div class="theme__line"></div>
+              <div>Тариф</div>
+              <div class="theme__line"></div>
+            </div>
+            <div class="rate__middle">
+              <div class="rate__title">Базовый</div>
+              <div class="rate__price">
+                1 000&nbsp;
+                <i class="fa fa-rub" aria-hidden="true"></i>
+                <span>/ месяц</span>
+              </div>
+            </div>
+            <div class="rate__buttons">
+              <a href="#payments-popup" class="mint payments-btn fancybox">Подробнее</a>
+            </div>
+            <ul style="display: none">
+              <li class="rate__content">52&nbsp;учебных модуля по&nbsp;всем направлениям развития бизнеса с&nbsp;обязательными домашними заданиями</li>
+              <li class="rate__content">Проверка выполненных заданий тьюторами программы</li>
+              <li class="rate__content">Доступ к&nbsp;базе знаний марафона с&nbsp;вебинарами и&nbsp;мастер-классами экспертов в&nbsp;различных отраслях</li>
+              <li class="rate__content">Участие в&nbsp;рейтинге марафона и&nbsp;возможность выиграть главные или дополнительные призы проекта</li>
+            </ul>
+          </div>
           <div class="rate blue">
             <div class="theme__top">
               <div class="theme__line"></div>
@@ -159,8 +222,8 @@
               </div>
             </div>
             <div class="rate__buttons">
-              <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="blue payments-btn">Выбрать тариф</button>
+
+              <a href="#payments-popup" class="blue payments-btn fancybox">Подробнее</a>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -184,8 +247,8 @@
               </div>
             </div>
             <div class="rate__buttons">
-              <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="green payments-btn">Выбрать тариф</button>
+
+              <a href="#payments-popup" class="green payments-btn fancybox">Подробнее</a>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -210,8 +273,8 @@
               </div>
             </div>
             <div class="rate__buttons">
-              <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="yellow payments-btn">Выбрать тариф</button>
+
+              <a href="#payments-popup" class="yellow payments-btn fancybox">Подробнее</a>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -237,8 +300,8 @@
               </div>
             </div>
             <div class="rate__buttons">
-              <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="orange payments-btn">Выбрать тариф</button>
+
+              <a href="#payments-popup" class="orange payments-btn fancybox">Подробнее</a>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -265,8 +328,8 @@
               </div>
             </div>
             <div class="rate__buttons">
-              <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="pink payments-btn">Выбрать тариф</button>
+
+              <a href="#payments-popup" class="pink payments-btn fancybox">Подробнее</a>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -292,10 +355,9 @@
                 <i class="fa fa-rub" aria-hidden="true"></i>
                 <span>/ месяц</span>
               </div>
-            </div>
-            <div class="rate__buttons">
-              <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="purple payments-btn">Выбрать тариф</button>
+              <div class="rate__buttons">
+                <a href="#payments-popup" class="purple payments-btn fancybox">Подробнее</a>
+              </div>
             </div>
             <ul style="display:none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -323,144 +385,23 @@
               </li>
             </ul>
           </div>
+
         </div>
+
       </div>
-      <section id="sgf">
 
-          <div class="row">
-            <img src="img/payments-sgf.png" alt="" class="img-fluid">
-          </div>
-          <div class="row">
-            <div class="sgf-title">
-              Специальное предложение<br>
-              для участников бизнес- <br>
-              марафона «Трансформация»
-              <img src="./img/sgf-discount.png" alt="">
-            </div>
-            <a href="http://synergyglobal.ru/" target="_blank" class="sgf-button">Подробнее</a>
-          </div>
-
-      </section>
     </div>
   </section>
-  <section id="chart">
+  <section id="sgf">
     <div class="container">
-      <div class="row rates-titles chart-titles">
-        <h2>Карта для совершения платежей</h2>
-        <h2>График платежей</h2>
+      <div class="row">
+        <img src="img/sgf-logo.png" alt="" class="img-fluid">
       </div>
-
-      <div class="row offers">
-        <div class="offers__left">
-          <div class="offers__card">
-            <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
-            <div class="offers__card-number">
-              <p>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-              </p>
-              <p>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-              </p>
-              <p>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <i class="fa fa-asterisk" aria-hidden="true"></i>
-              </p>
-              <p>
-                1234
-              </p>
-            </div>
-          </div>
-          <button type="button" class="offers__card-btn">Привязать другую карту</button>
-          <div class="offers__writeOff">
-            08.11.2017 с вашего счета будет списано 1000 руб. <br>в счет следующего платежа
-          </div>
-          <div class="offers__dates">
-            <div class="offers__date-last">
-              Последнее<br> поступление средств<br> <span>08.10.2017</span>
-            </div>
-            <div class="offers__date-next">
-              Дата следующего<br> платежа<br> <span>08.11.2017</span>
-            </div>
-          </div>
-          <div class="offers__end">
-            Если у&nbsp;вас возникли вопросы по&nbsp;поводу тарифов и&nbsp;оплаты обучения, позвоните нам: <a href="tel:+78001008926">8&nbsp;800&nbsp;100 89&nbsp;26</a>
-          </div>
+      <div class="row">
+        <div class="sgf-title">
+          Глобальное бизнес-событие года
         </div>
-        <div class="offers__right">
-          <div class="chart__item">
-            <div class="chart__title">Статус</div>
-            <div class="chart__title">Дата</div>
-            <div class="chart__title">Сумма</div>
-          </div>
-          <div class="chart__item active">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-          <div class="chart__item">
-            <div class="chart__number">1.</div>
-            <div class="chart__date">08.10.2017</div>
-            <div class="chart__value">1000 руб.</div>
-          </div>
-        </div>
+        <a href="http://synergyglobal.ru/" target="_blank" class="sgf-button">Узнать подробнее</a>
       </div>
     </div>
   </section>
@@ -498,7 +439,6 @@
     </div>
     <div class="popup-end">
       <ul></ul>
-      <button class="payments-btn">Перейти на тариф</button>
     </div>
   </div>
   <!-- Payments popup end -->

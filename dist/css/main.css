@@ -2,7 +2,8 @@
 /* Speca start */
 .test-nav {
   padding: 25px 0;
-  text-transform: lowercase; }
+  text-transform: lowercase;
+  border-bottom: 1px solid black; }
   .test-nav a {
     margin-right: 30px;
     color: black; }
@@ -151,7 +152,7 @@ input[type=checkbox]:checked:before {
   font-family: 'AkzidenzGroteskProCond';
   font-weight: normal; }
 
-.akzidenzMdCn, .status__name, .status__value, .theme__top, h1, .modul__number, .user-side__name, .offers__card-number p, td.start, td.center, td.end, .calendar__name, .fund__value {
+.akzidenzMdCn, .status__name, .status__value, .theme__top, h1, .modul__number, .user-side__name, .offers__card-number p, td.start, td.center, td.end, .calendar__name, .fund__value, .step h4 {
   font-family: 'AkzidenzGroteskProCond';
   font-weight: 500; }
 
@@ -2090,6 +2091,9 @@ h1 {
           box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.33); }
   .payments-btn:hover, form.login-form .tuc button:hover, .offers__card-btn:hover {
     background-color: #fff !important; }
+  .payments-btn.mint:hover, form.login-form .tuc button.mint:hover, .mint.offers__card-btn:hover {
+    border-color: #1fafb6;
+    color: #1fafb6; }
   .payments-btn.blue:hover, form.login-form .tuc button.blue:hover, .blue.offers__card-btn:hover {
     border-color: #2594da;
     color: #2594da; }
@@ -2967,3 +2971,236 @@ table.stat {
     font-size: 14px; }
 
 /* Statistics end */
+/* Steps start */
+#steps {
+  color: black;
+  padding: 60px 0 85px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+  #steps h2 {
+    margin: 0 auto; }
+  #steps .theme__button {
+    width: 330px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding: 0;
+    line-height: 70px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-color: white;
+    -webkit-box-shadow: 0 5px 29px 0 rgba(0, 0, 0, 0.33);
+            box-shadow: 0 5px 29px 0 rgba(0, 0, 0, 0.33); }
+
+.steps-slogan {
+  font-size: 20px;
+  text-transform: none;
+  text-align: center;
+  padding-top: 20px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
+.steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin: 90px auto; }
+
+.step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-preferred-size: 19%;
+      flex-basis: 19%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .step p {
+    font-size: 16px;
+    padding-right: 30px;
+    text-transform: none; }
+  .step h4 {
+    font-size: 58px;
+    color: #01a068;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    margin-top: 30px; }
+    .step h4:after {
+      content: '';
+      display: block;
+      height: 1px;
+      width: 80px;
+      background: #01a068;
+      margin-left: 30px; }
+    .step h4.last:after {
+      display: none; }
+
+/* Steps end */
+/* howitwork start */
+#howitwork {
+  padding: 80px 0 44px;
+  background: #f2f1f4;
+  color: black;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+  #howitwork h2 {
+    margin: 0 auto; }
+
+.howitwork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-top: 86px; }
+  .howitwork__item {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+    padding-top: 92px;
+    font-size: 20px;
+    text-transform: none; }
+    .howitwork__item:nth-child(1) {
+      background: url("../img/howitwork-line.png") no-repeat left 10px; }
+    .howitwork__item:nth-child(2) {
+      background: url("../img/howitwork-calendar.png") no-repeat left top; }
+    .howitwork__item:nth-child(3) {
+      background: url("../img/howitwork-percent.png") no-repeat left top; }
+
+.partner-contracts {
+  background: #eae9ee; }
+  .partner-contracts .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .partner-contracts a {
+    padding: 60px 0;
+    color: #01a068;
+    padding-left: 40px;
+    font-size: 20px;
+    text-transform: none;
+    background: url("../img/contract.png") no-repeat left center; }
+    .partner-contracts a:hover {
+      text-decoration: underline;
+      opacity: 0.6; }
+
+/* howitwork end */
+/* Partner payments start */
+#payments.partner {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+  #payments.partner h2,
+  #payments.partner p {
+    margin: 0 auto;
+    color: black; }
+  #payments.partner .payments-btn, #payments.partner form.login-form .tuc button, form.login-form .tuc #payments.partner button, #payments.partner .offers__card-btn {
+    line-height: 50px;
+    padding: 0;
+    text-align: center;
+    margin: 0 auto; }
+    #payments.partner .payments-btn:hover, #payments.partner form.login-form .tuc button:hover, form.login-form .tuc #payments.partner button:hover, #payments.partner .offers__card-btn:hover {
+      text-decoration: none; }
+  #payments.partner .rates {
+    width: 80%;
+    margin: 70px auto 0; }
+  #payments.partner .rate-small {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+    #payments.partner .rate-small .rate {
+      -ms-flex-preferred-size: 32%;
+          flex-basis: 32%; }
+      #payments.partner .rate-small .rate:nth-child(5) {
+        margin-bottom: 20px; }
+      #payments.partner .rate-small .rate:last-child {
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+        min-height: 220px; }
+        #payments.partner .rate-small .rate:last-child .theme__line:first-child {
+          -ms-flex-preferred-size: 3%;
+              flex-basis: 3%; }
+        #payments.partner .rate-small .rate:last-child .theme__line:last-child {
+          -ms-flex-preferred-size: 84%;
+              flex-basis: 84%; }
+        #payments.partner .rate-small .rate:last-child .rate__middle {
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          -ms-flex-preferred-size: 70%;
+              flex-basis: 70%; }
+        #payments.partner .rate-small .rate:last-child .rate__title {
+          margin: 0;
+          padding-right: 90px; }
+        #payments.partner .rate-small .rate:last-child .rate__buttons {
+          -webkit-box-flex: 0;
+              -ms-flex: none;
+                  flex: none;
+          padding: 0;
+          margin: 0;
+          width: auto;
+          -ms-flex-item-align: center;
+              align-self: center;
+          -webkit-box-pack: end;
+              -ms-flex-pack: end;
+                  justify-content: flex-end; }
+        #payments.partner .rate-small .rate:last-child .rate__price {
+          border-top: none;
+          padding: 17px 0 0; }
+        #payments.partner .rate-small .rate:last-child .payments-btn, #payments.partner .rate-small .rate:last-child form.login-form .tuc button, form.login-form .tuc #payments.partner .rate-small .rate:last-child button, #payments.partner .rate-small .rate:last-child .offers__card-btn {
+          margin: 0; }
+
+/* Partner payments end */

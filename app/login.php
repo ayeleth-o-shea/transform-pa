@@ -64,7 +64,9 @@
       <a href="rating.php">rating</a>
       <a href="partner-login.php">partner-login</a>
       <a href="statistics.php">partner-stat</a>
-      <a href="offers.php">partner-offers</a></div>
+      <a href="offers.php">partner-offers</a>
+      <a href="partner-become.php">partner-become</a>
+    </div>
   </div>
 
   <!-- Google Tag Manager (noscript) -->
