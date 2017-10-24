@@ -254,7 +254,7 @@
               <li class="rate__content">Работа участника и его команды с коучем, который интенсивно прокачивает по теме личной эффективности (дополнительные задания, не входящие в программу марафона)</li>
             </ul>
           </div>
-          <div class="rate pink">
+          <div class="rate red">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -270,7 +270,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="pink payments-btn">Выбрать тариф</button>
+              <button type="button" class="red payments-btn">Выбрать тариф</button>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -283,7 +283,7 @@
               <li class="rate__content">Бесплатное посещение всех программ «Школы Бизнеса» в течение всего обучения</li>
             </ul>
           </div>
-          <div class="rate purple">
+          <div class="rate violet">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -299,7 +299,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="purple payments-btn">Выбрать тариф</button>
+              <button type="button" class="violet payments-btn">Выбрать тариф</button>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -472,7 +472,7 @@
               <li class="rate__content">Работа участника и его команды с коучем, который интенсивно прокачивает по теме личной эффективности (дополнительные задания, не входящие в программу марафона)</li>
             </ul>
           </div>
-          <div class="rate pink">
+          <div class="rate red">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -488,7 +488,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="pink payments-btn">Выбрать тариф</button>
+              <button type="button" class="red payments-btn">Выбрать тариф</button>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -501,7 +501,7 @@
               <li class="rate__content">Бесплатное посещение всех программ «Школы Бизнеса» в течение всего обучения</li>
             </ul>
           </div>
-          <div class="rate purple">
+          <div class="rate violet">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -517,7 +517,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="purple payments-btn">Выбрать тариф</button>
+              <button type="button" class="violet payments-btn">Выбрать тариф</button>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -690,7 +690,7 @@
               <li class="rate__content">Работа участника и его команды с коучем, который интенсивно прокачивает по теме личной эффективности (дополнительные задания, не входящие в программу марафона)</li>
             </ul>
           </div>
-          <div class="rate pink">
+          <div class="rate red">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -706,7 +706,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="pink payments-btn">Выбрать тариф</button>
+              <button type="button" class="red payments-btn">Выбрать тариф</button>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -719,7 +719,7 @@
               <li class="rate__content">Бесплатное посещение всех программ «Школы Бизнеса» в течение всего обучения</li>
             </ul>
           </div>
-          <div class="rate purple">
+          <div class="rate violet">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -735,7 +735,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="purple payments-btn">Выбрать тариф</button>
+              <button type="button" class="violet payments-btn">Выбрать тариф</button>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -908,7 +908,7 @@
               <li class="rate__content">Работа участника и его команды с коучем, который интенсивно прокачивает по теме личной эффективности (дополнительные задания, не входящие в программу марафона)</li>
             </ul>
           </div>
-          <div class="rate pink">
+          <div class="rate red">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -924,7 +924,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="pink payments-btn">Выбрать тариф</button>
+              <button type="button" class="red payments-btn">Выбрать тариф</button>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -937,7 +937,7 @@
               <li class="rate__content">Бесплатное посещение всех программ «Школы Бизнеса» в течение всего обучения</li>
             </ul>
           </div>
-          <div class="rate purple">
+          <div class="rate violet">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -953,7 +953,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="purple payments-btn">Выбрать тариф</button>
+              <button type="button" class="violet payments-btn">Выбрать тариф</button>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -996,7 +996,7 @@
         </h2>
       </div>
       <div class="row rates">
-        <div class="rate rate-big pink">
+        <div class="rate rate-big red">
           <div class="theme__top">
             <div class="theme__line"></div>
             <div>Тариф</div>
@@ -1126,7 +1126,7 @@
               <li class="rate__content">Работа участника и его команды с коучем, который интенсивно прокачивает по теме личной эффективности (дополнительные задания, не входящие в программу марафона)</li>
             </ul>
           </div>
-          <div class="rate pink">
+          <div class="rate red">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -1142,7 +1142,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="pink payments-btn">Выбрать тариф</button>
+              <button type="button" class="red payments-btn">Выбрать тариф</button>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -1155,7 +1155,7 @@
               <li class="rate__content">Бесплатное посещение всех программ «Школы Бизнеса» в течение всего обучения</li>
             </ul>
           </div>
-          <div class="rate purple">
+          <div class="rate violet">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -1195,7 +1195,7 @@
               </li>
             </ul>
             <div class="rate__buttons">
-              <button type="button" class="purple payments-btn">Выбрать тариф</button>
+              <button type="button" class="violet payments-btn">Выбрать тариф</button>
             </div>
           </div>
         </div>
@@ -1209,7 +1209,7 @@
         <h2 style="margin-bottom: 20px">Ваш тариф</h2>
       </div>
       <div class="row rates">
-        <div class="rate rate-big purple">
+        <div class="rate rate-big violet">
           <div class="rate-big__wrap">
             <div class="rate-big__left">
               <div class="theme__top">
@@ -1366,7 +1366,7 @@
               <li class="rate__content">Работа участника и его команды с коучем, который интенсивно прокачивает по теме личной эффективности (дополнительные задания, не входящие в программу марафона)</li>
             </ul>
           </div>
-          <div class="rate pink">
+          <div class="rate red">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -1382,7 +1382,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="pink payments-btn">Выбрать тариф</button>
+              <button type="button" class="red payments-btn">Выбрать тариф</button>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -1395,7 +1395,7 @@
               <li class="rate__content">Бесплатное посещение всех программ «Школы Бизнеса» в течение всего обучения</li>
             </ul>
           </div>
-          <div class="rate purple">
+          <div class="rate violet">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -1411,7 +1411,7 @@
             </div>
             <div class="rate__buttons">
               <a href="#payments-popup" class="fancybox">Подробнее</a>
-              <button type="button" class="purple payments-btn">Выбрать тариф</button>
+              <button type="button" class="violet payments-btn">Выбрать тариф</button>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>

@@ -139,6 +139,12 @@ input[type=checkbox]:checked:before {
 .pink {
   background-color: #b807af !important; }
 
+.red {
+  background-color: #eb1f20 !important; }
+
+.violet {
+  background-color: #bb05ba !important; }
+
 .grey {
   background-color: #e0dfe5 !important; }
 
@@ -2112,6 +2118,12 @@ h1 {
   .payments-btn.purple:hover, form.login-form .tuc button.purple:hover, .purple.offers__card-btn:hover {
     border-color: #8f41bc;
     color: #8f41bc; }
+  .payments-btn.red:hover, form.login-form .tuc button.red:hover, .red.offers__card-btn:hover {
+    border-color: #eb1f20;
+    color: #eb1f20; }
+  .payments-btn.violet:hover, form.login-form .tuc button.violet:hover, .violet.offers__card-btn:hover {
+    border-color: #bb05ba;
+    color: #bb05ba; }
 
 #payments.tariff .rate__choose {
   margin: 15px 35px 0;
@@ -2183,7 +2195,7 @@ h1 {
 #payments.platinum .rate-small .rate.blue,
 #payments.platinum .rate-small .rate.green,
 #payments.platinum .rate-small .rate.orange,
-#payments.platinum .rate-small .rate.pink,
+#payments.platinum .rate-small .rate.red,
 #payments.platinum .rate-small .rate.yellow {
   display: none; }
 
@@ -2193,25 +2205,25 @@ h1 {
 #payments.platinum .rate-big::after {
   height: 105.5%; }
 
-#payments.platinum .rate-small .rate.purple .rate__title {
+#payments.platinum .rate-small .rate.violet .rate__title {
   text-align: left;
   margin-top: 15px; }
 
-#payments.platinum .rate-small .rate.purple .rate__middle {
+#payments.platinum .rate-small .rate.violet .rate__middle {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start; }
 
-#payments.platinum .rate-small .rate.purple .theme__top {
+#payments.platinum .rate-small .rate.violet .theme__top {
   margin-top: 38px; }
-  #payments.platinum .rate-small .rate.purple .theme__top .theme__line:first-child {
+  #payments.platinum .rate-small .rate.violet .theme__top .theme__line:first-child {
     -ms-flex-preferred-size: 5%;
         flex-basis: 5%; }
-  #payments.platinum .rate-small .rate.purple .theme__top .theme__line:last-child {
+  #payments.platinum .rate-small .rate.violet .theme__top .theme__line:last-child {
     -ms-flex-preferred-size: 77%;
         flex-basis: 77%; }
 
-#payments.platinum .rate-small .rate.purple .rate__price {
+#payments.platinum .rate-small .rate.violet .rate__price {
   border-top: 1px solid rgba(255, 255, 255, 0.4);
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   padding-top: 10px;
@@ -2220,20 +2232,20 @@ h1 {
   width: 100%;
   padding-left: 0; }
 
-#payments.platinum .rate-small .rate.purple .rate__buttons {
+#payments.platinum .rate-small .rate.violet .rate__buttons {
   padding: 0;
   margin: 0;
   display: block;
   text-align: center;
   width: 100%;
   max-width: 99999px; }
-  #payments.platinum .rate-small .rate.purple .rate__buttons button {
+  #payments.platinum .rate-small .rate.violet .rate__buttons button {
     max-width: 250px;
     width: 250px; }
 
-#payments.platinum .rate-small .rate.purple ul {
+#payments.platinum .rate-small .rate.violet ul {
   padding-left: 45px; }
-  #payments.platinum .rate-small .rate.purple ul li {
+  #payments.platinum .rate-small .rate.violet ul li {
     margin: 0;
     padding-right: 40px;
     margin-bottom: 20px; }

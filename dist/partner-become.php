@@ -127,7 +127,7 @@
           <h4>Шаг 1</h4>
         </div>
         <div class="step">
-          <p>Получите уникальную партнерскую метку в&nbsp;личном кабинете. Используйте ее&nbsp;для размещения в&nbsp;рекламных материалах</p>
+          <p>Получите уникальную партнерскую метку в&nbsp;личном кабинете. Используйте ее&nbsp;для размещения в&nbsp;рекламных материалах.</p>
           <h4>Шаг 2</h4>
         </div>
         <div class="step">
@@ -313,7 +313,7 @@
               <li class="rate__content">Работа участника и его команды с коучем, который интенсивно прокачивает по теме личной эффективности (дополнительные задания, не входящие в программу марафона)</li>
             </ul>
           </div>
-          <div class="rate pink">
+          <div class="rate red">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -329,7 +329,7 @@
             </div>
             <div class="rate__buttons">
 
-              <a href="#payments-popup" class="pink payments-btn fancybox">Подробнее</a>
+              <a href="#payments-popup" class="red payments-btn fancybox">Подробнее</a>
             </div>
             <ul style="display: none">
               <li class="rate__content">Доступ к 52 учебным модулям</li>
@@ -342,7 +342,7 @@
               <li class="rate__content">Бесплатное посещение всех программ «Школы Бизнеса» в течение всего обучения</li>
             </ul>
           </div>
-          <div class="rate purple">
+          <div class="rate violet">
             <div class="theme__top">
               <div class="theme__line"></div>
               <div>Тариф</div>
@@ -356,7 +356,7 @@
                 <span>/ месяц</span>
               </div>
               <div class="rate__buttons">
-                <a href="#payments-popup" class="purple payments-btn fancybox">Подробнее</a>
+                <a href="#payments-popup" class="violet payments-btn fancybox">Подробнее</a>
               </div>
             </div>
             <ul style="display:none">
