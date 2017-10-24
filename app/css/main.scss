@@ -1,5 +1,5 @@
-@charset "utf-8"; /* Speca start */
-
+@charset "utf-8";
+/* Speca start */
 .test-nav {
   padding: 25px 0;
   text-transform: lowercase;
@@ -126,7 +126,6 @@ input[type=checkbox]:checked:before {
 }
 /* Speca end */
 /* Colors start */
-
 .darkblue {
   background-color: #134fbf !important;
 }
@@ -172,6 +171,7 @@ $pink: #b807af;
 }
 $grey: #e0dfe5; /* Colors end */
 /* Fonts start */
+
 .proximaCondBlack {
   font-family: 'ProximaNovaCond';
   font-weight: 900;
@@ -198,6 +198,7 @@ $grey: #e0dfe5; /* Colors end */
 }
 /* Fonts end */
 /* Header start */
+
 .header {
   @extend .akzidenzCn;
   color: #e62020;
@@ -274,7 +275,6 @@ $grey: #e0dfe5; /* Colors end */
 }
 /* Header end */
 /* Login start */
-
 #login {
   flex-basis: 100%;
   background-color: #e92323;
@@ -400,7 +400,6 @@ form.login-form.partner {
 }
 /* Login end */
 /* First start */
-
 #first {
   background: url('../img/main-bg.jpg') no-repeat center center / cover;
 
@@ -420,7 +419,6 @@ form.login-form.partner {
 }
 /* First end */
 /* Home start */
-
 .home-wrapper {
   background-color: #efeff2;
   padding-bottom: 75px;
@@ -850,6 +848,7 @@ h2 {
 }
 /* Home end */
 /* SGF start */
+
 #sgf {
   background: url('../img/sgf-bg.jpg') no-repeat center center / cover;
   padding: 25px 0;
@@ -885,7 +884,6 @@ h2 {
 }
 /* SGF end */
 /* Footer start */
-
 footer {
   background-color: #a5a4b5;
   padding: 25px 0;
@@ -973,7 +971,6 @@ footer {
 }
 /* Footer end */
 /* Theme start */
-
 #main {
   background: url('../img/theme-bg.jpg') no-repeat center center /cover;
   padding: 60px 0 17px;
@@ -1012,7 +1009,6 @@ h1 {
 }
 /* Theme end */
 /* Theme start */
-
 #theme {
   text-shadow: 0 1px 1px rgba(150, 150, 150, 1);
   padding: 50px 0 90px;
@@ -1231,6 +1227,7 @@ h1 {
 }
 /* Theme end */
 /* Video start */
+
 #video {
   padding: 45px 0;
   text-shadow: 0 1px 1px rgba(150, 150, 150, .5);
@@ -1335,6 +1332,7 @@ h1 {
 }
 /* Video end */
 /* Test start */
+
 #test {
   background-color: #f0f3fa;
   padding: 75px 0;
@@ -1510,6 +1508,7 @@ h1 {
 }
 /* Test end */
 /* Homework start */
+
 #homework {
   padding: 75px 0;
   text-shadow: 0 1px 1px rgba(150, 150, 150, .5);
@@ -1757,6 +1756,7 @@ h1 {
   opacity: 0;
 }
 /* Making it beautiful */
+
 .file_upload {
   border-radius: 3px;
   transition: box-shadow 0.1s linear;
@@ -1796,6 +1796,7 @@ h1 {
 }
 /* Homework end */
 /* modul start */
+
 #modul {
   padding: 80px 0;
   box-shadow: inset 0 0 80px -10px rgba(0,0,0,0.33);
@@ -1840,6 +1841,7 @@ h1 {
 }
 /* modul end */
 /* Profile start */
+
 #profile {
   padding: 58px 0 114px;
   text-shadow: 0 1px 1px rgba(150, 150, 150, .3);
@@ -2009,8 +2011,73 @@ h1 {
     }
   }
 }
+
+.profile-form__passport {
+  padding: 40px 0;
+
+  &-title {
+    font-size: 16px;
+    color: #8d90a3;
+    text-align: right;
+    display: flex;
+    margin-left: 35%;
+    padding-left: 17px;
+    padding-bottom: 5px;
+  }
+
+  &-date {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+
+    .profile-form__group {
+      flex-basis: 50%;
+      max-width: 50%;
+      justify-content: flex-end;
+
+      &:last-child {
+        flex-basis: 40%;
+        max-width: 40%;
+      }
+    }
+
+    label {
+      flex-basis: 50%;
+      max-width: 50%;
+
+      &[for=passport-code] {
+        padding-right: 20px;
+        flex-basis: 60%;
+        max-width: 60%;
+      }
+    }
+
+    input {
+      flex-basis: 50%;
+      max-width: 50%;
+
+      &[name="passport-code"] {
+        flex-basis: 40%;
+        max-width: 40%;
+      }
+    }
+  }
+}
+
+,
+.profile-contract {
+  padding-top: 35px;
+  color: black;
+  text-transform: none;
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+}
 /* Profile end */
 /* Payments start */
+
 #payments {
   padding: 58px 0 100px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
@@ -2559,6 +2626,7 @@ h1 {
 }
 /* Payments end */
 /* changeMail-popup start */
+
 #changeMail-popup,
 #changeMail-success-popup {
   border-radius: 5px;
@@ -2633,6 +2701,7 @@ h1 {
 }
 /* changeMail-popup end */
 /* Payments-popup start */
+
 #payments-popup {
   border-radius: 5px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
@@ -2697,6 +2766,7 @@ h1 {
 }
 /* Payments-popup end */
 /* Chart start */
+
 #chart {
   background-color: #efeff2;
   padding: 72px 0 85px;
@@ -2941,6 +3011,7 @@ h1 {
 }
 /* Chart end */
 /* Rating start */
+
 #rating {
   background-color: #efeff2;
 
@@ -3091,6 +3162,7 @@ th.center {
 }
 /* Rating end */
 /* Statistics start */
+
 #statistics {
   background-color: #efeff2;
 }

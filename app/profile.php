@@ -37,6 +37,7 @@
   <link href="img/favicon.ico" type="image/x-icon" rel="icon">
 
   <script src="https://use.fontawesome.com/6dd73a0138.js"></script>
+  <link rel="stylesheet" href="/css/datepicker.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/fonts.css">
   <link rel="stylesheet" href="/css/bootstrap-grid.css">
@@ -122,6 +123,9 @@
             </button>
             <div class="user-side__name">Илья<br> Обломов</div>
           </div>
+          <div class="profile-contract">
+            Участие в бизнес-марафоне «Трансформация» осуществляется на основании <a href="#" target="_blank">Договора об оказании образовательных услуг.</a> 
+          </div>
         </div>
         <div class="col-md-8 profile">
           <h2>Информация</h2>
@@ -142,7 +146,6 @@
               <label for="borndate">Дата рождения</label>
               <div id="borndate">
                 <select name="day">
-
                   <option value=""></option>
                   <option value="01">01</option>
                   <option value="02">02</option>
@@ -274,6 +277,29 @@
               <label for="tel">Телефон</label>
               <input type="text" name="tel" value="+7(000) 000-00-00">
             </div>
+            <!-- Паспорт  start -->
+            <div class="profile-form__passport">
+              <div class="profile-form__passport-title">Паспорт</div>
+              <div class="profile-form__group">
+                <label for="passport-number">Серия и номер</label>
+                <input type="text" name="passport-number" value="4466 153247">
+              </div>
+              <div class="profile-form__group">
+                <label for="passport-issue">Кем выдан</label>
+                <input type="text" name="passport-issue" value="ОВД по г. Москве">
+              </div>
+              <div class="profile-form__passport-date">
+                <div class="profile-form__group">
+                  <label for="datepicker-here">Дата выдачи</label>
+                  <input type='text' class="datepicker-here" value="12.04.2003">
+                </div>
+                <div class="profile-form__group">
+                  <label for="passport-code" class="passport-code">Код подразделения</label>
+                  <input type="text" name="passport-code" value="600-600">
+                </div>
+              </div>
+            </div>
+            <!-- Паспорт  end -->
             <div class="profile-form__group">
               <label for="email">E-mail</label>
               <input type="text" name="email" value="IOblomov@mail.ru" disabled>
@@ -385,6 +411,7 @@
   <!-- Profile popup end -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+  <script src="/js/datepicker.min.js" charset="utf-8"></script>
   <script src="/js/main.js" charset="utf-8"></script>
 
 </body>
