@@ -52,7 +52,7 @@
 
 </head>
 
-<body>
+<body class="profile-page">
 
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC86W4J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

@@ -2885,6 +2885,11 @@ th.center {
 .datepicker--cell.-selected-.-focus- {
   background: #01a068; }
 
+.profile-page .datepicker--cell.-selected-,
+.profile-page .datepicker--cell.-selected-.-current-,
+.profile-page .datepicker--cell.-selected-.-focus- {
+  background: #eb1f20; }
+
 .datepicker--cell.-in-range- {
   background: rgba(1, 160, 104, 0.15); }
 
