@@ -191,7 +191,7 @@ $grey: #e0dfe5; /* Colors end */
 .akzidenzCn {
   font-family: 'AkzidenzGroteskProCond';
   font-weight: normal;
-
+}
 
 .akzidenzMdCn {
   font-family: 'AkzidenzGroteskProCond';
@@ -1579,8 +1579,10 @@ h1 {
     border-radius: 3px;
     font-size: 16px;
     text-transform: uppercase;
+    text-align: center;
   }
 
+  .button,
   button {
     background: #14ad6b;
     transition: background 0.2s;

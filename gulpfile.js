@@ -56,9 +56,6 @@ var config = {
 
 gulp.task('html:build', function() {
   gulp.src(path.app.html) //Выберем файлы по нужному пути
-    .pipe(plumber({
-      errorHandler: notify.onError("Error: <%= error.message %>")
-    }))
     .pipe(gulp.dest(path.dist.html)) //Выплюнем их в папку build
     .pipe(reload({
       stream: true
@@ -67,9 +64,6 @@ gulp.task('html:build', function() {
 
 gulp.task('php:build', function() {
   gulp.src(path.app.php) //Выберем файлы по нужному пути
-    .pipe(plumber({
-      errorHandler: notify.onError("Error: <%= error.message %>")
-    }))
     .pipe(gulp.dest(path.dist.php)) //Выплюнем их в папку build
     .pipe(reload({
       stream: true
@@ -104,9 +98,6 @@ gulp.task('scss:build', function() {
 
 gulp.task('css:build', function() {
   gulp.src(path.app.css) //Выберем наш main.css
-    .pipe(plumber({
-      errorHandler: notify.onError("Error: <%= error.message %>")
-    }))
     .pipe(gulp.dest(path.dist.css)) //И в build
     .pipe(reload({
       stream: true
@@ -115,9 +106,6 @@ gulp.task('css:build', function() {
 
 gulp.task('image:build', function() {
   gulp.src(path.app.img) //Выберем наши картинки
-    .pipe(plumber({
-      errorHandler: notify.onError("Error: <%= error.message %>")
-    }))
     .pipe(imagemin({ //Сожмем их
       progressive: true,
       svgoPlugins: [{

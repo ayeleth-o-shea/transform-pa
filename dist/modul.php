@@ -226,8 +226,8 @@
                 Допустимые форматы:<br /> doc; pdf; jpg
               </mark>
               <input type="file" accept="image/jpeg,application/msword,application/pdf">
-            </label>
-            <button type="submit">Отправить ответ</button>
+            </label>            
+          <a class="homework-button button" onclick="feedbackAjax()">Отправить ответ</a>
           </div>
         </form>
       </div>
