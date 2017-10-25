@@ -4,9 +4,12 @@ var gulp = require('gulp'),
   watch = require('gulp-watch'),
   prefixer = require('gulp-autoprefixer'),
   sass = require('gulp-sass'),
+  sourcemaps = require('gulp-sourcemaps'),
   imagemin = require('gulp-imagemin'),
   pngquant = require('imagemin-pngquant'),
   rimraf = require('rimraf'),
+  plumber = require('gulp-plumber'),
+  notify = require('gulp-notify'),
   browserSync = require("browser-sync"),
   reload = browserSync.reload;
 
@@ -53,6 +56,9 @@ var config = {
 
 gulp.task('html:build', function() {
   gulp.src(path.app.html) //Выберем файлы по нужному пути
+    .pipe(plumber({
+      errorHandler: notify.onError("Error: <%= error.message %>")
+    }))
     .pipe(gulp.dest(path.dist.html)) //Выплюнем их в папку build
     .pipe(reload({
       stream: true
@@ -61,7 +67,9 @@ gulp.task('html:build', function() {
 
 gulp.task('php:build', function() {
   gulp.src(path.app.php) //Выберем файлы по нужному пути
-
+    .pipe(plumber({
+      errorHandler: notify.onError("Error: <%= error.message %>")
+    }))
     .pipe(gulp.dest(path.dist.php)) //Выплюнем их в папку build
     .pipe(reload({
       stream: true
@@ -70,6 +78,9 @@ gulp.task('php:build', function() {
 
 gulp.task('js:build', function() {
   gulp.src(path.app.js) //Найдем наш main файл
+    .pipe(plumber({
+      errorHandler: notify.onError("Error: <%= error.message %>")
+    }))
     .pipe(gulp.dest(path.dist.js)) //Выплюнем готовый файл в build
     .pipe(reload({
       stream: true
@@ -78,8 +89,13 @@ gulp.task('js:build', function() {
 
 gulp.task('scss:build', function() {
   gulp.src(path.app.scss) //Выберем наш main.scss
+    .pipe(plumber({
+      errorHandler: notify.onError("Error: <%= error.message %>")
+    }))
+    .pipe(sourcemaps.init())
     .pipe(sass()) //Скомпилируем
     .pipe(prefixer()) //Добавим вендорные префиксы
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest(path.dist.scss)) //И в build
     .pipe(reload({
       stream: true
@@ -88,6 +104,9 @@ gulp.task('scss:build', function() {
 
 gulp.task('css:build', function() {
   gulp.src(path.app.css) //Выберем наш main.css
+    .pipe(plumber({
+      errorHandler: notify.onError("Error: <%= error.message %>")
+    }))
     .pipe(gulp.dest(path.dist.css)) //И в build
     .pipe(reload({
       stream: true
@@ -96,6 +115,9 @@ gulp.task('css:build', function() {
 
 gulp.task('image:build', function() {
   gulp.src(path.app.img) //Выберем наши картинки
+    .pipe(plumber({
+      errorHandler: notify.onError("Error: <%= error.message %>")
+    }))
     .pipe(imagemin({ //Сожмем их
       progressive: true,
       svgoPlugins: [{
