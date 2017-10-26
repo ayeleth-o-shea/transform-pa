@@ -10,7 +10,7 @@ var gulp = require('gulp'),
   rimraf = require('rimraf'),
   plumber = require('gulp-plumber'),
   notify = require('gulp-notify'),
-  browserSync = require("browser-sync"),
+  browserSync = require('browser-sync'),
   reload = browserSync.reload;
 
 var path = {
