@@ -137,7 +137,11 @@
           data-select-other-months="false"
           data-multiple-dates="2"
           data-multiple-dates-separator=" - "
+          data-alt-field="#datepicker"
+          data-alt-field-date-format: "d-m-yy"
+          value=""
           >
+          <input type="hidden" id="datepicker" value="">
         </div>
         <div class="calendar__choose">
           <img src="img/calendar.png" alt="">

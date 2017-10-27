@@ -43,6 +43,7 @@ $(function() {
   initChartItemActive();
   initExpandAnswer();
   initCalendar();
+  initCalendarValue();
   initTimeline();
 
   function initPopup() {
@@ -125,6 +126,12 @@ $(function() {
   }
 
   function initCalendar() {
+
+    $('.datepicker-here').datepicker({
+      altField: "#datepicker",
+      altFieldDateFormat: "d-m-yy"
+    })
+
     $('.calendar__choose').click(function() {
       var myDatepicker = $('.datepicker-here').datepicker().data('datepicker');
       myDatepicker.show();
